@@ -1,0 +1,1136 @@
+{{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:49 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package graphics_controller_pkg
+-- Compiling package body graphics_controller_pkg
+-- Loading package graphics_controller_pkg
+End time: 12:59:49 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_pkg
+-- Loading package ram_pkg
+-- Compiling entity fb_writer
+-- Compiling architecture arch of fb_writer
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package graphics_controller_pkg
+-- Compiling entity ascii_gcinstr
+-- Compiling architecture arch of ascii_gcinstr
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/wb_arbiter/wb_arbiter.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/wb_arbiter/wb_arbiter.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:49 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/wb_arbiter/wb_arbiter.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_pkg
+-- Compiling entity wb_arbiter
+-- Compiling architecture arch of wb_arbiter
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:51 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package rom_pkg
+-- Compiling package body rom_pkg
+-- Loading package rom_pkg
+End time: 12:59:51 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package ps2_transceiver_pkg
+-- Compiling entity ps2_keyboard_controller
+-- Compiling architecture beh of ps2_keyboard_controller
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package ps2_pkg
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package ps2_pkg
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package graphics_controller_pkg
+-- Loading package rasterizer_pkg
+-- Compiling entity rasterizer_fsm
+-- Compiling architecture beh of rasterizer_fsm
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/wb_ram.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/wb_ram.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:51 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/wb_ram.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity wb_ram
+-- Compiling architecture syn of wb_ram
+End time: 12:59:51 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:51 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity serial_port_tx_fsm
+-- Compiling architecture beh of serial_port_tx_fsm
+End time: 12:59:51 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package sync_pkg
+-- Loading package math_pkg
+-- Loading package ram_pkg
+-- Compiling entity serial_port
+-- Compiling architecture beh of serial_port
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package framereader_pkg
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package merge_fifo_pkg
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_rx_fsm_tb.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_rx_fsm_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package serial_port_pkg
+-- Loading package top_tb_util_pkg
+-- Compiling entity serial_port_rx_fsm_tb
+-- Compiling architecture beh of serial_port_rx_fsm_tb
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package graphics_controller_pkg
+-- Compiling package body graphics_controller_pkg
+-- Loading package graphics_controller_pkg
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_pkg
+-- Loading package ram_pkg
+-- Compiling entity fb_writer
+-- Compiling architecture arch of fb_writer
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:51 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package rom_pkg
+-- Compiling entity rom_sync_1r
+-- Compiling architecture beh of rom_sync_1r
+End time: 12:59:51 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package ps2_ascii_pkg
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd}} {1 {vcom -work work -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:52 on Apr 13,2018
+vcom -reportprogress 300 -work work -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package serial_port_pkg
+-- Loading package top_tb_util_pkg
+-- Compiling entity serial_port_tb
+-- Compiling architecture beh of serial_port_tb
+End time: 12:59:52 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_pkg
+-- Compiling entity sram_controller_wb
+-- Compiling architecture beh of sram_controller_wb
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity serial_port_tx_fsm
+-- Compiling architecture beh of serial_port_tx_fsm
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package seven_segment_display_pkg
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_pkg
+-- Loading package ram_pkg
+-- Compiling entity fifo_1c1r1w
+-- Compiling architecture mixed of fifo_1c1r1w
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package math_pkg
+-- Compiling package sram_pkg
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package rasterizer_pkg
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:49 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package graphics_controller_pkg
+-- Compiling entity ascii_gcinstr
+-- Compiling architecture arch of ascii_gcinstr
+End time: 12:59:49 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Compiling package math_pkg
+-- Compiling package body math_pkg
+-- Loading package math_pkg
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package sync_pkg
+-- Loading package NUMERIC_STD
+-- Loading package graphics_controller_pkg
+-- Loading package ascii_gcinstr_pkg
+-- Loading package math_pkg
+-- Loading package merge_fifo_pkg
+-- Loading package ps2_transceiver_pkg
+-- Loading package ps2_pkg
+-- Loading package ps2_ascii_pkg
+-- Loading package ram_pkg
+-- Loading package rom_pkg
+-- Loading package seven_segment_display_pkg
+-- Loading package framereader_pkg
+-- Loading package rasterizer_pkg
+-- Loading package sram_pkg
+-- Loading package wb_arbiter_pkg
+-- Loading package serial_port_pkg
+-- Compiling entity top
+-- Compiling architecture top_arch of top
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package seven_segment_display_pkg
+-- Compiling entity seven_segment_tb
+-- Compiling architecture beh of seven_segment_tb
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd}} {1 {vcom -work work -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:53 on Apr 13,2018
+vcom -reportprogress 300 -work work -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package sync_pkg
+-- Loading package NUMERIC_STD
+-- Loading package graphics_controller_pkg
+-- Loading package ascii_gcinstr_pkg
+-- Loading package math_pkg
+-- Loading package merge_fifo_pkg
+-- Loading package ps2_transceiver_pkg
+-- Loading package ps2_pkg
+-- Loading package ps2_ascii_pkg
+-- Loading package ram_pkg
+-- Loading package rom_pkg
+-- Loading package seven_segment_display_pkg
+-- Loading package framereader_pkg
+-- Loading package rasterizer_pkg
+-- Loading package sram_pkg
+-- Loading package wb_arbiter_pkg
+-- Loading package serial_port_pkg
+-- Compiling entity top
+-- Compiling architecture top_arch of top
+End time: 12:59:53 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:51 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package graphics_controller_pkg
+-- Loading package rasterizer_pkg
+-- Compiling entity rasterizer_fsm
+-- Compiling architecture beh of rasterizer_fsm
+End time: 12:59:51 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb_util_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb_util_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package top_tb_util_pkg
+-- Compiling package body top_tb_util_pkg
+-- Loading package top_tb_util_pkg
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ps2_transceiver
+-- Compiling architecture beh of ps2_transceiver
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port.vhd}} {1 {vcom -work work -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:52 on Apr 13,2018
+vcom -reportprogress 300 -work work -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package sync_pkg
+-- Loading package math_pkg
+-- Loading package ram_pkg
+-- Compiling entity serial_port
+-- Compiling architecture beh of serial_port
+End time: 12:59:52 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package top_tb_util_pkg
+-- Compiling entity top_tb
+-- Compiling architecture beh of top_tb
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dp_ram_1c1r1w
+-- Compiling architecture beh of dp_ram_1c1r1w
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_pkg
+-- Compiling entity sram_controller_wb
+-- Compiling architecture beh of sram_controller_wb
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/wb_arbiter/wb_arbiter.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/wb_arbiter/wb_arbiter.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_pkg
+-- Compiling entity wb_arbiter
+-- Compiling architecture arch of wb_arbiter
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:49 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package graphics_controller_pkg
+-- Compiling package ascii_gcinstr_pkg
+End time: 12:59:49 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd 
+-- Loading package STANDARD
+-- Compiling package math_pkg
+-- Compiling package body math_pkg
+-- Loading package math_pkg
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package ps2_transceiver_pkg
+-- Compiling entity ps2_keyboard_controller
+-- Compiling architecture beh of ps2_keyboard_controller
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/wb_arbiter/wb_arbiter_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/wb_arbiter/wb_arbiter_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_pkg
+-- Compiling package wb_arbiter_pkg
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Loading package math_pkg
+-- Compiling entity alt_fwft_fifo
+-- Compiling architecture SYN of alt_fwft_fifo
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity merge_fifo
+-- Compiling architecture ARCH of merge_fifo
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:51 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package math_pkg
+-- Loading package ram_pkg
+-- Loading package framereader_pkg
+-- Compiling entity framereader
+-- Compiling architecture beh of framereader
+End time: 12:59:51 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd}} {1 {vcom -work work -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:52 on Apr 13,2018
+vcom -reportprogress 300 -work work -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pll
+-- Compiling architecture SYN of pll
+End time: 12:59:52 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:52 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package graphics_controller_pkg
+-- Compiling entity seven_segment_display
+-- Compiling architecture beh of seven_segment_display
+End time: 12:59:52 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package math_pkg
+-- Loading package ram_pkg
+-- Loading package NUMERIC_STD
+-- Loading package graphics_controller_pkg
+-- Loading package rasterizer_pkg
+-- Compiling entity rasterizer
+-- Compiling architecture struct of rasterizer
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:51 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dp_ram_1c1r1w
+-- Compiling architecture beh of dp_ram_1c1r1w
+End time: 12:59:51 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:52 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package top_tb_util_pkg
+-- Compiling entity top_tb
+-- Compiling architecture beh of top_tb
+End time: 12:59:52 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd}} {1 {vcom -work work -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:52 on Apr 13,2018
+vcom -reportprogress 300 -work work -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package serial_port_pkg
+End time: 12:59:52 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package rasterizer_pkg
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package math_pkg
+-- Compiling package sram_pkg
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sync
+-- Compiling architecture beh of sync
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:51 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package sync_pkg
+End time: 12:59:51 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package sync_pkg
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package graphics_controller_pkg
+-- Compiling package ascii_gcinstr_pkg
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd}} {1 {vcom -work work -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:52 on Apr 13,2018
+vcom -reportprogress 300 -work work -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package seven_segment_display_pkg
+-- Compiling entity seven_segment_tb
+-- Compiling architecture beh of seven_segment_tb
+End time: 12:59:52 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Loading package math_pkg
+-- Compiling entity alt_fwft_fifo
+-- Compiling architecture SYN of alt_fwft_fifo
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_rx_fsm.vhd}} {1 {vcom -work work -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_rx_fsm.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:52 on Apr 13,2018
+vcom -reportprogress 300 -work work -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_rx_fsm.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity serial_port_rx_fsm
+-- Compiling architecture beh of serial_port_rx_fsm
+End time: 12:59:52 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb_util_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb_util_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:51 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb_util_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package top_tb_util_pkg
+-- Compiling package body top_tb_util_pkg
+-- Loading package top_tb_util_pkg
+End time: 12:59:51 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity merge_fifo
+-- Compiling architecture ARCH of merge_fifo
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package merge_fifo_pkg
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity ltm_cntrl
+-- Compiling architecture beh of ltm_cntrl
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity ltm_cntrl
+-- Compiling architecture beh of ltm_cntrl
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package graphics_controller_pkg
+-- Loading package framereader_pkg
+-- Loading package rasterizer_pkg
+-- Loading package math_pkg
+-- Loading package wb_arbiter_pkg
+-- Loading package sram_pkg
+-- Compiling entity graphics_controller
+-- Compiling architecture arch of graphics_controller
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package serial_port_pkg
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:51 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package math_pkg
+-- Loading package ram_pkg
+-- Loading package NUMERIC_STD
+-- Loading package graphics_controller_pkg
+-- Loading package rasterizer_pkg
+-- Compiling entity rasterizer
+-- Compiling architecture struct of rasterizer
+End time: 12:59:51 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:51 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package math_pkg
+-- Compiling package ram_pkg
+End time: 12:59:51 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:51 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package seven_segment_display_pkg
+End time: 12:59:51 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package rom_pkg
+-- Compiling entity ps2_ascii
+-- Compiling architecture struct of ps2_ascii
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package rom_pkg
+-- Compiling entity rom_sync_1r
+-- Compiling architecture beh of rom_sync_1r
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package rom_pkg
+-- Compiling entity ps2_ascii
+-- Compiling architecture struct of ps2_ascii
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd}} {0 {vcom -work work -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:53 on Apr 13,2018
+vcom -reportprogress 300 -work work -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity touch_controller
+-- Compiling architecture beh of touch_controller
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(75): (vcom-1441) Process(ALL) is not defined for this version of the language.
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(95): (vcom-1441) Process(ALL) is not defined for this version of the language.
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(128): (vcom-1441) Process(ALL) is not defined for this version of the language.
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(43): Nonresolved signal 'clk_cnt' has multiple sources.
+  Drivers:
+    /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(75):Process sync
+       Driven at:
+          /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(80)
+    /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(52):Process clock_generator
+       Driven at:
+          /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(60)
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(136): VHDL Compiler exiting
+End time: 12:59:53 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 5, Warnings: 0
+
+} {10.0 14.0 21.0 22.0} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package rom_pkg
+-- Compiling package body rom_pkg
+-- Loading package rom_pkg
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/wb_arbiter/wb_arbiter_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/wb_arbiter/wb_arbiter_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/wb_arbiter/wb_arbiter_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_pkg
+-- Compiling package wb_arbiter_pkg
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ps2_transceiver
+-- Compiling architecture beh of ps2_transceiver
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package graphics_controller_pkg
+-- Compiling entity seven_segment_display
+-- Compiling architecture beh of seven_segment_display
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pll
+-- Compiling architecture SYN of pll
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package ps2_transceiver_pkg
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/wb_ram.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/wb_ram.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity wb_ram
+-- Compiling architecture syn of wb_ram
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package math_pkg
+-- Compiling package ram_pkg
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:51 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package math_pkg
+-- Loading package ram_pkg
+-- Compiling entity fifo_1c1r1w
+-- Compiling architecture mixed of fifo_1c1r1w
+End time: 12:59:52 on Apr 13,2018, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package ps2_ascii_pkg
+End time: 12:59:51 on Apr 13,2018, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package serial_port_pkg
+-- Loading package top_tb_util_pkg
+-- Compiling entity serial_port_tb
+-- Compiling architecture beh of serial_port_tb
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/tb/ps2_ascii_tb_fileio.vhd}} {1 {vcom -work work -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/tb/ps2_ascii_tb_fileio.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 11:36:49 on Mar 17,2018
+vcom -reportprogress 300 -work work -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/tb/ps2_ascii_tb_fileio.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package tb_util_pkg
+-- Loading package std_logic_textio
+-- Compiling entity ps2_ascii_tb_fileio
+-- Compiling architecture bench of ps2_ascii_tb_fileio
+End time: 11:36:49 on Mar 17,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/tb/tb_util_pkg.vhd}} {1 {vcom -work work -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/tb/tb_util_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 11:36:48 on Mar 17,2018
+vcom -reportprogress 300 -work work -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/tb/tb_util_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package tb_util_pkg
+-- Compiling package body tb_util_pkg
+-- Loading package tb_util_pkg
+End time: 11:36:48 on Mar 17,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package math_pkg
+-- Loading package ram_pkg
+-- Loading package framereader_pkg
+-- Compiling entity framereader
+-- Compiling architecture beh of framereader
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd}} {1 {vcom -work work -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:52 on Apr 13,2018
+vcom -reportprogress 300 -work work -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package graphics_controller_pkg
+-- Loading package framereader_pkg
+-- Loading package rasterizer_pkg
+-- Loading package math_pkg
+-- Loading package wb_arbiter_pkg
+-- Loading package sram_pkg
+-- Compiling entity graphics_controller
+-- Compiling architecture arch of graphics_controller
+End time: 12:59:52 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package framereader_pkg
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_rx_fsm_tb.vhd}} {1 {vcom -work work -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_rx_fsm_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:52 on Apr 13,2018
+vcom -reportprogress 300 -work work -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_rx_fsm_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package serial_port_pkg
+-- Loading package top_tb_util_pkg
+-- Compiling entity serial_port_rx_fsm_tb
+-- Compiling architecture beh of serial_port_rx_fsm_tb
+End time: 12:59:52 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:51 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sync
+-- Compiling architecture beh of sync
+End time: 12:59:51 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_rx_fsm.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_rx_fsm.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity serial_port_rx_fsm
+-- Compiling architecture beh of serial_port_rx_fsm
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/tb/ps2_ascii_tb_simple.vhd}} {1 {vcom -work work -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/tb/ps2_ascii_tb_simple.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 11:36:49 on Mar 17,2018
+vcom -reportprogress 300 -work work -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/tb/ps2_ascii_tb_simple.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package tb_util_pkg
+-- Compiling entity ps2_ascii_tb_simple
+-- Compiling architecture bench of ps2_ascii_tb_simple
+End time: 11:36:49 on Mar 17,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:59:50 on Apr 13,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package ps2_transceiver_pkg
+End time: 12:59:50 on Apr 13,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}}

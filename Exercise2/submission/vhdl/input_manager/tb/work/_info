@@ -1,0 +1,222 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/tb
+T_opt
+!s110 1524241904
+VlHH[CL;19C<d]:W1XY5ef2
+04 16 3 work input_manager_tb beh 1
+=3-a0369fa18d93-5ada15ef-dbc55-29b7
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.5c;63
+R0
+Pgraphics_controller_pkg
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 w1521545667
+Z5 d/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb
+Z6 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd
+Z7 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd
+l0
+L5
+V>YCYWK2K30g^]817O4<K32
+!s100 oQK;4P4zDdEF;o`Zf3bE;1
+Z8 OL;C;10.5c;63
+32
+b1
+Z9 !s110 1524259020
+!i10b 1
+Z10 !s108 1524259020.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd|
+Z12 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd|
+!i113 0
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Bbody
+Z15 DPx4 work 23 graphics_controller_pkg 0 22 >YCYWK2K30g^]817O4<K32
+R1
+R2
+R3
+32
+R9
+l0
+L60
+V2oE<=LFF1n@=nAC5bCWH20
+!s100 Fb`NQBkC`^=2kA]4hGH_N1
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Einput_manager
+Z16 w1524258468
+R1
+R15
+R2
+R3
+R5
+Z17 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/src/input_manager.vhd
+Z18 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/src/input_manager.vhd
+l0
+L8
+VfjO:UMPVTML2m5FA6Fo942
+!s100 `[LDj2=GFD4oiACV<0BDX2
+R8
+33
+R9
+!i10b 1
+R10
+Z19 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/src/input_manager.vhd|
+Z20 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/src/input_manager.vhd|
+!i113 0
+Z21 o-work work -2008 -explicit
+R14
+Abeh
+R1
+R15
+R2
+R3
+DEx4 work 13 input_manager 0 22 fjO:UMPVTML2m5FA6Fo942
+33
+R9
+l57
+L33
+V0f4]@GRdNW0GkoRoeLGId3
+!s100 2AKg?Wj@i3j:Qne^YoVk@3
+R8
+!i10b 1
+R10
+R19
+R20
+!i113 0
+R21
+R14
+Einput_manager_tb
+Z22 w1524241894
+R2
+R3
+R5
+Z23 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb/input_manager_tb.vhd
+Z24 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb/input_manager_tb.vhd
+l0
+L6
+V1H1XOVM5Q7=<A:7LWPfH=3
+!s100 K^OFmBOz2oTl>bX@d^]6c0
+R8
+33
+R9
+!i10b 1
+R10
+Z25 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb/input_manager_tb.vhd|
+Z26 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb/input_manager_tb.vhd|
+!i113 0
+R21
+R14
+Abeh
+R2
+R3
+DEx4 work 16 input_manager_tb 0 22 1H1XOVM5Q7=<A:7LWPfH=3
+33
+R9
+l57
+L9
+VMjaz7>gJZOm^gnX:M^3f03
+!s100 5?UPjU98[LjMF>@=QgS?:2
+R8
+!i10b 1
+R10
+R25
+R26
+!i113 0
+R21
+R14
+Einput_touch_tb
+Z27 w1524253754
+R2
+R3
+R5
+Z28 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb_combined/input_touch_tb.vhd
+Z29 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb_combined/input_touch_tb.vhd
+l0
+L4
+V60<`5XXQn;7Il]70hRIjY3
+!s100 ogN3XXQm6JUQJ@Aa>zo9G1
+R8
+33
+Z30 !s110 1524259021
+!i10b 1
+R10
+Z31 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb_combined/input_touch_tb.vhd|
+Z32 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb_combined/input_touch_tb.vhd|
+!i113 0
+R21
+R14
+Abeh
+R2
+R3
+DEx4 work 14 input_touch_tb 0 22 60<`5XXQn;7Il]70hRIjY3
+33
+R30
+l92
+L7
+V[J;]Q>WZBfz8OUTOLhjW;0
+!s100 34c^h_I3O5BkfYm7n_W=;2
+R8
+!i10b 1
+R10
+R31
+R32
+!i113 0
+R21
+R14
+Etouch_controller
+Z33 w1524155768
+R2
+R3
+R5
+Z34 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd
+Z35 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd
+l0
+L6
+VLP`dMKFZ@g9T>0HD9mH3C3
+!s100 6Blf:9Rg<Oa_EAJ2InTdW3
+R8
+33
+R30
+!i10b 1
+Z36 !s108 1524259021.000000
+Z37 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd|
+Z38 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd|
+!i113 0
+R21
+R14
+Abeh
+R2
+R3
+DEx4 work 16 touch_controller 0 22 LP`dMKFZ@g9T>0HD9mH3C3
+33
+R30
+l84
+L38
+VFn7a?>BN:G;2?<XbmSKoB1
+!s100 `4m9`b3EzFJCSBd9bMWIF1
+R8
+!i10b 1
+R36
+R37
+R38
+!i113 0
+R21
+R14

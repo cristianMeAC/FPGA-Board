@@ -1,0 +1,128 @@
+
+State Machine - |mimi|core:core|serial_port_wrapper:uart|serial_port:sp|serial_port_tx_fsm:sp_tx_fsm_inst|transmitter_state
+Name transmitter_state.TRANSMIT_STOP transmitter_state.TRANSMIT_STOP_NEXT transmitter_state.TRANSMIT_NEXT transmitter_state.TRANSMIT transmitter_state.TRANSMIT_FIRST transmitter_state.SEND_START_BIT transmitter_state.NEW_DATA transmitter_state.IDLE 
+transmitter_state.IDLE 0 0 0 0 0 0 0 0 
+transmitter_state.NEW_DATA 0 0 0 0 0 0 1 1 
+transmitter_state.SEND_START_BIT 0 0 0 0 0 1 0 1 
+transmitter_state.TRANSMIT_FIRST 0 0 0 0 1 0 0 1 
+transmitter_state.TRANSMIT 0 0 0 1 0 0 0 1 
+transmitter_state.TRANSMIT_NEXT 0 0 1 0 0 0 0 1 
+transmitter_state.TRANSMIT_STOP_NEXT 0 1 0 0 0 0 0 1 
+transmitter_state.TRANSMIT_STOP 1 0 0 0 0 0 0 1 
+
+State Machine - |mimi|core:core|serial_port_wrapper:uart|serial_port:sp|serial_port_rx_fsm:sp_rx_fsm_inst|cur_state
+Name cur_state.MIDDLE_OF_STOP_BIT cur_state.WAIT_STOP_BIT cur_state.MIDDLE_OF_DATA_BIT cur_state.WAIT_DATA_BIT cur_state.MIDDLE_OF_START_BIT cur_state.GOTO_MIDDLE_OF_START_BIT cur_state.WAIT_START_BIT cur_state.IDLE 
+cur_state.IDLE 0 0 0 0 0 0 0 0 
+cur_state.WAIT_START_BIT 0 0 0 0 0 0 1 1 
+cur_state.GOTO_MIDDLE_OF_START_BIT 0 0 0 0 0 1 0 1 
+cur_state.MIDDLE_OF_START_BIT 0 0 0 0 1 0 0 1 
+cur_state.WAIT_DATA_BIT 0 0 0 1 0 0 0 1 
+cur_state.MIDDLE_OF_DATA_BIT 0 0 1 0 0 0 0 1 
+cur_state.WAIT_STOP_BIT 0 1 0 0 0 0 0 1 
+cur_state.MIDDLE_OF_STOP_BIT 1 0 0 0 0 0 0 1 
+
+State Machine - |mimi|core:core|pipeline:pipeline|ctrl:ctrl_inst|exec_jmpop_lat
+Name exec_jmpop_lat.JMP_BGEZ exec_jmpop_lat.JMP_BLTZ exec_jmpop_lat.JMP_BGTZ exec_jmpop_lat.JMP_BLEZ exec_jmpop_lat.JMP_BNE exec_jmpop_lat.JMP_BEQ exec_jmpop_lat.JMP_JMP exec_jmpop_lat.JMP_NOP 
+exec_jmpop_lat.JMP_NOP 0 0 0 0 0 0 0 0 
+exec_jmpop_lat.JMP_JMP 0 0 0 0 0 0 1 1 
+exec_jmpop_lat.JMP_BEQ 0 0 0 0 0 1 0 1 
+exec_jmpop_lat.JMP_BNE 0 0 0 0 1 0 0 1 
+exec_jmpop_lat.JMP_BLEZ 0 0 0 1 0 0 0 1 
+exec_jmpop_lat.JMP_BGTZ 0 0 1 0 0 0 0 1 
+exec_jmpop_lat.JMP_BLTZ 0 1 0 0 0 0 0 1 
+exec_jmpop_lat.JMP_BGEZ 1 0 0 0 0 0 0 1 
+
+State Machine - |mimi|core:core|pipeline:pipeline|ctrl:ctrl_inst|mem_jmpop_lat
+Name mem_jmpop_lat.JMP_BGEZ mem_jmpop_lat.JMP_BLTZ mem_jmpop_lat.JMP_BGTZ mem_jmpop_lat.JMP_BLEZ mem_jmpop_lat.JMP_BNE mem_jmpop_lat.JMP_BEQ mem_jmpop_lat.JMP_JMP mem_jmpop_lat.JMP_NOP 
+mem_jmpop_lat.JMP_NOP 0 0 0 0 0 0 0 0 
+mem_jmpop_lat.JMP_JMP 0 0 0 0 0 0 1 1 
+mem_jmpop_lat.JMP_BEQ 0 0 0 0 0 1 0 1 
+mem_jmpop_lat.JMP_BNE 0 0 0 0 1 0 0 1 
+mem_jmpop_lat.JMP_BLEZ 0 0 0 1 0 0 0 1 
+mem_jmpop_lat.JMP_BGTZ 0 0 1 0 0 0 0 1 
+mem_jmpop_lat.JMP_BLTZ 0 1 0 0 0 0 0 1 
+mem_jmpop_lat.JMP_BGEZ 1 0 0 0 0 0 0 1 
+
+State Machine - |mimi|core:core|pipeline:pipeline|mem:mem_inst|jmp_op_out
+Name jmp_op_out.JMP_BGEZ~reg0 jmp_op_out.JMP_BLTZ~reg0 jmp_op_out.JMP_BGTZ~reg0 jmp_op_out.JMP_BLEZ~reg0 jmp_op_out.JMP_BNE~reg0 jmp_op_out.JMP_BEQ~reg0 jmp_op_out.JMP_JMP~reg0 jmp_op_out.JMP_NOP~reg0 
+jmp_op_out.JMP_NOP~reg0 0 0 0 0 0 0 0 0 
+jmp_op_out.JMP_JMP~reg0 0 0 0 0 0 0 1 1 
+jmp_op_out.JMP_BEQ~reg0 0 0 0 0 0 1 0 1 
+jmp_op_out.JMP_BNE~reg0 0 0 0 0 1 0 0 1 
+jmp_op_out.JMP_BLEZ~reg0 0 0 0 1 0 0 0 1 
+jmp_op_out.JMP_BGTZ~reg0 0 0 1 0 0 0 0 1 
+jmp_op_out.JMP_BLTZ~reg0 0 1 0 0 0 0 0 1 
+jmp_op_out.JMP_BGEZ~reg0 1 0 0 0 0 0 0 1 
+
+State Machine - |mimi|core:core|pipeline:pipeline|mem:mem_inst|jmp_op_old
+Name jmp_op_old.JMP_BGEZ jmp_op_old.JMP_BLTZ jmp_op_old.JMP_BGTZ jmp_op_old.JMP_BLEZ jmp_op_old.JMP_BNE jmp_op_old.JMP_BEQ jmp_op_old.JMP_JMP jmp_op_old.JMP_NOP 
+jmp_op_old.JMP_NOP 0 0 0 0 0 0 0 0 
+jmp_op_old.JMP_JMP 0 0 0 0 0 0 1 1 
+jmp_op_old.JMP_BEQ 0 0 0 0 0 1 0 1 
+jmp_op_old.JMP_BNE 0 0 0 0 1 0 0 1 
+jmp_op_old.JMP_BLEZ 0 0 0 1 0 0 0 1 
+jmp_op_old.JMP_BGTZ 0 0 1 0 0 0 0 1 
+jmp_op_old.JMP_BLTZ 0 1 0 0 0 0 0 1 
+jmp_op_old.JMP_BGEZ 1 0 0 0 0 0 0 1 
+
+State Machine - |mimi|core:core|pipeline:pipeline|mem:mem_inst|mem_op_old.memtype
+Name mem_op_old.memtype.MEM_BU mem_op_old.memtype.MEM_B mem_op_old.memtype.MEM_HU mem_op_old.memtype.MEM_H mem_op_old.memtype.MEM_W 
+mem_op_old.memtype.MEM_W 0 0 0 0 0 
+mem_op_old.memtype.MEM_H 0 0 0 1 1 
+mem_op_old.memtype.MEM_HU 0 0 1 0 1 
+mem_op_old.memtype.MEM_B 0 1 0 0 1 
+mem_op_old.memtype.MEM_BU 1 0 0 0 1 
+
+State Machine - |mimi|core:core|pipeline:pipeline|exec:exec_inst|jmpop_out
+Name jmpop_out.JMP_BGEZ~reg0 jmpop_out.JMP_BLTZ~reg0 jmpop_out.JMP_BGTZ~reg0 jmpop_out.JMP_BLEZ~reg0 jmpop_out.JMP_BNE~reg0 jmpop_out.JMP_BEQ~reg0 jmpop_out.JMP_JMP~reg0 jmpop_out.JMP_NOP~reg0 
+jmpop_out.JMP_NOP~reg0 0 0 0 0 0 0 0 0 
+jmpop_out.JMP_JMP~reg0 0 0 0 0 0 0 1 1 
+jmpop_out.JMP_BEQ~reg0 0 0 0 0 0 1 0 1 
+jmpop_out.JMP_BNE~reg0 0 0 0 0 1 0 0 1 
+jmpop_out.JMP_BLEZ~reg0 0 0 0 1 0 0 0 1 
+jmpop_out.JMP_BGTZ~reg0 0 0 1 0 0 0 0 1 
+jmpop_out.JMP_BLTZ~reg0 0 1 0 0 0 0 0 1 
+jmpop_out.JMP_BGEZ~reg0 1 0 0 0 0 0 0 1 
+
+State Machine - |mimi|core:core|pipeline:pipeline|exec:exec_inst|memop_out.memtype
+Name memop_out.memtype.MEM_BU~reg0 memop_out.memtype.MEM_B~reg0 memop_out.memtype.MEM_HU~reg0 memop_out.memtype.MEM_H~reg0 memop_out.memtype.MEM_W~reg0 
+memop_out.memtype.MEM_W~reg0 0 0 0 0 0 
+memop_out.memtype.MEM_H~reg0 0 0 0 1 1 
+memop_out.memtype.MEM_HU~reg0 0 0 1 0 1 
+memop_out.memtype.MEM_B~reg0 0 1 0 0 1 
+memop_out.memtype.MEM_BU~reg0 1 0 0 0 1 
+
+State Machine - |mimi|core:core|pipeline:pipeline|exec:exec_inst|jmpop_saved
+Name jmpop_saved.JMP_BGEZ jmpop_saved.JMP_BLTZ jmpop_saved.JMP_BGTZ jmpop_saved.JMP_BLEZ jmpop_saved.JMP_BNE jmpop_saved.JMP_BEQ jmpop_saved.JMP_JMP jmpop_saved.JMP_NOP 
+jmpop_saved.JMP_NOP 0 0 0 0 0 0 0 0 
+jmpop_saved.JMP_JMP 0 0 0 0 0 0 1 1 
+jmpop_saved.JMP_BEQ 0 0 0 0 0 1 0 1 
+jmpop_saved.JMP_BNE 0 0 0 0 1 0 0 1 
+jmpop_saved.JMP_BLEZ 0 0 0 1 0 0 0 1 
+jmpop_saved.JMP_BGTZ 0 0 1 0 0 0 0 1 
+jmpop_saved.JMP_BLTZ 0 1 0 0 0 0 0 1 
+jmpop_saved.JMP_BGEZ 1 0 0 0 0 0 0 1 
+
+State Machine - |mimi|core:core|pipeline:pipeline|exec:exec_inst|memop_saved.memtype
+Name memop_saved.memtype.MEM_BU memop_saved.memtype.MEM_B memop_saved.memtype.MEM_HU memop_saved.memtype.MEM_H memop_saved.memtype.MEM_W 
+memop_saved.memtype.MEM_W 0 0 0 0 0 
+memop_saved.memtype.MEM_H 0 0 0 1 1 
+memop_saved.memtype.MEM_HU 0 0 1 0 1 
+memop_saved.memtype.MEM_B 0 1 0 0 1 
+memop_saved.memtype.MEM_BU 1 0 0 0 1 
+
+State Machine - |mimi|core:core|pipeline:pipeline|exec:exec_inst|op_saved.aluop
+Name op_saved.aluop.ALU_LUI op_saved.aluop.ALU_NOR op_saved.aluop.ALU_XOR op_saved.aluop.ALU_OR op_saved.aluop.ALU_AND op_saved.aluop.ALU_SUB op_saved.aluop.ALU_ADD op_saved.aluop.ALU_SRA op_saved.aluop.ALU_SRL op_saved.aluop.ALU_SLL op_saved.aluop.ALU_SLTU op_saved.aluop.ALU_SLT op_saved.aluop.ALU_NOP 
+op_saved.aluop.ALU_NOP 0 0 0 0 0 0 0 0 0 0 0 0 0 
+op_saved.aluop.ALU_SLT 0 0 0 0 0 0 0 0 0 0 0 1 1 
+op_saved.aluop.ALU_SLTU 0 0 0 0 0 0 0 0 0 0 1 0 1 
+op_saved.aluop.ALU_SLL 0 0 0 0 0 0 0 0 0 1 0 0 1 
+op_saved.aluop.ALU_SRL 0 0 0 0 0 0 0 0 1 0 0 0 1 
+op_saved.aluop.ALU_SRA 0 0 0 0 0 0 0 1 0 0 0 0 1 
+op_saved.aluop.ALU_ADD 0 0 0 0 0 0 1 0 0 0 0 0 1 
+op_saved.aluop.ALU_SUB 0 0 0 0 0 1 0 0 0 0 0 0 1 
+op_saved.aluop.ALU_AND 0 0 0 0 1 0 0 0 0 0 0 0 1 
+op_saved.aluop.ALU_OR 0 0 0 1 0 0 0 0 0 0 0 0 1 
+op_saved.aluop.ALU_XOR 0 0 1 0 0 0 0 0 0 0 0 0 1 
+op_saved.aluop.ALU_NOR 0 1 0 0 0 0 0 0 0 0 0 0 1 
+op_saved.aluop.ALU_LUI 1 0 0 0 0 0 0 0 0 0 0 0 1 

@@ -1,0 +1,4435 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/modelsim_beh
+T_opt
+!s110 1521803307
+V`9F:DCbL9[IdnDaH][8Ib3
+04 16 3 work seven_segment_tb beh 1
+=7-a0369fa18d93-5ab4e02b-f9a8-7806
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.5c;63
+R0
+T_opt1
+!s110 1521921000
+VWE=I]@Ynejbfk1e]RR6J52
+04 14 3 work serial_port_tb beh 1
+=2-a0369fa18d93-5ab6abe8-15fa-73ae
+R1
+R2
+n@_opt1
+R3
+Ealt_fwft_fifo
+Z4 w1520610042
+Z5 DPx4 work 8 math_pkg 0 22 Q?kA_SW34=_kSWC^ccaR^2
+Z6 DPx9 altera_mf 20 altera_mf_components 0 22 T4<z`h6BL:_nTXI;4TFDa0
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z9 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd
+Z10 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd
+l0
+L13
+VjZ@b<iB5nfU2U559PGA]W0
+!s100 GXI51o@_zY:JL?kM>HkQY3
+Z11 OL;C;10.5c;63
+33
+Z12 !s110 1521920994
+!i10b 1
+Z13 !s108 1521920994.000000
+Z14 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd|
+Z15 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd|
+!i113 0
+Z16 o-work work -2008 -explicit
+Z17 tExplicit 1 CvgOpt 0
+Asyn
+R5
+R6
+R7
+R8
+DEx4 work 13 alt_fwft_fifo 0 22 jZ@b<iB5nfU2U559PGA]W0
+l63
+L33
+VBT=gTJ7IYHGi6Z4eP^D;91
+!s100 Bcd8M3oVKz]nI[`QC8A]53
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Eascii_gcinstr
+R4
+Z18 DPx4 work 23 graphics_controller_pkg 0 22 XbBh8_599c@jJXBXMMaN?3
+Z19 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R7
+R8
+R0
+Z20 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd
+Z21 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd
+l0
+L8
+VU>C:Ge:0S`ig8?Q^;Bd=62
+!s100 daF;CD4;nnOih;gi644bh2
+R11
+33
+Z22 !s110 1521920993
+!i10b 1
+Z23 !s108 1521920993.000000
+Z24 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd|
+Z25 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd|
+!i113 0
+R16
+R17
+Aarch
+R18
+R19
+R7
+R8
+DEx4 work 13 ascii_gcinstr 0 22 U>C:Ge:0S`ig8?Q^;Bd=62
+l51
+L24
+V?@GFljGP`m^nHQICLQoJP1
+!s100 QiV<3HfH4^<5=zQ89<mkF1
+R11
+33
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R16
+R17
+Pascii_gcinstr_pkg
+R18
+R19
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd
+l0
+L7
+V><26HZz<Lm;e]i]5V6b9g1
+!s100 H`SVI13boi`lN20lCZ6Dm1
+R11
+33
+R22
+!i10b 1
+R23
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd|
+!i113 0
+R16
+R17
+Edp_ram_1c1r1w
+R4
+R19
+R7
+R8
+R0
+Z26 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd
+Z27 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd
+l0
+L15
+VDI]R`4F_W02V3[`?AXC442
+!s100 S4Q3f?AZg6MV]`;jWB7JR1
+R11
+33
+Z28 !s110 1521920995
+!i10b 1
+Z29 !s108 1521920995.000000
+Z30 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd|
+Z31 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd|
+!i113 0
+R16
+R17
+Abeh
+R19
+R7
+R8
+DEx4 work 13 dp_ram_1c1r1w 0 22 DI]R`4F_W02V3[`?AXC442
+l44
+L40
+V8Y5WkIhd?@VoBFCh@LNBa3
+!s100 <2A6X2]e=N`DkgBXAlnL@1
+R11
+33
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R16
+R17
+Efb_writer
+R4
+Z32 DPx4 work 7 ram_pkg 0 22 >R4c=4YE67a>mW8zkHl<22
+R5
+R19
+R7
+R8
+R0
+Z33 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd
+Z34 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd
+l0
+L16
+V8AdM=aBYIKU^[8_2;M<fR3
+!s100 `N;k7_DG2WeWI=5X8P`Sb2
+R11
+33
+R12
+!i10b 1
+R13
+Z35 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd|
+Z36 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd|
+!i113 0
+R16
+R17
+Aarch
+R32
+R5
+R19
+R7
+R8
+DEx4 work 9 fb_writer 0 22 8AdM=aBYIKU^[8_2;M<fR3
+l71
+L46
+V35N_NH4__X`EC[TN3MXgR2
+!s100 QV>Lj<O5JJ<nI3JLBO4eP0
+R11
+33
+R12
+!i10b 1
+R13
+R35
+R36
+!i113 0
+R16
+R17
+Efifo_1c1r1w
+R4
+R32
+R5
+R19
+R7
+R8
+R0
+Z37 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd
+Z38 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd
+l0
+L16
+VWEFnN^Y`kISS_=^C@b:@[1
+!s100 CzGoilGSHY=A?Z@9I@O1S3
+R11
+33
+Z39 !s110 1521920996
+!i10b 1
+Z40 !s108 1521920996.000000
+Z41 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd|
+Z42 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd|
+!i113 0
+R16
+R17
+Amixed
+R32
+R5
+R19
+R7
+R8
+DEx4 work 11 fifo_1c1r1w 0 22 WEFnN^Y`kISS_=^C@b:@[1
+l48
+L42
+VID6T391VcIXaYd722H[gG0
+!s100 XQj>X?33D6B`S8`8cRo@Q1
+R11
+33
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 0
+R16
+R17
+Eframereader
+R4
+Z43 DPx4 work 15 framereader_pkg 0 22 L;;RWXE_2M[FJUCHJO2Ff1
+R32
+R5
+R19
+Z44 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z45 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R7
+R8
+R0
+Z46 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd
+Z47 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd
+l0
+L26
+V>dSbJ6khMi0<O<WaE[Y8X0
+!s100 Qzc9AzlgoQYUi;<W]Kk_?1
+R11
+33
+R39
+!i10b 1
+R40
+Z48 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd|
+Z49 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd|
+!i113 0
+R16
+R17
+Abeh
+R43
+R32
+R5
+R19
+R44
+R45
+R7
+R8
+DEx4 work 11 framereader 0 22 >dSbJ6khMi0<O<WaE[Y8X0
+l142
+L65
+V7?Sc:E[gShmZi3G2fTIUE0
+!s100 ZiXRK1a>>?_?:hQ0lD37S3
+R11
+33
+R39
+!i10b 1
+R40
+R48
+R49
+!i113 0
+R16
+R17
+Pframereader_pkg
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd
+l0
+L10
+VL;;RWXE_2M[FJUCHJO2Ff1
+!s100 YVoiML@^:D1:63f6Rf;>F2
+R11
+33
+R12
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd|
+!i113 0
+R16
+R17
+Egraphics_controller
+R4
+Z50 DPx4 work 8 sram_pkg 0 22 =6QATBRmAKY>8[PeLWTL[1
+R5
+Z51 DPx4 work 14 wb_arbiter_pkg 0 22 ldliEAJ[kElS05cRV3e?f2
+Z52 DPx4 work 14 rasterizer_pkg 0 22 alz3AU0eiFOGVR_4G9l7`3
+R43
+R19
+R18
+R7
+R8
+R0
+Z53 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd
+Z54 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd
+l0
+L16
+V3Pi=J^gQS;ODn4_cHQgKO1
+!s100 Kbf_ke8laF:=7h6VG:F[H1
+R11
+32
+R39
+!i10b 1
+R40
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd|
+Z56 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd|
+!i113 0
+Z57 o-work work -2002 -explicit
+R17
+Aarch
+R50
+R5
+R51
+R52
+R43
+R19
+R18
+R7
+R8
+DEx4 work 19 graphics_controller 0 22 3Pi=J^gQS;ODn4_cHQgKO1
+l128
+L55
+VlIJQZT1FHCh86J6LEoohz1
+!s100 O`I`6Z0QMDiXCUoJ4d;A31
+R11
+32
+R39
+!i10b 1
+R40
+R55
+R56
+!i113 0
+R57
+R17
+Pgraphics_controller_pkg
+R19
+R7
+R8
+Z58 w1521545667
+R0
+Z59 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd
+Z60 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd
+l0
+L5
+VXbBh8_599c@jJXBXMMaN?3
+!s100 oQK;4P4zDdEF;o`Zf3bE;1
+R11
+33
+b1
+R22
+!i10b 1
+R23
+Z61 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd|
+Z62 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd|
+!i113 0
+R16
+R17
+Bbody
+R18
+R19
+R7
+R8
+l0
+L60
+V_jVL07U5jGnia6Bl?bRPY3
+!s100 Fb`NQBkC`^=2kA]4hGH_N1
+R11
+33
+R22
+!i10b 1
+R23
+R61
+R62
+!i113 0
+R16
+R17
+Eltm_cntrl
+R4
+R19
+R44
+R45
+R7
+R8
+R0
+Z63 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd
+Z64 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd
+l0
+L17
+VC<S8ZX`gLXTZV4VmK8_g30
+!s100 0MIn95V0iaVFj5[Z>UfS?0
+R11
+33
+R12
+!i10b 1
+R13
+Z65 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd|
+Z66 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd|
+!i113 0
+R16
+R17
+Abeh
+R19
+R44
+R45
+R7
+R8
+DEx4 work 9 ltm_cntrl 0 22 C<S8ZX`gLXTZV4VmK8_g30
+l58
+L41
+Vgl;A?Nd;gHXgY8de7L4[n2
+!s100 13m;l=nL9_;eL@U[Dk`]f2
+R11
+33
+R12
+!i10b 1
+R13
+R65
+R66
+!i113 0
+R16
+R17
+Pmath_pkg
+R4
+R0
+Z67 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd
+Z68 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd
+l0
+L10
+VQ?kA_SW34=_kSWC^ccaR^2
+!s100 ZPLAXnb7I^3_iOS=YjzMY1
+R11
+33
+b1
+R12
+!i10b 1
+R13
+Z69 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd|
+Z70 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd|
+!i113 0
+R16
+R17
+Bbody
+R5
+l0
+L28
+V`4XY`dM8R:5JRLdQQRON[0
+!s100 Eb05Y[ED:gJ`1g1Q<NGIk0
+R11
+33
+R12
+!i10b 1
+R13
+R69
+R70
+!i113 0
+R16
+R17
+Emerge_fifo
+R4
+R19
+R7
+R8
+R0
+Z71 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd
+Z72 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd
+l0
+L6
+V<RhJbXfe9eMhhKJY]j72>2
+!s100 GU[NNKadozQ0YB_XGBbbP3
+R11
+33
+R12
+!i10b 1
+R13
+Z73 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd|
+Z74 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd|
+!i113 0
+R16
+R17
+Aarch
+R19
+R7
+R8
+DEx4 work 10 merge_fifo 0 22 <RhJbXfe9eMhhKJY]j72>2
+l56
+L31
+V2e^fnlK<<LT13?IFS6;X<1
+!s100 cJm5bW3jQ?zz?c=YYB_aR2
+R11
+33
+R12
+!i10b 1
+R13
+R73
+R74
+!i113 0
+R16
+R17
+Pmerge_fifo_pkg
+R19
+R7
+R8
+w1521914404
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd
+l0
+L5
+VbYT5FaV`c0<o5FbH48XPe0
+!s100 _<C?N2LbH:O=GXP_:3=SN3
+R11
+33
+R12
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd|
+!i113 0
+R16
+R17
+Epll
+Z75 w1521192668
+R7
+R8
+R0
+Z76 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd
+Z77 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd
+l0
+L43
+V@YUMEk5RmZjhmAN:Zl@KY2
+!s100 e?kf4:oe7zIZ`V51<NAVK0
+R11
+32
+R39
+!i10b 1
+R40
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd|
+Z79 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd|
+!i113 0
+R57
+R17
+Asyn
+R7
+R8
+DEx4 work 3 pll 0 22 @YUMEk5RmZjhmAN:Zl@KY2
+l126
+L52
+V6P7HeHVagDj2F67Zk>T6R1
+!s100 Dm2W]hVifn5nbA;];B`Tn2
+R11
+32
+R39
+!i10b 1
+R40
+R78
+R79
+!i113 0
+R57
+R17
+Eps2_ascii
+R4
+Z80 DPx4 work 7 rom_pkg 0 22 OM?n^Y8D7VE2XYXPf4R:[0
+R7
+R8
+R0
+Z81 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd
+Z82 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd
+l0
+L6
+VBPidD;mkhWhR@EU9lSD8k2
+!s100 1aJ]?dk;2WTc:mY`5d>dz1
+R11
+33
+R28
+!i10b 1
+R13
+Z83 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd|
+Z84 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd|
+!i113 0
+R16
+R17
+Astruct
+R80
+R7
+R8
+DEx4 work 9 ps2_ascii 0 22 BPidD;mkhWhR@EU9lSD8k2
+l31
+L18
+V>A415?dhVSfm?DL3P5aXC0
+!s100 gdoomRf1Y_F^SY64GVH611
+R11
+33
+R28
+!i10b 1
+R13
+R83
+R84
+!i113 0
+R16
+R17
+Pps2_ascii_pkg
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd
+l0
+L4
+V_3Kbi^PZ7I7UM=>KilXGB0
+!s100 lGf[H4?WWhihF:l4:H3=j0
+R11
+33
+R28
+!i10b 1
+R29
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd|
+!i113 0
+R16
+R17
+Eps2_keyboard_controller
+R4
+Z85 DPx4 work 19 ps2_transceiver_pkg 0 22 86ajlbkOIgV>OUSWb`L8=1
+R7
+R8
+R0
+Z86 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd
+Z87 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd
+l0
+L6
+VZMH3lEooWLFIfmIP:IYfQ2
+!s100 J93ach9OzKDf40XQB>`O50
+R11
+33
+R12
+!i10b 1
+R13
+Z88 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd|
+Z89 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd|
+!i113 0
+R16
+R17
+Abeh
+R85
+R7
+R8
+DEx4 work 23 ps2_keyboard_controller 0 22 ZMH3lEooWLFIfmIP:IYfQ2
+l42
+L22
+VLkC@HK?09gh[5<eFkj3:32
+!s100 zlZ^1D^L]0VdRcaEOBA`a1
+R11
+33
+R12
+!i10b 1
+R13
+R88
+R89
+!i113 0
+R16
+R17
+Pps2_pkg
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd
+l0
+L5
+V9@^AoJ;gagBN57c=cTFZJ1
+!s100 0MPcgKedeHj`CR_V8EjiZ2
+R11
+33
+R12
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd|
+!i113 0
+R16
+R17
+Eps2_transceiver
+R4
+R7
+R8
+R0
+Z90 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd
+Z91 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd
+l0
+L5
+V]==_QFR4jJ<[obO3lIdhP2
+!s100 Ec_Nn6T5e5_OEX085<5nQ2
+R11
+33
+R12
+!i10b 1
+R13
+Z92 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd|
+Z93 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd|
+!i113 0
+R16
+R17
+Abeh
+R7
+R8
+DEx4 work 15 ps2_transceiver 0 22 ]==_QFR4jJ<[obO3lIdhP2
+l53
+L25
+VJBiIU;=QjDG<5PYN`DR3M3
+!s100 UY=GKKBdH0T=EjUgYM?d20
+R11
+33
+R12
+!i10b 1
+R13
+R92
+R93
+!i113 0
+R16
+R17
+Pps2_transceiver_pkg
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd
+l0
+L15
+V86ajlbkOIgV>OUSWb`L8=1
+!s100 MOz]F@YbF^Dn>[GKh<[1[0
+R11
+33
+R12
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd|
+!i113 0
+R16
+R17
+Pram_pkg
+R5
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd
+l0
+L13
+V>R4c=4YE67a>mW8zkHl<22
+!s100 <eWAA0fLCY?>cO<cGWl?I3
+R11
+33
+R28
+!i10b 1
+R29
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd|
+!i113 0
+R16
+R17
+Erasterizer
+R4
+R52
+R19
+R18
+R5
+R32
+R7
+R8
+R0
+Z94 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd
+Z95 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd
+l0
+L16
+VRk?5H5M9_Ph7m:bVjN^jL2
+!s100 Cc;nn;l2jUSWeh7GDHTe=0
+R11
+33
+R28
+!i10b 1
+R29
+Z96 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd|
+Z97 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd|
+!i113 0
+R16
+R17
+Astruct
+R52
+R19
+R18
+R5
+R32
+R7
+R8
+DEx4 work 10 rasterizer 0 22 Rk?5H5M9_Ph7m:bVjN^jL2
+l57
+L48
+V3JHI[klKNzj?e<L:_34?;1
+!s100 ^dmXEe5zPeefLd@YD2^7?0
+R11
+33
+R28
+!i10b 1
+R29
+R96
+R97
+!i113 0
+R16
+R17
+Erasterizer_fsm
+R4
+R52
+R18
+R19
+R44
+R45
+R7
+R8
+R0
+Z98 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd
+Z99 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd
+l0
+L16
+VRoD>of[WGVmz]kEF:g]BZ0
+!s100 54Xd]9HeD8jT7lCR@2DfZ2
+R11
+33
+R39
+!i10b 1
+R29
+Z100 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd|
+Z101 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd|
+!i113 0
+R16
+R17
+Abeh
+R52
+R18
+R19
+R44
+R45
+R7
+R8
+DEx4 work 14 rasterizer_fsm 0 22 RoD>of[WGVmz]kEF:g]BZ0
+l134
+L42
+V4V>FbPJ1QW?[jz0FKVmzK2
+!s100 d1^I]?mneI6mY?WI4FJAZ1
+R11
+33
+R39
+!i10b 1
+R29
+R100
+R101
+!i113 0
+R16
+R17
+Prasterizer_pkg
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd
+l0
+L14
+Valz3AU0eiFOGVR_4G9l7`3
+!s100 PZM?2b]MC_Mf;?obZ8Vd]3
+R11
+33
+R12
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd|
+!i113 0
+R16
+R17
+Prom_pkg
+R7
+R8
+R4
+R0
+Z102 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd
+Z103 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd
+l0
+L23
+VOM?n^Y8D7VE2XYXPf4R:[0
+!s100 8Z__e4B6K`GXkeFJiAZPZ1
+R11
+33
+b1
+R28
+!i10b 1
+R29
+Z104 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd|
+Z105 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd|
+!i113 0
+R16
+R17
+Bbody
+R80
+R7
+R8
+l0
+L64
+VjG3Jg;dFl`oT]0@_gA0@93
+!s100 1WjQ=lH;=A6I<I71QjRMC1
+R11
+33
+R28
+!i10b 1
+R29
+R104
+R105
+!i113 0
+R16
+R17
+Erom_sync_1r
+R4
+R80
+R19
+R7
+R8
+R0
+Z106 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd
+Z107 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd
+l0
+L15
+VWmG<XR@RMZ[0Vd:SKB^T50
+!s100 g9W@j?HYNHQ4MmZj[KMA00
+R11
+33
+R28
+!i10b 1
+R29
+Z108 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd|
+Z109 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd|
+!i113 0
+R16
+R17
+Abeh
+R80
+R19
+R7
+R8
+DEx4 work 11 rom_sync_1r 0 22 WmG<XR@RMZ[0Vd:SKB^T50
+l35
+L33
+VWhhQGjOfH8@_kkF4^kRo]3
+!s100 =6o]mEJ^]l;dA0iQ4g4>C1
+R11
+33
+R28
+!i10b 1
+R29
+R108
+R109
+!i113 0
+R16
+R17
+Pserial_port_pkg
+R7
+R8
+w1521832455
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd
+l0
+L4
+VDgl<fzQRo=fB2EJ3FNOQ61
+!s100 QX5=bM8jeA2BcCkSU<j8_1
+R11
+32
+R39
+!i10b 1
+R40
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd|
+!i113 0
+R57
+R17
+Eserial_port_tb
+Z110 w1521920987
+Z111 DPx4 work 15 top_tb_util_pkg 0 22 gcCITgG43E5nF_jcdJ9HL1
+Z112 DPx4 work 15 serial_port_pkg 0 22 Dgl<fzQRo=fB2EJ3FNOQ61
+R7
+R8
+R0
+Z113 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd
+Z114 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd
+l0
+L6
+VO>G5`RBJ3]f6X<408lUb^2
+!s100 Mh32zoUUlL;J^BYgH2KW@2
+R11
+32
+R39
+!i10b 1
+R40
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd|
+Z116 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd|
+!i113 0
+R57
+R17
+Abeh
+R111
+R112
+R7
+R8
+DEx4 work 14 serial_port_tb 0 22 O>G5`RBJ3]f6X<408lUb^2
+l59
+L9
+VOj9PI<PW`QZ1Eka^iUXXf1
+!s100 dJGLK@[LoZN[>h`eO6`4F0
+R11
+32
+R39
+!i10b 1
+R40
+R115
+R116
+!i113 0
+R57
+R17
+Eserial_port_tx_fsm
+Z117 w1521800384
+R19
+R7
+R8
+R0
+Z118 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd
+Z119 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd
+l0
+L6
+V60eh_0d@CzP2e`e`@S?Lg1
+!s100 0l_FOW9VE`6O^jL[l02370
+R11
+33
+R28
+!i10b 1
+R29
+Z120 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd|
+Z121 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd|
+!i113 0
+R16
+R17
+Abeh
+R19
+R7
+R8
+DEx4 work 18 serial_port_tx_fsm 0 22 60eh_0d@CzP2e`e`@S?Lg1
+l41
+L24
+V:e`UN4`iTENWR8[aT43`T2
+!s100 iZ=[>1F6F@nL<_Y:jB2W92
+R11
+33
+R28
+!i10b 1
+R29
+R120
+R121
+!i113 0
+R16
+R17
+Eseven_segment_display
+Z122 w1521802134
+R19
+R18
+R7
+R8
+R0
+Z123 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd
+Z124 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd
+l0
+L6
+VNmTQ49`CnlUNlaSh=]Djd1
+!s100 <Nn;:oe[S8lgOf:Po=Wz]1
+R11
+33
+R39
+!i10b 1
+R40
+Z125 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd|
+Z126 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd|
+!i113 0
+R16
+R17
+Abeh
+R19
+R18
+R7
+R8
+DEx4 work 21 seven_segment_display 0 22 NmTQ49`CnlUNlaSh=]Djd1
+l39
+L26
+VhN8:;n[DX4HSOch_?nUlY0
+!s100 _1Sd>iX83AWAimC7f3dI31
+R11
+33
+R39
+!i10b 1
+R40
+R125
+R126
+!i113 0
+R16
+R17
+Pseven_segment_display_pkg
+R7
+R8
+w1521481765
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd
+l0
+L5
+V>Webbz`VYcO<SR5JV;V2L3
+!s100 zM4APgk97i8cc@]m]aPJY1
+R11
+33
+R28
+!i10b 1
+R29
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd|
+!i113 0
+R16
+R17
+Eseven_segment_tb
+Z127 w1521916710
+Z128 DPx4 work 25 seven_segment_display_pkg 0 22 >Webbz`VYcO<SR5JV;V2L3
+R7
+R8
+R0
+Z129 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd
+Z130 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd
+l0
+L7
+Vb4ZS8K0CcKd;EOB36ASlB3
+!s100 WdYa9di4SabEC2F<<T8Ye2
+R11
+32
+R39
+!i10b 1
+R40
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd|
+Z132 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd|
+!i113 0
+R57
+R17
+Abeh
+R128
+R7
+R8
+DEx4 work 16 seven_segment_tb 0 22 b4ZS8K0CcKd;EOB36ASlB3
+l47
+L10
+VZN;H;QzX`E<LeLZ?6?]hh0
+!s100 :EkT;_^LD4EGe3m>1zEh00
+R11
+32
+R39
+!i10b 1
+R40
+R131
+R132
+!i113 0
+R57
+R17
+Esram_controller_wb
+R4
+R5
+R19
+R7
+R8
+R0
+Z133 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd
+Z134 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd
+l0
+L22
+Vm^bBKT3;[:F<jRcbf2mZm3
+!s100 QEFIITlQK[oJS?@HML>Uz1
+R11
+33
+R22
+!i10b 1
+R23
+Z135 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd|
+Z136 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd|
+!i113 0
+R16
+R17
+Abeh
+R5
+R19
+R7
+R8
+DEx4 work 18 sram_controller_wb 0 22 m^bBKT3;[:F<jRcbf2mZm3
+l92
+L59
+V>A:ACT5<h=5RGIPN_2A7?0
+!s100 A4MU=GBA<g61kk?U0FIkh2
+R11
+33
+R22
+!i10b 1
+R23
+R135
+R136
+!i113 0
+R16
+R17
+Psram_pkg
+R5
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_pkg.vhd
+l0
+L11
+V=6QATBRmAKY>8[PeLWTL[1
+!s100 >em:ll_mj@oY2C@70X3QT0
+R11
+33
+R12
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_pkg.vhd|
+!i113 0
+R16
+R17
+Esync
+R4
+R7
+R8
+R0
+Z137 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync.vhd
+Z138 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync.vhd
+l0
+L23
+VS0`ohSW]>Hdl9I_<eP@2]1
+!s100 <6oD9:z4X:nY3H]Zl7Fan1
+R11
+33
+R28
+!i10b 1
+R29
+Z139 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync.vhd|
+Z140 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync.vhd|
+!i113 0
+R16
+R17
+Abeh
+R7
+R8
+DEx4 work 4 sync 0 22 S0`ohSW]>Hdl9I_<eP@2]1
+l46
+L43
+V]@9F>^g?0z=YDJD0QRoV`2
+!s100 keXmL6KR;:7Z1XJKVkEm_3
+R11
+33
+R28
+!i10b 1
+R29
+R139
+R140
+!i113 0
+R16
+R17
+Psync_pkg
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync_pkg.vhd
+l0
+L23
+V3f2[3f:YQYYCOUjajS=YK2
+!s100 i_4j`dkU1c^:CUC>dY0ZJ1
+R11
+33
+R28
+!i10b 1
+R29
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/synchronizer/src/sync_pkg.vhd|
+!i113 0
+R16
+R17
+Etop
+Z141 w1521916228
+R112
+R51
+R50
+R52
+R43
+R128
+R80
+R32
+Z142 DPx4 work 13 ps2_ascii_pkg 0 22 _3Kbi^PZ7I7UM=>KilXGB0
+Z143 DPx4 work 7 ps2_pkg 0 22 9@^AoJ;gagBN57c=cTFZJ1
+R85
+Z144 DPx4 work 14 merge_fifo_pkg 0 22 bYT5FaV`c0<o5FbH48XPe0
+R5
+R18
+R19
+Z145 DPx4 work 17 ascii_gcinstr_pkg 0 22 ><26HZz<Lm;e]i]5V6b9g1
+Z146 DPx4 work 8 sync_pkg 0 22 3f2[3f:YQYYCOUjajS=YK2
+R7
+R8
+R0
+Z147 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd
+Z148 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd
+l0
+L36
+V7O9i69_WZDgkg3i@3OY1R2
+!s100 5J8ZR>0[cK4gk__9WTZ;J3
+R11
+32
+R39
+!i10b 1
+R40
+Z149 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd|
+Z150 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd|
+!i113 0
+R57
+R17
+Atop_arch
+R112
+R51
+R50
+R52
+R43
+R128
+R80
+R32
+R142
+R143
+R85
+R144
+R5
+R18
+R19
+R145
+R146
+R7
+R8
+DEx4 work 3 top 0 22 7O9i69_WZDgkg3i@3OY1R2
+l156
+L96
+VjAWk=LE9]DhOj8]IBZ?fD2
+!s100 2I4e]4dCP6=]IFaPn>bm:2
+R11
+32
+R39
+!i10b 1
+R40
+R149
+R150
+!i113 0
+R57
+R17
+Etop_tb
+Z151 w1521823904
+R111
+R7
+R8
+R0
+Z152 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd
+Z153 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercis¾ñ3§9‹„è^”fÍ¶b×tuùÎõAfm×?ÕuCxŸl¬w{¦J³¹·d\’9ÅF{ ª¿ætX’8˜œÔWh§:ïøáPŸš­ÍKºªäã*ğ\¢ÇEª´Ü«´õß
+v.…â?÷cn¨ÃKª8îyß \2`lPDvG¼Ó)YŞºšY¼«g.·¿áÒ$@áuÆ"\@&†kYÄuc(Ã@VÁM8İaÅ Cm *>/×*c½9¢âéí˜ êà’}€mÎˆş!Ç„ãÇ¯«è½OaL˜£˜‚ NC(ªû… 0ö ÒÙÛå©G*ıàÏSøMŞâçd[ÙeÚW®©÷Ë¯ò>ŞéÚêÛ¯e6’ö°Yo¸ë"m”sBŸ;¡ ÉÛ"bïp,®:ö0ÍÈB!H˜fï²˜¡¯û\™­äZêÄÑ³d¨Ø<'1D/cÖ¨¥ó˜àá%¢Ÿ"-…ãçdø½^2Wü›á"Kêº¶yÇ<‘ßˆ‹{ğNú¿ì¾f¸Í™Ã¨›¸¢×b:‰ˆ€¸Òó|¦Ör*»ƒ<‹÷wàkGZëmêå>spI«ÇÂîğ§?È¾mñv¿«åœÕŸùÍÅ³VòoË„Åt\²&„ğ1÷CÍ˜™âyu ¹@ò`YM÷æ‹}ô.@e¼ğóœåGá ıiŞA}mı€Á¸Ãz¿ïíŒ¾
+¬Š‹¯çnù‰Ÿç%†'óR#;édPF&dó±àß¶29™‰¯ö%MÄÒGô&2ØÉôİ”õî$^ù_°•‰ºÅ‡/21ÔJÿéyø$x¶é¾òVm7.Üû¥~ªµÎL>³‹l8Î½DÔ§·ZúeóW:]y«¯¼|ôÌ¨YSfj”R23g$B`GY6Œó3"5J¨Ï}‚TsNk@¶<?ì×V?ù&ê\§¯ìÂ5nç<˜Ÿn†œí’óidåÄ	×CI/5GdŠë)Ò	o1F>+¬C(há‹ñ#
+(¯ëË¸l’ê¼İ%tßU ëè7­)× Óhf¦Cg°¨ëQ+Då{ÿÉÛJ~÷—P`Üê']H4byQ¹Ó0P}­<Âs8 #å†uB
+¤ü¶q{JèÜí£-^óğ­·n{¸‘ŸwV!…Â5ÒÕS;çˆ—nÃgtı]'§2I"7uN×rdC(?	µ(Ş±pœ„ô2– éQ\Rk†Q™´)Jÿ«s!Ú¦8‘ı¹*”q‘:³FcÛé¤ä’mÍJ0_L¼­¨ß3êkè¾h H²µNó, +ÙO´ãü°&ñ¡<”Š¨‰û¦:Ö…W!“R1¦]ÜæWcÍ‡KöıÁ“`Põ/½?x¤jàk‚MÌ\IÆ&(¶\à¬Á@şöz¸ÄNZ+F°Hê/ÀÇ9ä^t(s%¨~¦
+?¾«‚SÚ¼Óö*3|üò£_+èÑĞ}ĞY†‡<â†@|Ä­ˆ³G9¡äÚ0®·—)-Æ,—¯ŞrÈI¸ĞÌiñÿÄ¿LÜ”ıy+‚’ŒœI§Ïã/¤4¬Ëóò? -ÍÎüÑZ;ßˆİÆpNš«¾·ŒÖ/Èô¾(\:ï£Í¢sûkì‘|=˜PH¹¸S6æ±<SíØ§±¿¶mÎüØ‹Èaƒñ~yû”}ÅŠ¨«ğí³¯@Rì^4Èùwf9¼ÍÇ8ójÛœ×èÈêöš¶ß»µìO¶/•ã&goÆo¸ÂR:4.iŞ9Ì> m@Eæ‡½Ã(@Nsz›X¥;kî¶¯àË´€àeÇ;†P€'o‡rÉÈµb8Â€LÜWÑL!Mm¡Slº2Î.Ç+z±ù£À®¼"§(×$w£!©¯w«Ã¸ÄÊßÔÆÚ·k«éê@OÌ¬àHtWj¿–î¨ó š0âMÜÁBØ–wXë¾X&¾ªÅè’%OÎêèÉæx&‘9Õ¨èN©¤38“#ôSrİSyKæ3ÿëö9ˆe5ÌÄpˆ¢?ŒÆ‹è½çhÉ£ÂlÔÒG•M$g­øÆ«— ÎO‘ñ&¢³¬Ö9‰p*ÀÑ>IYà'è9¶>^Ò*%VVá3O€›¢Zóëª¹b§	¼ºíÿqŒ—x„¼Ó)qicãs_DTA
+“3re Q{H£yKê[õ1ŠâoÀvÒá	2h/ÇGÿ×»êeG¹’|Õ¼¯`I 5Õ{¥  ï­à>òee¦)‰ëSkPı™ËkœW›rŒ+Ô¬ÿ
+ß| ÌvYš­á…‹·Ušk»¨“*¶6·~æ^şÀ"9„i¤\ 5ı½êohœ\GAùügk)Î^ky¢?p~x²|ØŞxíÔNºVvNß‹N%†œ´²ÿ¯©¥š¬Çü@î…á§b~—“77ÃêÀ—3B:¸™¼Ó@wä>şD°Mˆt]Ê£r’¡íU9$X‰„q,Ôß™nÅG"Õì‚cø0Çoï> ˜Íá!ŸÛÕ€YÌ'µZò7šÉ Eh»7]Ã@'#”in§k-}‹_£†²Ûÿ«gTÙyTkìãZNÙlBïd«Ò› €ZÒÄMkÙLs\Ğ¡*;ú7z1ÁÕT@[K¤]ÃS?A—1}i‹¶}çqPHÿë&
+T”,s¨Ï°7¦£+¢íŸa[…eÒêyÏ¨Gjfe¡şM–WB¡9‡ßÚ”|ĞHºQ^ıI9ÆŒœ$¿»æ´k ï0/¡×Ü£Ø½(# ‹WqÏî[†ãëÅÔ87\ûÙÂ0Bz×‘iú|e_/á	ˆ¦Oû!!?¨ŒÁIj¸š°…^S¿PL«™—a †)íÊ:ÈwW5†<0F~®¢aŞıÃÿ¾}œø³³ËeÕ‘tDfƒ[,„v^fDQlÍ9ÆS)¨pB:4ï§½cãÂm‡¦J<(MùÀÅı¿ÀşUâû‰ñ‰Ùúı½Œã†KåE›¦yŠ²qg—pWò|İ¬8›—Fsİ-èÆôõÔZ$\’ôo“-xƒù~î¦@ÅÓ°“E]ùcMÚ§.^÷YìÈ4Áî>ªÂşé‡Nêï¿Š´Ü¦‘>£áBÖ(è8Åhû8”U˜À›òÚ%}µƒf3ø:ñe2ºã¸¢8úªG =ço¿Ï¤TÒ†1ùÃ…$Á4ÚF«V¢ƒYq&—Ód¬ï/­Çªü–ğÿ&vÔwùEWJ?)™¸EøÃ=ÍÇiÌ¾ëáª«§”–
+½ÉÅÇk4©ğ—àôC9Ä²4\âwvŞg„•Y OíåSt`¶(¥ä¼ƒQŒ†/Î‘¤ërfñY§A›—éÍŠc#ùœ›£Ü©	®Ò££D@áJ–^ô%¨Îÿkeï&Ÿ¯+’°íèH%3ÚŸ}:wLŞ¡T"qxÓ“îân?ÿÒîM•PÛ­Âyë\Êú‰Îz›Û©º”$«fzÿÄ='dCxlš)› JàLô_ÌZàäØù…ÔaŞ´³%Ep.á®f•Œ† ·dNüüÆ-–§½üŠ{å­šÄÕ_Ï€½V|gà@2çøÔ:´‰ŠºIğ“y¯ÃºúÓ0à[Ë­–U©ßæşDcdş?Æ8[“¡ô‡R8$"Ã
+Uúş”ƒf1‹M
+´ıí^8ùQJôOÅB:²~vC¼Âù¤C,Şğ—V1]¬»Jù1àïá™™+5¯%·ÏáÆU]šî•@½&Kòş¶—3_biÚœºá‡4Úé©¯tbAÂ}„ÌÎ°ÒGëüüùM«µ³a&PîĞúåOeó`æ7Ä–“q@ŞÀ›]å½wj‘âohèObm²s[ç]büA‹èzìÆz¹‹¡N’Ê¬™õíØ¨ŸÜÛ˜¼ —MÜíã¦ò2¬ta¹ŠÒ« K¹ƒ/æoæñ07åhŞìÀXuNşÈØB ş79öÙˆˆ—GyÛøüÕÌ¯
+ä—#Æ!{#³	ë« î¡‹ûîbÔ“o ÌÚe[áöı•i¨1½Ü&04t[ø¹o´]A²v¢•„·0V·UÊO8¤ÔâIxµ£„ıîô¬XÈåÚù¾jr%eÌP+rŠìöT^¾‘ı×#5rø58‘Q™Å"FB©K·r	‡[…]eÔ¹N¬«¯üĞ>ì†*Û¡‹Ö—W6°WXî~­”}¬>ıÀÉÕÌ‚³°, Ô5‘B/¦xc[/²ïx¤QoûRwMá*ó$Ôï¤¨ÖÒı"m„!6­ùÃó– şF5¹¸_«®?­ƒ§ A&Ñ0şºeúû³­ÅIÎ‘ıİ€¾Ê˜É–ö}Ë­ğ•:½Tj»ØaİÖe ö~ıËÑ#Î79ÿLĞ§GyÒm¤Vü¯qÏ ö!{*êëŠÛ«©‡¶"»ûç÷SW£o ÅO=ØÑöhÍê˜1(„¥ 4tRmáì„]A»ã×!¥„·9ÃïÖúO8­„ŒayxµªB=2ò3‹Š%†éÖè(ğƒYÈ•NùÍ¯¡£¬Uå•D\Øßc’E­»–6grqà  S=k5¡ÉÑ}k¡È¹‘PJÕ@“QêV¾¶™ß“¨Íšœ´øC+ Ç4ÔeeĞ"AÌ‘HGhLÎ¾ÿO¼ü÷ÿÙ‡õ³oÊœĞJúë£©9Ä¦7Êz_»äÀ•±Ğ/£ıw†](64hR'êápT$5åsoF–ÿ÷Şâw¹Š¸–2[Vo®œÙ_í{ıÊº±fû—ÿuÏ`ùj¤BwÇfs¬ÍmXw¬‚›§pÜÎ¯ºÓ-E4µ~¦¸ÛOºÌW=œñbÔPÁY`:š $,ô¸˜J£hšAr¿º‘!š†xÿóŞ¹¯Ã/º–—=ÆöÆ4 Z D˜­CÔĞSûÀã×Ñ,M4Jp©ª%ˆşkôÊ÷ûÛê·nùÊ×“<†©œ¶Å¤V|Ü¢²9ŸmÆù\Å_¤» $oŠ_;kJå³î±Dsñ¨‚;=0î‡Î÷fu—‘ÈUÇµgÄ“&äĞ‘,…Q[Ê)¡f2×j¹±$I(ÚpF
+â*³ '>–wèè}ö"ıâfß¹Ù«ÏAÔ\Ô„¯¼ò¤av·(ß0ùÅF‰ú;ÿËŒFNğ{¶„s§>ÓÍ>N°å ±ÃÈÌİ÷îGX×¾@m?Ê_UuOb:QÎùÖ~`ÔK‹.9!Ôä-Ä^øĞûï8Dd÷mÄWdKdvGw! ,ÄG,9€7ıØ6ì0ØËÓüÄY¨‹ş¯ˆ™@ğ/³ãoÎ‰(ÇE%éY…EšíEË5˜]€Ré/î#ªá%fîÃ)ê¨jşÛ†~¯Í#z²³—!ûî[kEÃ ÊF ®‡—G†Äkù¥Ê·ˆ_ç‘<¦°(/71eˆ‡LQÆ`$ˆ(ÆoåD[¤¸c3: @"ÿÆ%Cs©\Ò}w’â=15<"äûü–Nú²½¨Ëç0…|lÍĞSË¯æxÈI,ˆæÙƒ6v\ÈËø÷k-´³äœ':Ê3¸·
+°åjà<şb jrtÜÚnå Gı×I€½×˜Ñ/ÅKø²ÑUFğ¢v„tŸ V¼ë+T‰´ß\¨c³éÍaÆuê‘§^\QLÅeC##e&‹³7&ieÙ†uFP^Ù†GVG²œË·.ã)‹ÍØ4ÊSãxãşâ:“8Î¯Š¿a{C³áIkõ:6(ÅcFÒêµE˜Ë&/Ìû5}¾>»áÙ1LÕ·ªãÕpêªLà5N¯Ï‰ §!ùÈ8Pö%Á?g›y±F¢ˆä¬ô¶Ús=®6p½ìN6-•ŞKäA&~şòğVÛ:Ê„Ã.ğ¼Ñ5Á€DÎ: £ÏäS-¦`¹T™Şˆ6s2=é¥ofåtl™lœ]H³A¨LŞı!Ujğn9ÁG²5áK¯xnÓ¯ÖrR'œšš“%BÕó¦Ì™t?*PN¹Lï`áßÚş/XãÖRİ}á¨\Ôüğ†¶G1ŸA9¦ Q
+²4ŠH‡?Ñ7IÅx¤Z*-Šîaq˜61Sl2; '!vç‹iÖJ¼Ïâ–"kÈ’¹ñíów£d³”Úì‡NXDYÚæş¥bñ?“æ1O5IQ”_ÿn¡.İ_Şõ.èaEj›¢k(Á®Kå»åàÚXÉÅƒ¿×]‚à¥<&ZZ&ŠŠxÑ
+~¾°•¨Z» 5âÙÀÁ¾êˆ iÊ¼Øµ,!ÌğˆNÔuù‹¥$Ë†«#
+%Ó	™‘KI…Cª®Qœ5Šî„ø›´\ú®©ÙïéÕxÅ„œ¬Q^ 5 »|Ò3ı@FZœCèXÒw¾ûvg*¼!tÜ†Uc¼æ~œÏû‰£)ÙªSà–ÀWœ^9`Bw¤iòïÖ0ÇŞ‚ÅbÑ¥ÁÆS#ŞyÛÙÀg.ÌvIÆÒÕÀ^ÏÉúû£#+éå²-†[eBÀwnó%C)´c`‘—ı=TEZòÔ[¥FFeèëo°h3")‚ğEVtÙ÷‹”=‚Óyò½•¨ş^">øD £pˆ¡u†7)R0ÏúôY˜?È½Y¸’Wv‡%lıÅÎ¡È,œ%€Ü>®¼ôß±:û~C\ <=y©¨ù,ç °üS;tH¸—`&nä^zÈIônò1
+¶kÊ7Q2°³}Ö`ZP$jã?@…£íšÍiŠ­ÊÚàHşğ‘u¡1T•›ûØÏ±,¶Ü›¢ì„Ö!.ÕÒ	ñÎµ÷jg~¼ÛU=M—LõÛ’7Şmî×`H»Jé‡â‰Æ‡È^æµp—•›Ÿ¡ÖÇ¢˜#6ÿæ–¸‘ø¯“ç*Â•zñ®Ğ ®ë‘Ÿœ–}ÈŸ¬³Ô@Mø‚•kÓŞÿà÷w(¬çù	b!Å¤X–{)–ßqè\†ÀY,Æ*áaÚÄ½ûı
+òĞJÄÒf.ØımQsp2{–…=ÃøŠ÷jI÷ä¸¾jı¤A÷&_Ëªá$¾¢6şCosƒïÁO*„Ü$‡UI3_
+R”˜†:È”óõ¥Óq¥]ò coíÃ)ÏŒ+¹À¼¶ÖYwoíÍÎ®{xºÙŒ€–˜³Ã"1Ÿñ©’ûı±§c>û‹½œ†c cÆMš|•ªí¿dX¿‡Êoçlç7I©àbÿ£d‹¤íÍ2Aƒ~ßÄÍõKÃ7\ø°†RÙØ‘…õdùHsw(\ã¦ƒüão?T%´qäíôéêvxkõæG,ÔÆuC+àv>2E|‰h’e3	Ø \\”hªuÛ‡Tû‰¥Š=¸ÜıÄ!›õÁy½Ôc$DHÖš½Â0AÌOÀoAgdx€B`r:?û“|Ì5‚ºç=æ9R9Š`NxÄtwú…;`PYUBë´>Ÿe†[>È•%RÉÃÂ`7€Gb¸+îMf»N©Î9º9pÁ=‰ZºGL:‹¸ßEüröL4†ÉÜÇakªı¢Ë·"­ëú œÕ}êèİ÷ÿ]Øá»PBŒäòˆò;©§„»a}õÃYŒH¤fããŠ§yÍ%EK‘æ×ğõ‚m°°Øœò-‘i…ÇVLsÍ”/e&Yà³ÿæ{{ñ€NÙ¨„˜ÚôŠ³ğê´¢@” 9£´eJÔIv; ‘,?¿èôò1ãv?"ÁúlâxA²BÍáåúŠå`ëaùüKÖôÔÃë¹­M:‚ë$wnıÇ"Y|ÁÔ‚ƒ‡­)‹¯éñUO«Ò³Z¼J©°şıïbV/.%	o/¥/1¿Â|Íx¶9„«û³
+®n3;‡âô@/3”Ü×dP sĞ[7¥V‰Z·\ôw#+ñ*»\ÓN "fê›ö~RÒÏ2h±Ç~¢sb+4IÌ=È’fÖèx[ô(0À+´hJÃÏÔk@M¶ı–'Amjf~ûzé—@0‹Ÿœm3ñgm;Ø!.müÒTHn¶X¹…-'21ŒlŸêèzî¿#L#õzø@ªÏx}}†…yJó-¿fšxœz•íñëâæÁ]ÜÜØÊõ#Ğ
+éü…˜‡¬û«ŸÈîù¯Å¢Q£Oò·gÍæÀ¹Mt¬Q–àÀ‹È¯ˆ¹è”I›àúµI€LÄú/ƒpb’0ló0O³DZ7K¯/¬=•2·4†²â4YV.pOÄz)³[hÛéX‘İÔµ¿’¶-æSµx˜öd©Ë€=Ï³àOé&=7-n0ş¤Ú1ûq0Zlm²Ìü7Ø»:FÑÅ^Şv¿ûÅñTHœßïéÅ*DJ®Àº¥_!­ä:ñ@>WBVÑ€©Ø ˆe>ò\‚áe)]¢¹ `÷äI˜ÑíÅMô{·Ë8u„UáôCxÀuMG8©Ü»M’A€G:‘`µ‘*g9 H·MZ‚LÜšoâìÃj²Ì¥Åñ#²¯…U¾»‡NøÀ0÷?î{N:7“n>ÍAü)]zÂË ¾e2î|œ“V=üN5\ı@Ñ5ów~ò6pÇ	r$`Ìñ&&tehş‡#|¤­u]C¾ßÃ£€ıíúÑÃ&±®‘“Fâ´à‹½ØÛE@‰—ÁğÒl§Á¸™¢,ŠàåÂJW[üÈÄ.rg09åãşñ
+m‘…Ø¿zˆäŠõÂækïä£WåY¦äd]¥_>Ñ!
+à:_º¸ãn’›aâaN4eÄªmõ	WÒGàò‹œ…eÀüíü¬\`À}ñ„ÿÔ¶Ã|øè–xš÷ó>æ“TÏŸã.òfkª®Ú3V4ªNîà^’4VçDÍ"şªÉ)åKêäú¸f‘5‘Nèèµd7Ï8ŸâèÌW2Ñ’¹O¦3ó*c6=Èe9“tÈ¢3MÚKìıçd¿h”Ò†‰ÏIM$¦±8†«›áÒ•±&œv e”ÕT£j†Õ‚§ä ¡X¼«¦s,•%·}…\lêüvvtÈ©Å~~”C?«LÜÙK°±™lpeæ{±c0HÇì^‹K™ÛdT2°@@0y"â3-˜ßÄ}]øíKé_å–bs%¿•ÂfP:%xŸ‚/¢=ÈÇJV&y!I|› ş£iDlXkq7.'ÛÛ\ü0­é‡Öz 38º3ìÎÏ3—0Ïê°£N˜bîê}èñ/çøÊ½²ù°†L¬î£6xK	
+
+6ªƒ]GÿŒî‘P-êÅ]Úş‡lÔ]ÕäÌ7¦!sƒ.ä^Öa^¢Z¹>¾1O°c¦%e"—³%HHÍBj•k8­¸Zş¸I€Ã7(îƒ§3a)‰çzJù¥lŞ¢}ÌY7,)Î\¯µ9Ş !Kr€é­&É¥Ùt0½üÍ{÷Lª¾ÿáOŠG|ËŠô*ÄIWk¬ĞWî¶#¢p7Nâ)Ì8œÛ›ÕVÖí,iû ÅEb)Ö!h˜ŠR=n+.¦'D9#û­ËzìYŞİã»Ÿ™AJğÁñ3$¦$$z$adHkâ$V!-"fx¿¯ïG¡ç=#jh©È@¯›]å®J‹ø¹  Ñ lÁ× -Dú¶ĞôØ†ÄŞØŸëªğw³ÇoÆ<¨UOá¥ÄDwFø®»ò |‘à‘U(|0ñV>Í„ÈB’·.·`ª˜İ¯>'… ‘«¤Yö4Ä–kH]Ú…–Äv~şúºğyz¨ÀÁF…¬ïïíòŒ²ÔˆİkW ş¡§RŒ‡×Eê¯$Oú¿u ÑIŸÅ„Gw{â×`VDDøĞŞ j2*¹®àG3FwâF›–/-èÈâ¿´	«Åï2<ÙT¥r©±v½†9PßùÏèoš6/Ë†è¨vf„İíÇ3Íš´Ø.½5 »m.¬÷ä¦¡8Ún@g‘,?_¨oÑÏ§o&0UÎ,ŞX»Yn¶¤õsBx™‰€U.
+®§²z4ÿíÈ‘HŠÎ£µ4ÉÄOùÀø—lÜFfÚ-'¦ h0NÖ`EdX>”®°b½–+„2—²>ûv,Rj”p‹“YJş¹R3ıÖ8ï˜äq(’TD«é¥mÅ!âmÌX,Ÿ/L®®¿/ØŞ!:øLoé¬=dÚõënû©DC²şìèDìˆŒİÈ—hØö€»¦YƒÜê¿Ö\ºÙ8 ûŠº’luel®È_ÏÁ0"¥a	 şe zïJB"#l5LÔZ+¼vàü¦ê¼È•næ(ËÈ•Î†ù×£cÄäĞL‡Ié/4S!Úá‰ÒQ?”‘F??éQã(iõÎ¡)ª(®ÿèf2ë¨Ë/¶tŞAE»â—­(ÃeƒÈf§W"à¢KQ*P·)½Çk_kü¥	ófMdnºjğ1s,ÕF?:¥SûõY³n‰„j£[ĞGå$&n_÷}‰iÆDÎâ“¼=¸à´Y”TøÍ•-É—ƒ‰F?ú5b(>*¶?½HÃøÚÈPW!Ú·´G"9wDuk9°Ğ:óõM•hsweÀ¤^¾V¼6&;fI	w¹²|şŠ@4µşÎ©¨Ä»eBÁ1qÅu’Q<Y½İéË·W½r`;ßã(‘F0	ÌA7Ş%@h&C/oÉ³Ò!M'c#àWòÓêêÎXÚºšªãyé‡árÑ2e‚qëü¨ş¦[ÆÛx˜“ûó¦&^Öã†¾²sô[p	ÌÜ%>|€;…Üâ4<Été§cy¬=™€’Š÷šğ¸Yd×¢ç’ëœÁ°d¥f›¯”€•%œ›’§®åaŠw|æ®Jè°c(™‚~•»µáÙ’ìA8š²©¥7k¡“±;µYÂÚ³ *†fØéÜ¨0'j™œ…fz1qçTŒ;ÿ}–)¦ØNşûtv%h°‹‘{n±E’3ÿôßXÆUßÔRTF‰Íê‘#ÀIƒ¤ìŸhZRn¿-ú7‘İúøNM´¦Pız…–û óá	r—¡O›ğQªRµY3c9¢9†u	wtõ±p},Øš»ÇqÅ7æmí%_ğU­Ær<WOxv¸Áy)…PÈTñD ú…šûN®ƒ¬¾Ñc‰S/âãytua’àXC*hƒi‰˜± ÉƒMÑş¸»ŒÔ´·<Ò¹=†‚zO¿¦ºBÀÀ+áÙ:Á÷M,bfŠ}ËïpÒ"‚ğ1Ò˜¸äUNş¹å³2b'"´Ù„Z¶LXm”=ğVâ* T¾ñú#?NkAÄi„C(´F Hğs\=ñT›èyÒDØÏ¿ÂTõ”[¢âj4²Ò,œŸ7ji^òÉıM™¢ò÷ĞíÇK Hµ¤®~IÆƒi*wˆËæ»u¼_¡Ø)ö‹ŠX=	œ“‰HZ–ï"!$×§x®"­í³,ÑºĞæe üÛßÄ®£,Û¬é™…Gè_)O÷}‹Nú´Xñ‘›J~«ßD[³#ëòe/îxæ#yDrhé
+â`2_O9‰=š?²ÇÿØï'&2åG¶`UHd/`FRH£% „}ærejT Ó›ë\™!Í%Ëdn~ªŒÙı1'ŠĞ	˜ULvVæµ,N©ñLÂÂ9Å&ŒÆ"ğËxÉ¿ƒ,Û¦MÛŒœCzÙŞ§wt›¥I°B+N€@l}Æf|ğ A\²;'{@ÙÍ-–¹Ûıç ±Ò:¶ O`LôtÆE:xØÙV~+µ
+¶œYÛ‡C¶H–’ÈÛƒÁ\÷_ê8(ÒÁL~3Îªòù»!øA>µš¢ÏÌ97Q[€’<7¬İ3ş=‹Öä™˜¿js8¥™76PglÚµK[±^®ÆXEF}Êº"¾¤%/™ïe·K±õ­Ã'[ƒ5ïxsî¬­c%Pì€BQAv—Q^:ûKøîxÅÑfß>û¨Cy"µØ¦¶5—`ÈƒlØc]G8±%Ø¤Wqş½íá B·9„ÔéÌ"z]"kìG–­ÿ«y:Ä¡ ø>°%€7a÷âe=†låí÷"”±‚'ÓdJœÚ±çJøŞsCC	±tF5fåLYDæb-üŞògr•ÛLI$_ó%dBd+®~Œ9µ@Xt@œ‚drY%ï9Ú9Ø¶QŸÜ¯!L›s'² S"Í¹ B"
+³@]‚Oän~z‹XÙ'§Œ«`.xlì™û[nÔÎ‚£îè±‚ölâîG8¸â8ÂsE³4J²ñØ¹æs-ÌÓ½YĞL …¶¸‡yÃË¡¬±ÙÁ_Ÿ@6x±²agk#Ydc})×Jæ(·ğÍÉ‹udë‡ûj|™Æ¥Cşå÷od×G÷We$G˜ßÂ2a"Ñ[«'ÛïzrÑYÏ,ë%¹^ÍˆO\¦ÓÊ
+„„Ó#Ä‘c¿&uê™±J<wW±¸À4S(Œ¾âcC…G”– +€kÜ¹‹Æéˆ¡•«êğĞJÍ8d<©‘K©òyá¢‚,œ5B2°†àòûÿULÈ›‹¿³t8•ÀcÄbhScÊí½KówIçÊmÈ*á‡7K†îÏ”Ÿ£f¤V¡íÍ0nqQ)¤Í÷d1f<ø²3t}/¸‘‡ÚúKâ™HqXÚsÆƒşÌ¢E´sËÛõgéƒÅ„WşõähŞYh7ßù¾hàUJ¹ƒD¨ƒb5>ÿ±
+·g
+4Î¤ßÆ Ì×y·‹¤^ÄH­^—0f×gv}çpKö+&šêxİ,r³q\÷¦¢0_a[„~lä*yÏ©\ÔŠ¥¡ÿ–óz—B¡8œ³3ØÚ”}ËöV‘^ıH"x`\$¾ XX« ï14;£Ø¼3ğK…L=|#™+\rÖõ[SZø–vv0.¡D–ÉÇb>ş¼ò	ØŒi“>»C+¥~¦a¡–›lˆ7k¾òÎ¥ã©ôµt
+t£zÌ]‘P?]Şü—î :Œèâö4²4†m„ZAxv_ÍZ†rS?UoÃ%ZYÑöÌ˜l”ğß N¸Tc¯Úÿ7Ô,#İ}üƒ~òÓæpë—óoœIAS¤—rA¹Ùš´Vwm§–ba
+ƒ§(…s¢ š©‘ >ÁÄ”wy|0 ûÓ/|ñÁ%D[ÇLÈ¹–o¯iˆ­  µÒÙA^Vú°1£w§ëÙerk`QáW[ğD{ÌpÌØÓ¬ê–íü¦´Ç´U’)Æw‘~rbwVt2+TB#wN“+&ÊùxĞ²òĞHÙ@'í9_Ü#nÒÛèÇLS"Õ‡d¯Õ?'düõÚy—K-›y8ÂOäU¿Ãz‡NU0¨ò;.˜ £¨’/6i™ÂÛª³ næØyÒ@°&s	’m‘f{(áé¼"o•)§H@{toµfX‘zw!Kz³ÿõO°”ÇLOÚºÔFˆÔzŸí‘#ÁPªqÊ\†?-û.ÓxNL­6^ú…k®a	swÉ¶;vÌƒŞôTZøş Ù$Ú	zÖÄZµvgí©‚kÇ1šnëµˆ“%uÒ*]#ì‰ü|×uJœÉÑ]£(t² AÈŞúË)Úìô6İª·±\V =äÇT)N´Æ:¦<ÚFXÊ”uÚƒÛíïÄQ]æ’i†ñ¸ÓĞ_H_:óè¨”ˆ®´‹”£©6@H¶şõ§­Ì /’ô½°"º'¡gàÕTf¡ºíŞöp“Ò T<Ó¯0'c"æ!LtÕ	÷w{8ì±Næ5v~±‘ó21+»Ûÿo†R.ì#'@t1ìóÌ„]ˆÜõ©¥à¢zàK*QÆmé ßóÆÂc>ü×oêö2*æ	¢ë¹NÛ¤mï¦ø«ø©@2øb`ô>§µ×ñ&,56 /ïeß‚µvşgP8Ü4^öA0Æáî?·QÉ‡O÷3px”Ü§ŒâlbÖ)õË÷7Hû%Hšjà›óê•ƒg.$Ráñ	xîu(¸	¿ä5Xg <ú³p=.¤UÏZşã…Œ9ØŞ3ÚG¶L™P£Yp;K›ô{-ËE€œâAÎôû†éHõÕ˜!C?É†z´)q®+~Ñ%ÆqÎÖ”Û§9Vj®±è™…@mÑ«=)O²C‡a@?òn¦H×‰¿º~¾Yğ–!Z”<~ L<\ƒ[<âID+y„ŒÆ6y}³£|ôyº¹ã5»çLÿî¦Pòc%Ê(f?Bü<…^È7³O= >ÓìÊûüĞ´s„hsfª
+¬îjÃl×lØÓF‹º¡¨æ@•’<Úİ_b£)x æál1x–èŒvä¶²jÆÚ¼ÌßÂ*ëûÈ‘„*Q:ç£g¤(|‡M£ƒøÚåÃ~ŞŞa?ÛêóüÙQ©„¥6ş¡-à„b<¾èbx±'kû+üØ‚u»æİä Uƒ‚Êk”à¦ıæ“7ñõT”Uè±™Oüø_ØOSq&§cg-×;–"	Î†z±mD4ÚÚá{<[¦níŒ8É´^â–í- Ap´\ÅDp]•(˜˜zŒ‰Cn¥gD81Ó&:ìXÌõhß™@XØJ·±26€A${6IŠĞkãİ•m"gj94[ïF³Ï¶;cx@"| ¯šOÍ%şËø¸=+eG!Z†?IeÌÌdWAÿàP—:Ï«}”!ÏíÇI™?ºŒĞd\h‹æÎğh„üH~:âFÒ6`J¢kóB=L¢Ùºï)ËF, “tákpPIöV^iµ<b{|ÑÛ³a-¶ö+(ê¼¶bÎ°9¯ëó‡4Pš}1J‰l€]	½JBãj
+Éun˜½]=¬~ÉÁÕÿ½Ô^û®ùËÃØˆÙÎ–Ê3)¾ÙêkÈnğ"
+PHk	İx·Vx@U
+–u@˜¨(ßikoò!FÌÕ{ÄN\H|ˆê–`lÈÇ9â=N„³%‰ËD
+Ê?¾­ái-¼ÓğI	Ğ<ò£<DĞ{³c*G<‹**€|ÂÎ²ÅG9§‡6vğ®·‘J¯,—©½Hd‰¸ĞÊ
+ËS¿U%}ï,”bİ^Rp×uh¯ñ1×Úâ)ŒÕNûîœ%Zö)Øñ|_Ì•BÍì‡3AÔ4NÕ<Gúú²~Ó
+êÂ"çDC=‡‰†wTq\6¾£_DWt_Îãre#)&˜£yHß¨áŠâlõ#1	1]CrGÿÔ([æ:eGº§)ˆl¯`J•`ˆ«¥ Úø½îòef“|ÔÛëP^]-™Ëh©Æ¢Œñ/
+ÙqÔÜ…9Å2~ÆÜÊ=e«)”ï®åmÀ¸ÛÄ«»á?éşÂ¶K ÉéŸh»‰js8ÓÃ.ñ uWÉ;ó[>÷K³v wc¬£È§<•¦-±§8¿‹
+aÊeë÷GCº€bócjaîí<«%ßÈû¡eWP8¾ö 2ÙÔQ‹®õˆ}<ãªCò	É_T)tUáLv½È2¯ß'²ŸÙªÄŸêÿ†ŒÇ¹ÖÖÓ$]Ë£«¦ı›&{
+œÊùlÚ²¬Åã¹j{ş‚“)‘¾¯²]ÌXãÅ~®6:Rm¼W5JlÔXO¸·Jš(ªÍ#g¸ÄBuM1r·4p<Möx÷}?¤x³/²v †Æ<.»ÈpDL^ÿĞ[uûİ4r×Ù¾¬ÿi‚ÙB2Äfƒe86F8I:ä@tWešLÀvšò»£Lã€KşîmS+ gU·¦ÙÜ7Æ¶*›§P“á­äX‘9Å®ùŠ‡'vß{ICv	 S 36$a{ÛMõ
+øqU4Ü†.Ò\rä_ësz<Â›–$ï3#ø€Vu¹ù²u~óDAı‡@;¤$´)My"ğøÏ¯*};w[èI9şú\mHRq,W‚ú½jœCä6áX	-üô*÷c$XÚØb!i#WyJ¶pXÿ~ï‹)½BÑû±@ÿçkŸÉZ*W¢hçÈ>Ò(Êéä_e:Sõ©o´*2n«ƒB“ú±ö+"nÜÿs^:úñİË}ÑH”§ìã”`¬Ä¬™¡%Jé¡åÈ£g—(<æ!G¯ßcÚiµ Ìhàíä²‚?Â°¼‹W[¬N9œù´B93s8—fp4AC `m±6Qr…‚Wk>¬w˜ÁÅ-@³dUµi)å60=Ÿ—T‰ÌÀ
+òŞğÚôEè@Ö+Ú"#)¦k÷2V~rN&.=ˆxÀiµ¢Uç¹ŒØD
+5ŸÂ¨¡-²àÏğ_àä*7?Âà# wvÕfw2Ä
+¼S¼%	+e¥œşt®*ˆÛ~I÷™§YµÕÄWÂ9vL¨V=¸=ô•¥Çzr½‹¤W`T1õ]•;.èE-ÅEIÖe&xéâºkèÓe ış¹œu®4—Êµ]ÇDOºëÁ œ¬4k÷ªö–"MBlÜ»ÁÓtÛø»q6Ãl–­ÉX±Àgî¨¼øm®áó`7B:ë„ºä^wÓe²wÅ‡QEŠ€šLÅé7{ƒÂ€"`;&sÌ®¢Jrj~˜¯bœâ|&"‹ $_]lÛyô }Àõ‚`ç>†L:˜ĞSÏëªˆ¿ÿI[c‘©ƒ22?¼ˆ÷oiûDm”œ™cu=D¸³NRíÇbå.¯Ë‰ n6;æ«ªnáDU°aÓUwkÍ×œ•`2<ˆ²Õ	Õ„0ĞñW&¼ïo~ÃaßXì,óÄäwZrx”ME¢ó%ã
+ÒÓi_XÁ*Èsl¼!°::Éé9ˆµÌÏ¨ö@+ôLÇ+C*¼ãy˜1–šuWÎû¾óSzïã¨í(«óä¢cQ‚hÀ?D—ï¹§Ouxâ÷-ŠmÍm…CÜ§êæ_ÌC­ª¯Tv^úïÊYĞkaü”ñÆ‘AÄc®§Ô-:Ÿ„lƒgoàë–j½dq<¿qXÓ6CºÁFzµB~–‰NÅERñ,†{£'`Ÿ‰Õ	ĞXƒb#>¾ tq¤ÎÜ…9'næy¬Å»"D¾ÅqM(ÊÇìUgíoìÏe1!œíº}„$ƒ5êJÉsFêÃC:HŞßÈ”_Z¶ı}ˆiÌ{oÿ¨Q;$¤„kï2Œ§“	lmùÛ…Îùböu³¢üÓäÆ¶ç6îUy¦
+ñÃ _ŠB':óJßZ±Ò76ú¬‘i‰‰-Õ[öOàŸšªAï"m´üÖi†R-™İ¢4İºVHÁÉÂ×4/aZíèúÿâ7°@šîÙ¬GU5‚zôÿ;ºğ¢DØËˆ¹eN˜‚Ç!! İç¥HğSÑC„‘ãrsé´ÛZlæ4ŠXmáîû¥pEãá*¹p™Ùûç´mÈ¯»•Üİø¿ç—ƒ€›@Š¸Ô›–gÖg¿2
+°/Ç}V·cj—
+X™’aİ[åÔJ9ß³{‹¨ÿù…Ã,‰¿î~†mk>,Œ¨;¡v\Ì…ÕK-´·T¾½':Î}š—
+şğÇ?jà8°€"Jrt’8LÅ CX¼÷I„R_õ¸Ñ/ÁñUFôì”¦<tŸn´Ë+Túóı|¨c ò<Ğ—I^|µ1FC+ıštÂ»à	ñ)ôÕ`	»Š3N°y",Ş"~vèŞíÁ2Ş­›póßUUÍYª”Ñ õc¤”T‘&xÁ¢•‘¿·]Édø ıõ822(”{µFuÏ“ÎÄ-ƒÅ·í”	©è:gnùTˆÇA ‰±tSl1ßûâ=:È/É«=ıÂVf†3¸•Ï·a|5–¸{ş½õÉsôjúnBJDyb<[ÿ/ô7¨’˜¿çfßÍ¨óàò¨¸Äù^lı¼â÷C9³·K¢6v~ù—i;å\Ñ¦	š8qÁT'ÌÑ±
+í¥MCYoÛñÎ»I×òjê‘dğÆq·9à?wRL™ÍÏ<Ãn÷›×èÌñ'÷\İ¨…¾¿ÂŠíà÷;«,ccÖ:rÚáCîÍE¹UuzÆØ}Â¸Ç£>¹(Vq 3)Ãp,7,œá&%>kD-vŒ‹­nÚE.ò=îw¬Ú¶z°Ghø!ÌÆeÈ’²K¹"©hP@eïè  HÎœÜZÈ{™Ò÷*PF°IÓ }aÒ3$¨œô}TkİÙ_ìRwf•Ëõ`>fHŸ‹¼/¦SÈÎÙf":8!@ï«ãÎ£`×\\(A7'´ëßÌ?î¹¥Fƒâ1 ;¢=Ë•nÿuhäñÁq;õéw`ÆÔß\Rë›‰‰ƒ'|Û»«<u^­ıÁ
+]}¾\Ó24s=“}§oo›FBaÌ™e?kúè³H2ïè—µ(ÏÉ¦çPn0[ä„_>áB5²NxÎÓ5uD8‡œ“ 0}âÕiúóÔ6°óxÓìïi{|ì”XêLñä[¢)À/»A([£ÓR4a^Í‹âqx¹Ùq]HßØ«b«†@°9¤ ú<¬—MÁ8µFè Õ'eÚåí¹ÏgÏ!dÚ3%»`DRº¤R›û³8Ìâ9|Ì{BûóRšµS+‹³»ÁpcÈ®§ªøzí±‡<ÒWÊaQÓz77GJ!6/£jh™X€]Í<¢¾¨²Íû¨şáıŒø¾ÿ»„´‘‹5²y)H}”Švƒò Ré9õ´ÀLŸ×5a‡kM[]øënüÅH›££ZÄ0™ôÊ¹ˆ(œ™ÉÁÈÃU»V˜‰ä{»«>‘4ıÁ‡lsº]u8:¹’4s5ÍÏo›NÄ¦9e7íœ‚H2çnñß»(ÏÁ :Î0[ì9TAB5ºÈ¤s5}Â^í<“ 8•ˆui|•¾¸6°ûşµ†Oi{tjòåøêLùb=Á€P/³'gË£Û’K`!»sKŸlÖM“ìÜæ]°u/ïRtd:È¸¤zi3R5ÁQ^y_ç,bÀÏí2&\
+gòç¸ª®»ğ—c?é[µy‚¿’$ò¢Ù@M¼r8Š°0‘SL×ëØv@O'!áViÔÌqßê¹^£¬Œù¤É»Ö´Ô†qÕYÆv‚LV%kvEFl$C S	m“*5øİ? ²óÃzıWí8LîºdànÁæuL”l‹oæ•àãç)úº…^¹UJŠ•A2¥‘~`‚5îÌ'«ÂÙd_&'J¹µbK0Ÿú­æP(TÇK¿î óÇA•a›”P¥Ï—{¶&MÎwñ‘í…>R;¹„|ÅsOäß”¾Âo$ÕÇëô 8ø=h™]˜À1&é¸å€TQÖjò:JÎv&X»:Ä6o#È“s
+^§fızı<“†¿øİdÙt„lšgÓZC	dUC«à COåª{¬+”#äk|»™T`Câê´dp')­æmyÎ¶­šA’
+Œˆé¥y§i»Š¹ò}ˆ?e¨‚'ü§K¹À*ºú!öLÇoìÇh†yàåÀĞgq¢©`Ö"I'h	¦bdÜRNµw*XÀ`œS uç°ì¨–Qœëİ»s$…Ràí¹u`6à*³C</®ÕoäYf*¼Zˆo«e¬¨W\T®#ï4ë×™®%ˆ´Ë^’1<Í#",·³I~û0×WˆÉ{¦(%o•Fsÿ WNó(ÿ¥cÅë“…ÆÆ#¨lMK#Q	àN[µG,ÀÍ#1Z†|_•\ví&¾­»
+¼ÅOÎí–+È˜&–G7£n¨ïn¬‡D3?íÁÚìSr£±?™Kæ4	Q9ˆbK.¡$pˆ¥Anèkè½à+"lÔÕÿ¥»ïM#}…ƒÆ¬éÂà¯‘ñ!áÕò£Ñ t{«¤WWC&ü.ƒÄUÁ”†Ë¢´`Œşò1.ò#,`MĞ„eFúÊ¯K3Å„äù¬ôHÉØõF÷3Ä°ı’J1_ºšĞµš²2ç2°H¼üBG¨Ü‘ŞúlÈÚ²Çİœú“² Õµ‡EIØ°üîp V†1®7†"v¾Æñü	¶1İqrË„¾şô¥¶Cç$[f=Œ\7¯ê¹ƒ&ØµŸà>cJ÷|‘39SMDwbÀƒğEKŸê¬Ò´Å[½œê¸B$ú+Jzàlr0#
+ ASD^xâÛO/¨rl¢¹Ô‚_Kr:¹V*?¶TtÉ³_'"yVqİĞUL/œV-âLè–d­„y­ÁSä ˜(İ7)!ÉnªıŞ~á>ºliı5l6uE[^Ël•CéÃdÔ¼ò—Goªäd´|Úˆ²LÖWBÓFÙíİOà¼ñºbŒ+ 	ì<ÏäVsLÑíÔGvnÑ/îôGdnÒ2„mƒ	Õ.J³ İ—–ïôÓ„÷OìÛ¬ÕLÖ|Îı¡äXë©³£¡P*ÌÈ‰«„QÌÚ‰¨ş|§ôÚ¤ı³,sWøNMê3½:…B8—mÑ
+§a³Yƒ(•B9’fì™ã=ĞhŠ­á">öh˜­â?|:¢ÄCš'u…v|ŸçL|2å‡Pø€mÉ¡Ø“5Nùƒ/ê³_Ìœ@KÌWòO÷wMä\ÔOåwN‚d™µ¤±Á Á¿y=ÔL…±%[àò=ÅpÀĞõ$^ò>ú2Sw,ƒL±u1…j´S1†–†ÄªíÕJ¹²ÚOe\2~ïhÄ]ñ
+µKæry‚(•|öuK§ßÈê'á(¨èá#)è“âK|$6|Ğ4E8¯fYøf¥oR¤³õG:½–s<ÓsNû¤RÖGNû–B
+Ä",Ê•aâ">Ê– ÄE;Àª³0ûûM0~«*k{ãv™€£B<¼Ó3/–yó54]P/å2as6a/Â5Gs$a,°7bqIªõìÖM9H­¾“ª±ßêÍÎó/éÜ¹Š¼ÑÉçà)¿Ä
+ºû±½áŸû£¾‘¹¹¶'õğ­5üS½ÌóùÙù<Ê¸ã«¨xš¿Ú¬†t[¡vÑdÑœÇµSøŸá§SàÔE)ï!ğ¾ŒÍ.IŞP{İxµOğR=PlÕ)‡b7MÔo„6`}mÛ°6WdVmÉ°5RR¥täÍÂºÏj"^,N_Û*³'s"8‘A ·{²7b3(•P‘›Äs)¼r*¯ÆS(—r8¯Å;m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/modelsim_beh
+T_opt
+!s110 1521803307
+V`9F:DCbL9[IdnDaH][8Ib3
+04 16 3 work seven_segment_tb beh 1
+=7-a0369fa18d93-5ab4e02b-f9a8-7806
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.5c;63
+R0
+T_opt1
+!s110 1521993705
+VWm2gH`B77NSCc3m7ATO6Y0
+04 14 3 work serial_port_tb beh 1
+=1-a0369fa19321-5ab7c7e9-7d504-2553
+R1
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1521990373
+VFFlODUVfmABb>4iS6`<:91
+04 21 3 work serial_port_rx_fsm_tb beh 1
+=1-a0369fa19321-5ab7bae5-9a23c-158
+R1
+R2
+n@_opt2
+R3
+R0
+Ealt_fwft_fifo
+Z4 w1520610042
+Z5 DPx4 work 8 math_pkg 0 22 Q?kA_SW34=_kSWC^ccaR^2
+Z6 DPx9 altera_mf 20 altera_mf_components 0 22 T4<z`h6BL:_nTXI;4TFDa0
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z9 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd
+Z10 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd
+l0
+L13
+VjZ@b<iB5nfU2U559PGA]W0
+!s100 GXI51o@_zY:JL?kM>HkQY3
+Z11 OL;C;10.5c;63
+33
+Z12 !s110 1521993686
+!i10b 1
+Z13 !s108 1521993686.000000
+Z14 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd|
+Z15 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd|
+!i113 0
+Z16 o-work work -2008 -explicit
+Z17 tExplicit 1 CvgOpt 0
+Asyn
+R5
+R6
+R7
+R8
+DEx4 work 13 alt_fwft_fifo 0 22 jZ@b<iB5nfU2U559PGA]W0
+l63
+L33
+VBT=gTJ7IYHGi6Z4eP^D;91
+!s100 Bcd8M3oVKz]nI[`QC8A]53
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Eascii_gcinstr
+R4
+Z18 DPx4 work 23 graphics_controller_pkg 0 22 XbBh8_599c@jJXBXMMaN?3
+Z19 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R7
+R8
+R0
+Z20 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd
+Z21 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd
+l0
+L8
+VU>C:Ge:0S`ig8?Q^;Bd=62
+!s100 daF;CD4;nnOih;gi644bh2
+R11
+33
+Z22 !s110 1521993685
+!i10b 1
+Z23 !s108 1521993685.000000
+Z24 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd|
+Z25 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd|
+!i113 0
+R16
+R17
+Aarch
+R18
+R19
+R7
+R8
+DEx4 work 13 ascii_gcinstr 0 22 U>C:Ge:0S`ig8?Q^;Bd=62
+l51
+L24
+V?@GFljGP`m^nHQICLQoJP1
+!s100 QiV<3HfH4^<5=zQ89<mkF1
+R11
+33
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R16
+R17
+Pascii_gcinstr_pkg
+R18
+R19
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd
+l0
+L7
+V><26HZz<Lm;e]i]5V6b9g1
+!s100 H`SVI13boi`lN20lCZ6Dm1
+R11
+33
+R22
+!i10b 1
+R23
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd|
+!i113 0
+R16
+R17
+Edp_ram_1c1r1w
+R4
+R19
+R7
+R8
+R0
+Z26 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd
+Z27 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd
+l0
+L15
+VDI]R`4F_W02V3[`?AXC442
+!s100 S4Q3f?AZg6MV]`;jWB7JR1
+R11
+33
+R12
+!i10b 1
+R13
+Z28 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd|
+Z29 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd|
+!i113 0
+R16
+R17
+Abeh
+R19
+R7
+R8
+DEx4 work 13 dp_ram_1c1r1w 0 22 DI]R`4F_W02V3[`?AXC442
+l44
+L40
+V8Y5WkIhd?@VoBFCh@LNBa3
+!s100 <2A6X2]e=N`DkgBXAlnL@1
+R11
+33
+R12
+!i10b 1
+R13
+R28
+R29
+!i113 0
+R16
+R17
+Efb_writer
+R4
+Z30 DPx4 work 7 ram_pkg 0 22 >R4c=4YE67a>mW8zkHl<22
+R5
+R19
+R7
+R8
+R0
+Z31 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd
+Z32 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd
+l0
+L16
+V8AdM=aBYIKU^[8_2;M<fR3
+!s100 `N;k7_DG2WeWI=5X8P`Sb2
+R11
+33
+R22
+!i10b 1
+R23
+Z33 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd|
+Z34 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd|
+!i113 0
+R16
+R17
+Aarch
+R30
+R5
+R19
+R7
+R8
+DEx4 work 9 fb_writer 0 22 8AdM=aBYIKU^[8_2;M<fR3
+l71
+L46
+V35N_NH4__X`EC[TN3MXgR2
+!s100 QV>Lj<O5JJ<nI3JLBO4eP0
+R11
+33
+R22
+!i10b 1
+R23
+R33
+R34
+!i113 0
+R16
+R17
+Efifo_1c1r1w
+R4
+R30
+R5
+R19
+R7
+R8
+R0
+Z35 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd
+Z36 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd
+l0
+L16
+VWEFnN^Y`kISS_=^C@b:@[1
+!s100 CzGoilGSHY=A?Z@9I@O1S3
+R11
+33
+Z37 !s110 1521993687
+!i10b 1
+Z38 !s108 1521993687.000000
+Z39 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd|
+Z40 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd|
+!i113 0
+R16
+R17
+Amixed
+R30
+R5
+R19
+R7
+R8
+DEx4 work 11 fifo_1c1r1w 0 22 WEFnN^Y`kISS_=^C@b:@[1
+l48
+L42
+VID6T391VcIXaYd722H[gG0
+!s100 XQj>X?33D6B`S8`8cRo@Q1
+R11
+33
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 0
+R16
+R17
+Eframereader
+R4
+Z41 DPx4 work 15 framereader_pkg 0 22 L;;RWXE_2M[FJUCHJO2Ff1
+R30
+R5
+R19
+Z42 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z43 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R7
+R8
+R0
+Z44 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd
+Z45 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd
+l0
+L26
+V>dSbJ6khMi0<O<WaE[Y8X0
+!s100 Qzc9AzlgoQYUi;<W]Kk_?1
+R11
+33
+R37
+!i10b 1
+R38
+Z46 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd|
+Z47 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd|
+!i113 0
+R16
+R17
+Abeh
+R41
+R30
+R5
+R19
+R42
+R43
+R7
+R8
+DEx4 work 11 framereader 0 22 >dSbJ6khMi0<O<WaE[Y8X0
+l142
+L65
+V7?Sc:E[gShmZi3G2fTIUE0
+!s100 ZiXRK1a>>?_?:hQ0lD37S3
+R11
+33
+R37
+!i10b 1
+R38
+R46
+R47
+!i113 0
+R16
+R17
+Pframereader_pkg
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd
+l0
+L10
+VL;;RWXE_2M[FJUCHJO2Ff1
+!s100 YVoiML@^:D1:63f6Rf;>F2
+R11
+33
+R22
+!i10b 1
+R23
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd|
+!i113 0
+R16
+R17
+Egraphics_controller
+R4
+Z48 DPx4 work 8 sram_pkg 0 22 =6QATBRmAKY>8[PeLWTL[1
+R5
+Z49 DPx4 work 14 wb_arbiter_pkg 0 22 ldliEAJ[kElS05cRV3e?f2
+Z50 DPx4 work 14 rasterizer_pkg 0 22 alz3AU0eiFOGVR_4G9l7`3
+R41
+R19
+R18
+R7
+R8
+R0
+Z51 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd
+Z52 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd
+l0
+L16
+V3Pi=J^gQS;ODn4_cHQgKO1
+!s100 Kbf_ke8laF:=7h6VG:F[H1
+R11
+32
+Z53 !s110 1521993688
+!i10b 1
+R38
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd|
+Z55 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd|
+!i113 0
+Z56 o-work work -2002 -explicit
+R17
+Aarch
+R48
+R5
+R49
+R50
+R41
+R19
+R18
+R7
+R8
+DEx4 work 19 graphics_controller 0 22 3Pi=J^gQS;ODn4_cHQgKO1
+l128
+L55
+VlIJQZT1FHCh86J6LEoohz1
+!s100 O`I`6Z0QMDiXCUoJ4d;A31
+R11
+32
+R53
+!i10b 1
+R38
+R54
+R55
+!i113 0
+R56
+R17
+Pgraphics_controller_pkg
+R19
+R7
+R8
+Z57 w1521545667
+R0
+Z58 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd
+Z59 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd
+l0
+L5
+VXbBh8_599c@jJXBXMMaN?3
+!s100 oQK;4P4zDdEF;o`Zf3bE;1
+R11
+33
+b1
+R22
+!i10b 1
+R23
+Z60 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd|
+Z61 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd|
+!i113 0
+R16
+R17
+Bbody
+R18
+R19
+R7
+R8
+l0
+L60
+V_jVL07U5jGnia6Bl?bRPY3
+!s100 Fb`NQBkC`^=2kA]4hGH_N1
+R11
+33
+R22
+!i10b 1
+R23
+R60
+R61
+!i113 0
+R16
+R17
+Eltm_cntrl
+R4
+R19
+R42
+R43
+R7
+R8
+R0
+Z62 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd
+Z63 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd
+l0
+L17
+VC<S8ZX`gLXTZV4VmK8_g30
+!s100 0MIn95V0iaVFj5[Z>UfS?0
+R11
+33
+R22
+!i10b 1
+R23
+Z64 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd|
+Z65 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd|
+!i113 0
+R16
+R17
+Abeh
+R19
+R42
+R43
+R7
+R8
+DEx4 work 9 ltm_cntrl 0 22 C<S8ZX`gLXTZV4VmK8_g30
+l58
+L41
+Vgl;A?Nd;gHXgY8de7L4[n2
+!s100 13m;l=nL9_;eL@U[Dk`]f2
+R11
+33
+R22
+!i10b 1
+R23
+R64
+R65
+!i113 0
+R16
+R17
+Pmath_pkg
+R4
+R0
+Z66 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd
+Z67 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd
+l0
+L10
+VQ?kA_SW34=_kSWC^ccaR^2
+!s100 ZPLAXnb7I^3_iOS=YjzMY1
+R11
+33
+b1
+R12
+!i10b 1
+R13
+Z68 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd|
+Z69 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd|
+!i113 0
+R16
+R17
+Bbody
+R5
+l0
+L28
+V`4XY`dM8R:5JRLdQQRON[0
+!s100 Eb05Y[ED:gJ`1g1Q<NGIk0
+R11
+33
+R12
+!i10b 1
+R13
+R68
+R69
+!i113 0
+R16
+R17
+Emerge_fifo
+R4
+R19
+R7
+R8
+R0
+Z70 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd
+Z71 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd
+l0
+L6
+V<RhJbXfe9eMhhKJY]j72>2
+!s100 GU[NNKadozQ0YB_XGBbbP3
+R11
+33
+R12
+!i10b 1
+R13
+Z72 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd|
+Z73 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd|
+!i113 0
+R16
+R17
+Aarch
+R19
+R7
+R8
+DEx4 work 10 merge_fifo 0 22 <RhJbXfe9eMhhKJY]j72>2
+l56
+L31
+V2e^fnlK<<LT13?IFS6;X<1
+!s100 cJm5bW3jQ?zz?c=YYB_aR2
+R11
+33
+R12
+!i10b 1
+R13
+R72
+R73
+!i113 0
+R16
+R17
+Pmerge_fifo_pkg
+R19
+R7
+R8
+w1521914404
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd
+l0
+L5
+VbYT5FaV`c0<o5FbH48XPe0
+!s100 _<C?N2LbH:O=GXP_:3=SN3
+R11
+33
+R12
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd|
+!i113 0
+R16
+R17
+Epll
+Z74 w1521192668
+R7
+R8
+R0
+Z75 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd
+Z76 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd
+l0
+L43
+V@YUMEk5RmZjhmAN:Zl@KY2
+!s100 e?kf4:oe7zIZ`V51<NAVK0
+R11
+32
+R37
+!i10b 1
+R38
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd|
+Z78 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd|
+!i113 0
+R56
+R17
+Asyn
+R7
+R8
+DEx4 work 3 pll 0 22 @YUMEk5RmZjhmAN:Zl@KY2
+l126
+L52
+V6P7HeHVagDj2F67Zk>T6R1
+!s100 Dm2W]hVifn5nbA;];B`Tn2
+R11
+32
+R37
+!i10b 1
+R38
+R77
+R78
+!i113 0
+R56
+R17
+Eps2_ascii
+R4
+Z79 DPx4 work 7 rom_pkg 0 22 OM?n^Y8D7VE2XYXPf4R:[0
+R7
+R8
+R0
+Z80 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd
+Z81 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd
+l0
+L6
+VBPidD;mkhWhR@EU9lSD8k2
+!s100 1aJ]?dk;2WTc:mY`5d>dz1
+R11
+33
+R12
+!i10b 1
+R13
+Z82 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd|
+Z83 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd|
+!i113 0
+R16
+R17
+Astruct
+R79
+R7
+R8
+DEx4 work 9 ps2_ascii 0 22 BPidD;mkhWhR@EU9lSD8k2
+l31
+L18
+V>A415?dhVSfm?DL3P5aXC0
+!s100 gdoomRf1Y_F^SY64GVH611
+R11
+33
+R12
+!i10b 1
+R13
+R82
+R83
+!i113 0
+R16
+R17
+Pps2_ascii_pkg
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd
+l0
+L4
+V_3Kbi^PZ7I7UM=>KilXGB0
+!s100 lGf[H4?WWhihF:l4:H3=j0
+R11
+33
+R12
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd|
+!i113 0
+R16
+R17
+Eps2_keyboard_controller
+R4
+Z84 DPx4 work 19 ps2_transceiver_pkg 0 22 86ajlbkOIgV>OUSWb`L8=1
+R7
+R8
+R0
+Z85 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd
+Z86 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd
+l0
+L6
+VZMH3lEooWLFIfmIP:IYfQ2
+!s100 J93ach9OzKDf40XQB>`O50
+R11
+33
+R12
+!i10b 1
+R13
+Z87 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd|
+Z88 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd|
+!i113 0
+R16
+R17
+Abeh
+R84
+R7
+R8
+DEx4 work 23 ps2_keyboard_controller 0 22 ZMH3lEooWLFIfmIP:IYfQ2
+l42
+L22
+VLkC@HK?09gh[5<eFkj3:32
+!s100 zlZ^1D^L]0VdRcaEOBA`a1
+R11
+33
+R12
+!i10b 1
+R13
+R87
+R88
+!i113 0
+R16
+R17
+Pps2_pkg
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd
+l0
+L5
+V9@^AoJ;gagBN57c=cTFZJ1
+!s100 0MPcgKedeHj`CR_V8EjiZ2
+R11
+33
+R12
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd|
+!i113 0
+R16
+R17
+Eps2_transceiver
+R4
+R7
+R8
+R0
+Z89 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd
+Z90 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd
+l0
+L5
+V]==_QFR4jJ<[obO3lIdhP2
+!s100 Ec_Nn6T5e5_OEX085<5nQ2
+R11
+33
+R12
+!i10b 1
+R13
+Z91 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd|
+Z92 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd|
+!i113 0
+R16
+R17
+Abeh
+R7
+R8
+DEx4 work 15 ps2_transceiver 0 22 ]==_QFR4jJ<[obO3lIdhP2
+l53
+L25
+VJBiIU;=QjDG<5PYN`DR3M3
+!s100 UY=GKKBdH0T=EjUgYM?d20
+R11
+33
+R12
+!i10b 1
+R13
+R91
+R92
+!i113 0
+R16
+R17
+Pps2_transceiver_pkg
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd
+l0
+L15
+V86ajlbkOIgV>OUSWb`L8=1
+!s100 MOz]F@YbF^Dn>[GKh<[1[0
+R11
+33
+R12
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd|
+!i113 0
+R16
+R17
+Pram_pkg
+R5
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd
+l0
+L13
+V>R4c=4YE67a>mW8zkHl<22
+!s100 <eWAA0fLCY?>cO<cGWl?I3
+R11
+33
+R12
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd|
+!i113 0
+R16
+R17
+Erasterizer
+R4
+R50
+R19
+R18
+R5
+R30
+R7
+R8
+R0
+Z93 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd
+Z94 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd
+l0
+L16
+VRk?5H5M9_Ph7m:bVjN^jL2
+!s100 Cc;nn;l2jUSWeh7GDHTe=0
+R11
+33
+R37
+!i10b 1
+R38
+Z95 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd|
+Z96 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd|
+!i113 0
+R16
+R17
+Astruct
+R50
+R19
+R18
+R5
+R30
+R7
+R8
+DEx4 work 10 rasterizer 0 22 Rk?5H5M9_Ph7m:bVjN^jL2
+l57
+L48
+V3JHI[klKNzj?e<L:_34?;1
+!s100 ^dmXEe5zPeefLd@YD2^7?0
+R11
+33
+R37
+!i10b 1
+R38
+R95
+R96
+!i113 0
+R16
+R17
+Erasterizer_fsm
+R4
+R50
+R18
+R19
+R42
+R43
+R7
+R8
+R0
+Z97 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd
+Z98 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd
+l0
+L16
+VRoD>of[WGVmz]kEF:g]BZ0
+!s100 54Xd]9HeD8jT7lCR@2DfZ2
+R11
+33
+R37
+!i10b 1
+R38
+Z99 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd|
+Z100 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd|
+!i113 0
+R16
+R17
+Abeh
+R50
+R18
+R19
+R42
+R43
+R7
+R8
+DEx4 work 14 rasterizer_fsm 0 22 RoD>of[WGVmz]kEF:g]BZ0
+l134
+L42
+V4V>FbPJ1QW?[jz0FKVmzK2
+!s100 d1^I]?mneI6mY?WI4FJAZ1
+R11
+33
+R37
+!i10b 1
+R38
+R99
+R100
+!i113 0
+R16
+R17
+Prasterizer_pkg
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd
+l0
+L14
+Valz3AU0eiFOGVR_4G9l7`3
+!s100 PZM?2b]MC_Mf;?obZ8Vd]3
+R11
+33
+R22
+!i10b 1
+R23
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd|
+!i113 0
+R16
+R17
+Prom_pkg
+R7
+R8
+R4
+R0
+Z101 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd
+Z102 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd
+l0
+L23
+VOM?n^Y8D7VE2XYXPf4R:[0
+!s100 8Z__e4B6K`GXkeFJiAZPZ1
+R11
+33
+b1
+R37
+!i10b 1
+R38
+Z103 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd|
+Z104 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd|
+!i113 0
+R16
+R17
+Bbody
+R79
+R7
+R8
+l0
+L64
+VjG3Jg;dFl`oT]0@_gA0@93
+!s100 1WjQ=lH;=A6I<I71QjRMC1
+R11
+33
+R37
+!i10b 1
+R38
+R103
+R104
+!i113 0
+R16
+R17
+Erom_sync_1r
+R4
+R79
+R19
+R7
+R8
+R0
+Z105 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd
+Z106 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd
+l0
+L15
+VWmG<XR@RMZ[0Vd:SKB^T50
+!s100 g9W@j?HYNHQ4MmZj[KMA00
+R11
+33
+R37
+!i10b 1
+R38
+Z107 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd|
+Z108 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd|
+!i113 0
+R16
+R17
+Abeh
+R79
+R19
+R7
+R8
+DEx4 work 11 rom_sync_1r 0 22 WmG<XR@RMZ[0Vd:SKB^T50
+l35
+L33
+VWhhQGjOfH8@_kkF4^kRo]3
+!s100 =6o]mEJ^]l;dA0iQ4g4>C1
+R11
+33
+R37
+!i10b 1
+R38
+R107
+R108
+!i113 0
+R16
+R17
+Eserial_port
+Z109 w1521832324
+R5
+R30
+Z110 DPx4 work 8 sync_pkg 0 22 3f2[3f:YQYYCOUjajS=YK2
+R7
+R8
+R0
+Z111 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port.vhd
+Z112 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port.vhd
+l0
+L9
+V?M;Q6JgXdEKn:@<iGd>3;0
+!s100 UUY8Y]``OQ3>^Y`60_UBV3
+R11
+32
+R53
+!i10b 1
+Z113 !s108 1521993688.000000
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port.vhd|
+Z115 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port.vhd|
+!i113 0
+R56
+R17
+Abeh
+R5
+R30
+R110
+R7
+R8
+DEx4 work 11 serial_port 0 22 ?M;Q6JgXdEKn:@<iGd>3;0
+l89
+L41
+VBUISa92CR]^32;35R;zA52
+!s100 aZC2D7IV]<:RoSMY8<CCG1
+R11
+32
+R53
+!i10b 1
+R113
+R114
+R115
+!i113 0
+R56
+R17
+Pserial_port_pkg
+R7
+R8
+w1521832455
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd
+l0
+L4
+VDgl<fzQRo=fB2EJ3FNOQ61
+!s100 QX5=bM8jeA2BcCkSU<j8_1
+R11
+32
+R53
+!i10b 1
+R113
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd|
+!i113 0
+R56
+R17
+Eserial_port_rx_fsm
+Z116 w1521991041
+R19
+R7
+R8
+R0
+Z117 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_rx_fsm.vhd
+Z118 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_rx_fsm.vhd
+l0
+L7
+VkMQTK^]ALe5Z9fmZ<4];B3
+!s100 Xda`z2WHQjUJbj]kcN3zM2
+R11
+32
+R53
+!i10b 1
+R113
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_rx_fsm.vhd|
+Z120 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_rx_fsm.vhd|
+!i113 0
+R56
+R17
+Abeh
+R19
+R7
+R8
+DEx4 work 18 serial_port_rx_fsm 0 22 kMQTK^]ALe5Z9fmZ<4];B3
+l51
+L27
+VG<Ed6?1`7g`W=k7cliUal1
+!s100 ]6TmYBgWE5MH4`5_W`6f52
+R11
+32
+R53
+!i10b 1
+R113
+R119
+R120
+!i113 0
+R56
+R17
+Eserial_port_rx_fsm_tb
+Z121 w1521991434
+Z122 DPx4 work 15 top_tb_util_pkg 0 22 gcCITgG43E5nF_jcdJ9HL1
+Z123 DPx4 work 15 serial_port_pkg 0 22 Dgl<fzQRo=fB2EJ3FNOQ61
+R7
+R8
+R0
+Z124 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_rx_fsm_tb.vhd
+Z125 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_rx_fsm_tb.vhd
+l0
+L6
+VjfBIH70`IJo3@eN4ScRK_2
+!s100 eXQ^7L^]keI65ZM1YjjJ92
+R11
+32
+R53
+!i10b 1
+R113
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_rx_fsm_tb.vhd|
+Z127 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_rx_fsm_tb.vhd|
+!i113 0
+R56
+R17
+Abeh
+R122
+R123
+R7
+R8
+DEx4 work 21 serial_port_rx_fsm_tb 0 22 jfBIH70`IJo3@eN4ScRK_2
+l43
+L9
+VNgASn;@RDeVP38O4_DEFj0
+!s100 VAhC6]P94YaC:a8<`Tcbz0
+R11
+32
+R53
+!i10b 1
+R113
+R126
+R127
+!i113 0
+R56
+R17
+Eserial_port_tb
+Z128 w1521993614
+R122
+R123
+R7
+R8
+R0
+Z129 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd
+Z130 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd
+l0
+L6
+VO>G5`RBJ3]f6X<408lUb^2
+!s100 Mh32zoUUlL;J^BYgH2KW@2
+R11
+32
+R53
+!i10b 1
+R113
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd|
+Z132 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd|
+!i113 0
+R56
+R17
+Abeh
+R122
+R123
+R7
+R8
+DEx4 work 14 serial_port_tb 0 22 O>G5`RBJ3]f6X<408lUb^2
+l59
+L9
+V2=TVz0YIW=Ua_J<DMj7^a2
+!s100 zfOFM1DJmfU=XfAXdBMB_2
+R11
+32
+R53
+!i10b 1
+R113
+R131
+R132
+!i113 0
+R56
+R17
+Eserial_port_tx_fsm
+Z133 w1521800384
+R19
+R7
+R8
+R0
+Z134 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd
+Z135 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd
+l0
+L6
+V60eh_0d@CzP2e`e`@S?Lg1
+!s100 0l_FOW9VE`6O^jL[l02370
+R11
+33
+R37
+!i10b 1
+R38
+Z136 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd|
+Z137 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd|
+!i113 0
+R16
+R17
+Abeh
+R19
+R7
+R8
+DEx4 work 18 serial_port_tx_fsm 0 22 60eh_0d@CzP2e`e`@S?Lg1
+l41
+L24
+V:e`UN4`iTENWR8[aT43`T2
+!s100 iZ=[>1F6F@nL<_Y:jB2W92
+R11
+33
+R37
+!i10b 1
+R38
+R136
+R137
+!i113 0
+R16
+R17
+Eseven_segment_display
+Z138 w1521802134
+R19
+R18
+R7
+R8
+R0
+Z139 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd
+Z140 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd
+l0
+L6
+VNmTQ49`CnlUNlaSh=]Djd1
+!s100 <Nn;:oe[S8lgOf:Po=Wz]1
+R11
+33
+R37
+!i10b 1
+R38
+Z141 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd|
+Z142 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd|
+!i113 0
+R16
+R17
+Abeh
+R19
+R18
+R7
+R8
+DEx4 work 21 seven_segment_display 0 22 NmTQ49`CnlUNlaSh=]Djd1
+l39
+L26
+VhN8:;n[DX4HSOch_?nUlY0
+!s100 _1Sd>iX83AWAimC7f3dI31
+R11
+33
+R37
+!i10b 1
+R38
+R141
+R142
+!i113 0
+R16
+R17
+Pseven_segment_display_pkg
+R7
+R8
+w1521481765
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd
+l0
+L5
+V>Webbz`VYcO<SR5JV;V2L3
+!s100 zM4APgk97i8cc@]m]aPJY1
+R11
+33
+R37
+!i10b 1
+R38
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd|
+!i113 0
+R16
+R17
+Eseven_segment_tb
+Z143 w1521916710
+Z144 DPx4 work 25 seven_segment_display_pkg 0 22 >Webbz`VYcO<SR5JV;V2L3
+R7
+R8
+R0
+Z145 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd
+Z146 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd
+l0
+L7
+Vb4ZS8K0CcKd;EOB36ASlB3
+!s100 WdYa9di4SabEC2F<<T8Ye2
+R11
+32
+R53
+!i10b 1
+R113
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd|
+Z148 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd|
+!i113 0
+R56
+R17
+Abeh
+R144
+R7
+R8
+DEx4 work 16 seven_segment_tb 0 22 b4ZS8K0CcKd;EOB36ASlB3
+l47
+L10
+VZN;H;QzX`E<LeLZ?6?]hh0
+!s100 :EkT;_^LD4EGe3m>1zEh00
+R11
+32
+R53
+!i10b 1
+R113
+R147
+R148
+!i113 0
+R56
+R17
+Esram_controller_wb
+R4
+R5
+R19
+R7
+R8
+R0
+Z149 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd
+Z150 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd
+l0
+L22
+Vm^bBKT3;[:F<jRcbf2mZm3
+!s100 QEFIITlQK[oJS?@HML>Uz1
+R11
+33
+R22
+!i10b 1
+R23
+Z151 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd|
+Z152 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd|
+!i113 0
+R16
+R17
+Abeh
+R5
+R19
+R7
+R8
+DEx4 work 18 sram_controller_wb 0 22 m^bBKT3;[:F<jRcbf2mZm3
+l92
+L59
+V>A:ACT5<h=5RGIPN_2A7?0
+!s100 A4MU=GBA<g61kk?U0FIkh2
+R11
+33
+R22
+!i10b 1
+R23
+R151
+R152
+!i113 0
+R16
+R17
+Psram_pkg
+R5
+R7
+R8
+R4
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_pkg.vhd
+l0
+L11
+V=6QATBRmAKY>8[PeLWTL[1
+!s100 >em:ll_mj@oY2C@70X3QT0
+R11
+33
+R22
+!i10b 1
+R23
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exerciw}ì=Tæ~§–{qô…>í4ÛÒÙîè…V|íËıÍHæ9ÿşônù/ìÙÀÇ$]Îşò?à~üİÀÒ5Lßíõ¥QyÕÍ¼åDÃ?øÀ«£hÔ'•aâ=D#1§ûBÿ¶gmÓ+ö FpgñZrxzéôØÁVRWÎ$[¬ú73Üî/§/7d€ ]ÉyıCp2É¾÷9}Œüû F\4•ÎIÈjù)L8ËèRv‡·_¯1¹õ°:jlÌÉĞ©ƒbeÀYÈõF¬:iNƒf•‹ãa%—Ê3hĞ* 
+¥g`#c…PW~%€ı“l1Ï¯¯Ä‡Úœœ}úªö—oá	ıÕìBß+ûÓƒ&j¶[»ş¢R7í³À/¾9Áç=¹%ëÊi…H@CªçOË8¥6²sbé€Ë¹À4#§;‹‰ó)çrÄ(¶~¢•Aƒ—,!@´˜u·ëSúKz hdw†×«µfµ@°4ÆºÒ®¥Ó…yªÎ¸şğ_††nµ—óuŞ÷e&î‚\œ…[ ê«ê^ú²Ú¤ğ‹J{ùôò:£#¹ÙÓNşxãÂÏ%rm»!T"_Jk¢9\Š?·MìI¹ÿ'#`Îñ×pUM6Ö'BMñ–n„x´YÓD °]=‰!Èw2}~~ø¦:fÉı4u¡¸­ßi…¯#!öF„Y%tI=‘%26we	ì.ä	œzæwj±h‰ú%Äšñª[¡ ô@°ÊëÚz¦xº«÷7û#RĞ&+e)Ü©°A'ûyŒİd_Â­ùú|’rà—uü$*2gGGüã r.ßÉ¦w7KA[ “¹}Œzye™E{%²êˆŞ&Ì¦…g]èíá®Ğ"YÍw%UeGoáCO³u‹ÏÌã&çnëğŒ—	¡j(ú£aíÈ”iÎì{8x]˜àº±-ØÍ›ÅMJÅ£‡®»@KÚ5Š‘ml
+¶q×9‘,ø2LÚ¹\ÃgkW¬ñ.kŞå¾¶^ÕM›€÷27à¤¶:î&5ÍL%™²rízÏµğ&-íOä»kªEt#ãzÕy“lk÷s+¡ _‰ıÔ fA‰Á†vE`lÜôÆÁâ¥ü~v"ÄÄØ¸NÔîyª¿Ù(”^œü× şæjô¶pèÒ%îcÀÕüs$K©¥YÑRPòM" N;àøÃ[)ÕÊÕä‹ª¸Bbµ­äÈ§­€ÆpÉ˜ßãÖW9ª–ãpåÖTQR¬Š¿a¸Ü#a«f—:ü–ô­®»x!wš•©9³vUÇe§¢?Ì«d²ïÁƒŠ‰Å™0Oûª»ªµ1÷|”ÂAA/'i·D]*õ`C¬Ò-t{@~®ŸÖAU:‘9ª¾wüÜÕÏÄwUıÒ/§ŒİÏé×p½Ymù&wquYÔ,_"hÚU[,€Lğx4‹¯íXÉ­áô- ]€Ã%š¢r3Ö	j;3B#ß£TTF–'oa½‰p[¶—?©H¬Y}«î+ÚJ•¬rú®¿HWjeà,9Í®®Õ6z²<šÓŞàFĞáç_æ{­ÂdÜ­£:ŒÕN©è€æŸèÈºßyOÑæºó`=}@YÀBÚê{ıè†´v8ƒ·¢.Û!Æmö¢QåI‰µ/36 m°z¥NÅnûmÚ€E¼H2yY'8/‹\Óh‚*µª¢yå{¥6]™ÔèÊ¨‹=-~†İÁDs>«üµH›EzàŞ¾<S{ú”82ìĞ§<XÏÊfBI@[ç¼Ş,Æ25±vùÜô{5v|¹•»ã 3+üğògiÂrÆ?F°ğ@RşÈ{ÔšLòÓ[P,yƒéÃj3Âò2—H€vé×ôê­ÿsYÉ‰ŒÙÂ_®¨¾‡UgiÍ½[ù
+ÍÇèVßÿ¥ª½Âè€¿úÆÖuWd{ºë÷
+?“Á:ëjü5¸pNÖ:h~xÇNŞmö`ScüÕ˜„=56òh¶[=ò<²!ùÃ·k÷D°Ga‚‚yr}f¸t YJŠ9sû”)=ºDv“œâj˜†nu=w¾’]iµ ¹fùŸW&h±Ê³cL&g(½¾.èZ–}ÌØ	îÁm™§Šò/õÑ/ê&j³å<Ò,Ú•V%¦q}-ôÍ‡‹óTİšé­¦Ô„^÷´Æ)¢‡QpŞ½2??ÿ¬ÓÙøÏÍåÓòX†‚}æ[¥ãËùnL“ÕØV˜Î³íñ‡ZôFªš]vYğè›ßyJ«„Òó18JìĞGf0pà`3.¥uAtZÅbj{Ğ:iË$Á,)ú<QH3»Çhøbz½I¦ş€HßÈ²[H@ÑäÙbùÊşİoÏª¢«uÆƒUçnğøúC1OÕk„ ÷lû#}K´ÛÏ±ç€·€i“±­U§¢e5çg}ÎÒ%Æ •:^ÉÚxÖŸ´'àA\ü²“÷c,TÒnÑ-\ä!ÊúüäŠ®¸”ªÅÃzœñ”mÏƒ3Ói¡(˜ÆVšíÈqH`WÌëóhX “Údg/;íé`Ğáq«¬Ú¿®˜g}¨æ¸9 lÜØŞqYvò9ú‹vdL˜tP`c3‚¡àİ’MeH‰‰­Ò`D<ÔÒE©±XW"ØËĞ˜Ãsõì ®. •&UŞËÕ…wf¥Zÿë]½AUh¶ëš·'.ŞßàDynª·ê	ÊO£‹n‹êwTÔ¥“­ãW’/Ã´£;lŞWEÜw;4ôc“a E#Û·>e9C‘ŒÑK.jììË-â,Ëâ/ñE©‡nú&n_|7¤8•T^ÔF%á	<=ôŠÿ²Dİ®Õ"•”^óó}Bh²ƒZüŸ2;x‡(’Éøˆµa’ò\Áúù§K¥¤³}Î~L—’~\ˆÎ·ª‰ÜZğÉ>€ëŠ]e !Ä}ËR¹Õ9ÂIÆ@¶G&¡±S8–uI…-4@[14ˆ——Ty‡—ØÊ7Ê ‡l7PggÛ³õ½ÑR
+¹õßs4gşÉoåSd·nûšÓ<~bŞ2iıj´J·B)ĞKÀìªRW«áæ$+(ÌËËû«¡Òc«şİåÑ7³jğÇiY™Á¦N©«ˆaàä1$PK…­”X¹Å³`µç;å‹—êJh¯¢è i}å¨'.ß#nø^¶5ÀóåI =Zu[‰ İÓuô :É‡dYÀ}1«	›«W©ş÷j¿ÉTÀD
+À›#Ë·sg‚8Ÿİƒ<}WˆV,­j·á&l€KÃ"ºÎQW¨Ô°@nxÌŒşg¾û¡ÑVıš˜µÑ4#åµ—iZ¬—`ã]NªŞ`$WãÑFUa K†˜Â<TéÅ°Uãå¢kåˆ¢¼.-ÿ¢ë? ø7"
+{á÷ë÷}»ìåÙMÒ­ ˜M}™“#/çaIçŸõÃm<vXä]ğ7hYµg+§|ŒÇ-\–ê¤Ô C|øœó®ª=ÔÔ:º +¾î¸p±:Ñ¢¥ªxÌ£‡hÃŒ¦Ğ˜à÷_ºw&’nv!S¿I^õL¤ß´x»<ëÑÇ U™„…^µNS£ulüNÄYã<#d{¦Yjà´ç(o§ÁËBeWP ÍñO4ç7@öÊòÈ«iË¦³jò´¹@Íá[ò®F7p1™‚r]>ç<àŒÎ:›ñ	îüT>¢{şœ·‰ÆdL’Ğ,ŞmÓˆ£æ"C…B-Ê–bn¤6p‘~¿¸]†›ğ`–#y¬¶×°N$Ö*–[>ÁqÎ¾»y†¯ş¼Ğí³¡_ÌõĞ*¹áƒmåoî¤sÊéŒZ*EÈU¬…
+}ğ—#MG©®ÚÌXäŒ]™øĞkë](Ø¹Ó20»­­>æ:Åá—k–x¨°c¨¹–NÓªÙÍÆæ×QµIíûáƒ±Gz¼Û¬ÌÖ2Ã¯Ëîàg]øÔL}T´”	ú·|İäI×;Ã!†2'¨×Œ‚K/¼Œı¡¥›¬ÑÑUÁX½â¡4 ÙÌÀZ¯«¢Æ
+>ªâ¢ ~ãÒz—DW;†›şşq¾µ°Vß'‡<•ˆ¡€ì¨ÒëÛ…¯G"	GMÄ ›÷AyÉ²©MÑ/o%\èM~¦U1—aJÛ^ç/öM›¡’2mOfJ×}]]è‡~¼>ıÍøµQ¦ëM›lÃ$tO¶&œ4g:shuMN¡WBX5ÍÌ
+ê8È»ƒ¼ïŸ \–¡R2Àk#q"2ac8mƒB6&]$nwß¨ké&·]ˆSy|ÉÏ0©úKƒÎJö†L3n¼SÅƒ/MåîÄ´Uö8ŒÿçfyÂRÂ)Êú”
+©7hüVIÉ‹Ô¢â"/£Ær>ô%P¹Âôs;«„F&'fğl=÷;lúâDŞ Hº×Å”]Í·8²½ğg¯¬Ÿ1èİÂÉû"nÚ”Âñb'•÷K¦'BÜˆ~O©t©GˆÍ‰LæöŒYÎ/Qu»Š^Má>1À†¿Š*éb.Àš÷aZı£Ò!U5 œY&ª°{ïoÙ­±U‹šõX†;C!ãlÉ!–‘ÅBŸë¾øµRo¾Ÿã£])¾¢ô©ÓP—9Ğ?„ô€T—ä	¦Z$hâü‹xœmóİ²»ö_Çó¸û¿_Æ_ï¾ÚYÛ¯j0ì”úvœ„Ôc¥½W·Ô&ŠÂ~Ëbß«Ód(Ò
+9Ìvš<È*¨¬GzµLÜ‘kZ¬‘h“üİw>õNûÅË›<Jë…ÃÉfg}ƒÇdVoò™Ôœ‚A¤S:½ìÂl…'gæ¹½™L‘ìŠÀ”h»Á­o5¡P6YĞf¹Ä{§¾éËªM±€NÛ‚ªŠ»À”ŸÏì…bİöúT¿/‡+lçàäƒlPcÓîØ—z|Ò–^o+Îg7õüÇTË×)ˆš³içŸÿ¹ùã?†Égiˆ–‚5\R2³¤ P`PñcI`Ï!éÕpÑEĞÁ¤Ö2vq*<-¸:½ÅET®ìŸ¿/ônûœİÄ]ÄMÍ •pI¼üó:¤ lã‹Õ§¥&İÏıÎÕTü» •=/ÚàĞVŸ³Vó{ô|²”†p©ÔÒi >fL¡ÊıŞ".¸“ÛÖùÒñ“Ü¹›Si¦Y‹üşíÏlbrÈ×ÌšàRğ “İt“—ê˜s—XÀ2·h}Ô¨««2ø‰¦ùDEsø&/ÃPÔRÈ†>.=·XÀşñNV “VE]¶Ã6g.?Øø4Å¢ö$!®şíË†dŠ°nİ“áFšàfôÅl·Ç¶we˜Ä×:9}±Ï®½­>½ÀëÑŠãôÀ,ÛÊªClõiŒÏ
+èœ\eùÇÉEªç!Á0–%sf¢‡¹¨täiĞ7äXzå¸®ˆ_Ú5(£ Šz§NxTNËzÄFwj´V<ºJ¡Ï²ıï·müñS«u@S˜`Â?#ğÇ ÍÕì¶LÓ “G9Ç2¬™Rƒ?ğQâ=È—:¯K7gùär'9ØõB¿š\èÄ´µ%Á_º˜3õB2ç6øÎÓBCàZş.úlÌ’4¨äİœşÛ4oîÕ±C*¹Ø°øÇhPV†5æ±éÒv¾Â¹zfF1İu:MëA­À_O)‡Ê“Ì>³ıqNì÷mÌÑE$¢!şÔILK¨š´pwK¨¨¤g°µY™ÁíÃ+¢_öÛ8sáQq ‘\eMAyj»K÷¤*‘fĞÃ'kw9-åi’L¹ÈK£üÃl×„ñ%×Y‹ÄE¾½âÜ ÷9‹)5:Rß·/.ÍG™P#hMzÄ®İ$ôœÏ¡¬â“¼ğ¤a$WlÜ|/òI%v=Áb3S#Ã©ÖàÕR/¡æv}ÂT@»3Æ·1zq¯ÇqW7Fô/
+†+n°ş¡s¯°JšÓ†£,İ2³{…b­òG«ï¨@œÈÙşŠ2lú9€r%µ´|×7@üŒİI>¹v1­¿¼™NÆòÏ0(Ş-qqø½/]ã-:r;Ğ„ŸiŞma;’å@£Ú©Ğ#Kìê¾ôVz(ÀıQš£;¼9‰µó„Ç‰@D!¥Nïà0„:²»Øİ˜QD±VôunœqÖwn(ÆüŒğ9Í³äİ¦£<–v‹ÑSßvLÛÁAGC	Œ„Ã*<e
+IÅâóÊç*q2½8Esm…>ÈtèÔªˆQC$‘L—È•ïÇÂ ğRïQ¨@X’7l•.âznÖ\Œ×dWÉ¯…ÌøÑ ¿¤»¥A18€¾nˆÇÖtF|ø‡;÷ 'üêëkí-…ÃpOÇ ¹U@o`Dsm÷xĞ^,Õ™•
+¾æòi§C¾Ïì² èÛ‹Š»÷E¡_â¿Rysl~;IĞYK›!ğÆD(,¢ÇKC‹á3æQ
+LW4+àe^X¦4ò×éœp ;ÚùŠ±’/¯ÉK­2WlÚ·mÆFCb¸ÓÒ¦eXÛFuJ´fgÁ“Å€BH1»¬ğeæ÷y´ı– —0:Ğ±Ğúm’°LöPŠˆç¨ØÛr2æhÚ¶¸Z“¶J²U_ƒå:\ê:‘®3Ì¾4fñøCùWÑrÏÎ{€††ŞÇ"™n}ÔàTJ‘NøÔ>Gvp•:iöG`åDKÈÃğB“ÿòt¿áhÊ­njQÍ˜äû¤B8½ØÉÚĞcU£Æ»éiÛÚ1]ŸÃDü
+²0Âk$,ü@'<•ŞøI‘NûWß¹£ûŸğìŸÎÕIÚ•¥§à T£h:~"t›Ÿeµ™¶3ø(æ‚±±3Äßä¿*¿]³åP»•ù’€c¿¿ïæp^“ÖiÉ¸Ë½B:·oĞ—	}Ò5R"|6x“,Z­fãÈYÑtû¬Ë¡)‘YÚØ–úÁêˆÆ³`ğO“¡]—JİhC"0Êâ½•el@/—¥HNøA×o„ß±*oÙŸøeZœÙÚ,‚3©0T«á£ê_²t“ü!Ğ&3ğ¡]!¯!ŸçÈ¾g­ „«ÏÒ¥4Öz»ï‰|Êû$ö\ Öt\~Ö` “Nëµ
+Q4XìÊ„²şªÂœÚ¬Ûêï½®ñ€f‘>¡ÅŠèè:á-§Ï8”W¼…Ç2Ú'Yğß¦3øŸ7­Èe2¸ÇMäÈ¢8ø|ıço½ëKø”Ò†3İ†ÙM$åq††«T†Æ±&—ÖM‘'ìÖ™MÁù¾ğ±4¾F(ˆ‘x’rV„Gv‹×\Œ?á>Ü¡)İWrgåH¯"¨¼íi© @ùNİÁvèÎxëÑLıÚöŸê±ø…ìJZ{ûÖÓ&b3»ûòR?hãÀ*î9Ébm¹uãOJi€@K/·OÎh¥>7#bìĞË±EM4&÷;ƒMó,·rÌ”x¶{ò…ƒ’|!H1Èu\¿nú„zí4wƒ‡«½ˆ6µEà4óG/?[üÂ6tPo‚ÎàQ'yÚ¥Ë¦FSzıò¨.ãX)pGÛ—É¯Ò>şÔ¿ó&x¢°b5Ú„c´±ëí 8ª't÷õ¢ñV	"=İË$I€imõ"všçÜ„\·ÀÄ_é[ô×=â™¾Ï©Ï3!Ğ½Ç™ù <ôÇ^óFislò¤:è›.M:÷ÉBØÏ­ –‰W[êa·¾Ú\hªà7ã*Ró&ˆ®-òƒö£§øR+HTI¹R„r@Æ~°yy–b¸–…¬ìÑŸææåeåÀCØƒ=‡æVğ|=_œ›EŒ’p4ˆ-èßú	­€X„{µ×¡$Õ…[–¡¾®ë¦éŠĞçp@7|½¾+¬åf"ÔZê“)vpyQ9ßx±UI#Év B2uÜª†TD0ª¦co
+¹‰º”Luß	@Mº¿÷`0—;Ëª;ØvF' \1Vo¼„vqßìÑÙŞ|Œù¢¡<«dÔ€R$v‚J>¢_vE@~ëYÇC ;C*5şµ¸İbóÃ|•€*=8LèÒã¾ÁïW%²QJ¿.½ˆÁP6Ú€ğ[tëşë­Ã$Xß€ç{òE²$›Š°&ZÄZ˜´¹è1eQ€Ö_R“îCİJ§´C"±q=¢(™ğ	ÊY‚8›õVĞŒ2òkÛ ¤[‚+ö!nù jP'=
+ä)¦!%'ÃùË|G>ßÃ»™ø_ªòá÷w-Ä¤+$EdÄc!dN
+üñ&v!+Cx˜Ÿ¯YAå%yŠj‰ÈFÎ…½çJ‘™qdÊ|ÌôÕˆŠ‹|c~ë«®ôPW ç}ßÛüy¶]¨Ûã;OLûÄû#©5Æ	ƒG;Ë¬RXä0“W†ÿğ
+ûNò<ïÂ%á›Bõìs+³+…XÁR_îpm#N4zãZ9Õ2WÄŠº¸Mš79¬ôÈ¨ï/­ÖpÆ`]Ã×W6RÃŒöUARTŸ`¨Ü,™)F–*ünv¾»wÙõº”¹,¥ÆŸg6¹õ
+UŒÎ×ãæcŒa]İÅGk U#Ñ`Ù^Û…~Ñl­€Kt¿çwà‰®Ø×NÍ ØŸ#1¦âÿp¥×üJñæwj†0ë3Ç£wS!®Ó73rUFõ;Lân>°ÿµ5ËõšÒ’åH˜G2²oÃè¢Gªûî$PÌÈØ•¸îw<ú‘•ä7uµ	 :³rüÉZü&1¬ùØÜÆóÛvL›}qpìûK¶&R±E‚:NËİåòêŞÆõäm…œ`K‰ó/ê°T6‚%_İåR[Û~ú¸“ne1=î¨à6Ç—}ÙÅ¨”YtFß}$“sZUMã3w1aH¦-
+ş…1¶.Ô1¢áÛs|Q_ÇB«–	IËê`ø†;¥¼ª4´r¥{ tAûê>÷1$²nù¿O ıœŸ*ˆërØI?“ÜÿO› cù€m‡lë Ì/’=Ã*øü$Dì3o?íÆrx“u §z¤J± r+ŸÊã\}Ë·hº£q\¿ê3RØ @Ô9Ü¡‰Ûğ6ûq
+¶­tWDÆHël’zf~&dü,¬YÖVWüë¦ŸÏÉ®ñ\úPK ›ÒÌjymšòôj5²âµ—İ¶…o	6Yıé(»>5Uc ÕU5úéöq Î—’  dƒ3îÑA)Š!Y„)I¶ë•?×8=0’š3‘†¬îİÎ~d<èü‰¾Ó^íÜ“ÀUOíÓ‰¤ŸºÃ…C=Íïúî¤7`–?¸\–œ‰ø#x¼±®(•N%ÑSÛ>ÀaÉÇ#ù†®î»©u3¡^Üò©²9á“jœ÷n¤rÚîõÂ‡*DÏ,4
+|àç»‘MWĞ6–ÏÈ ç	&L– ¢du1ùŒ–~ç{Œ™óWpÌÛª½}¸£¤îİ·y™ÊUEH¢NæĞ€õP`°¨œñM‘nõÇkœÍ—µ!)à°Â6{|€Mäx™ô˜ÙÉZ³÷{ê·Ÿ”I£·XšÔN;‚Í‘+O¿ë($‚2Ş¦?%uÁùQ2xFÂBÎÜ5ú•`“,;aıùÿ-qÑmô×ÃÖ™ı†nŞò29Éì Şüÿ§S"8œ_ôq+!=‚i°Hs$
+å.×£ÈÍ ]ŒñÙ"±Cnó“m©Sş
+£­É€e_&mà‘Îã&Âj¯íÇa
+ö£;ùZöƒÁ6|Ôi¬Šßˆ±FÛQM'2†âŠêÖÓ4”I—fæaOìFV½ÜÇ}ó.ÍôB•ÛCç;Ú_ó*—{÷5+®q &)@X{ñy²drVÖ©Œß9Ú6+Â¯Ü¯.¿¢à² \Ñô*0BÑ3 p]ävw5n	C»XÙ(Tµ›`.wŸ:ˆÜ™ô¨·YÅ¶Bö<ß ]Œ]&·n^ÖŞÊW-óÛÑA9†8÷™—<|YTlÔS!%S]š.„Ï©–jùc'j±Ÿõã¶— M±£)şĞœ‚]Ã¥8vM65¯¶d‚‘ßçhO·âlù©ªÂúøÔ‹ ÄMˆ–‚A‡4Á–EKÇ}0Y£ ‚yİÊ5õ.´üÃw,C£ØLãkuô ïÁä÷¤AEí";2ôEokmÕsôêåUNñØŞ›Y˜‚=é…±Áy†Mì¼´á`:¼ÿµæ§şÜ¨¥†\ø«’£Ğ3§eÕm£|sÙ’%ìßíÁ›º9o'=µìÑW}˜Í¥L]¿IÑÎºW1`Jêz¯ã'·8ë‰­WRM¤ï<ÂpòEÈÌğ95Oˆ…¿¡$pÍàö%MEñCÖ;”³scîÌ[_<ç${Øh±à±Ddœşğïm‘|šÊııbcù2kuAÕŠ£>"f`(Ş–tPS8ëÖ*<·õïñPú´]ôÈJ/”æÙ€mäHËøôZ63äŸ¬<‚J3»†¥š°æ.qX¼şb[iÌ‘ÜÚmÔ¢ÇıæR¢ ½Ô©Ê—EKø±àNşp¢v‡-o'† V¿Ú0ì	´Üm³Û„³“:‘†t½›RêuKÂÂ¦»°0’ò,ç»¹¨æx˜—+Ä£0Wñ1u×M(˜•FÌµzˆŸi¤jëºı!úÙ•çô¾3y÷Ã-Ü×C9ÚâYŒ«Bş2w†%;"e]«ë¡KõËÿÍïx®€ÓkàÍÀÀ¡¶ç0=èq§yrp04Zâ;ôY³l*öÕ€÷1LŠKx¥q¶	|õ¢œ£©ùY-¾¿šöK4—~ÑŒ¥u—ÑX¶ñ
+»å%½ØÑrà	\Goá	‹2»£Z²2ª‰=Ø€Qã(,ë¿K6˜YÚÅéñ)šèÈõCªÁá9Ôµ O˜OºŸhH“"ç7í•nİRBõCÿêlÍ‡o5ÍœÿÎoÒ?Õ°VZ—hÈ°ùÒ3¢F†4óêTf¾Ã¬!Û—!İt/V£#K¦8šK”'§"BÉÊTØ€ Z¢?ë¬”0ìÄÀ*xVs/ê¼DÈ£t[×íäg‚&nµ¥Nø›.á¯pş2f ·eX—B&-–Ìª]üŠzóÆ$$Õ^ÙëôV|q‹şÒæ“jÿ:´ˆ‹á©ğ“x¹¨núÓ1ö01+­–T¿´XDbr•èÆ8Z…ÊJgR92I}êUü÷n÷ltqÚª›%‰ŸÑÚË®ö1oKüÇ–ª º¾ÄÒ³
+İøŞES>´¶y„]Z¡®cÉN¡t÷dK >áYÖûÖšˆÊ{àñXã¡Q_ÊÜ3"<b¼‚lLç¤8Nô‰˜Öxn„ÓyªŸx©“0åMìÙÖU¬ƒ$Ù0Xca¢ı/²x[–ı6 &?8!~-!£é”ïçÄvçª«ƒ®9˜¦ª
+”-ÌÙ†0wŸûàôSUc×=ÌÓ$c>ä§àÕ6iƒÆp!oò™ÀÙÒA¤S;©©’l…'fòAé½™LøÏ”hºÕè@o5µfYĞg­K{§¾èßï±€NÚ–ïÚ»À•ÚŸì…bÜŠ³ªT«j\‡+læô¡ÓlQw–^îØƒ?,Ò–^n?‹77õùÄH·d\ÙÍ®a[n+pA5$UEFES;:ä9P+°ˆ{­Á<…R’®Ì«X†txŒ†%,Û/÷W9G-%~¢c9^ıÏ>¯hÄx³¿ÛÚpPU‘µU>[ EgK>ÄQ`(Ó%iaWb´ï«_¬v»Bm‹g[)pÍùÌìªG@şNÏ»ˆ°ğÕCÓv±L¯zy7æ´A;y?¾Ü DUÃ×vb3::`"5@GFgz3­Nßò$qŞÏÀ¤¼8î]ÈŒÕgxÃ|¼Ñ`×'„z;ûó©&ª¸–®¥ÉÛŒöæKĞÑO¡Ô^%_£!÷yÕmê!09œ"ruC|ùkö}@ªòÏ¦×¤¶(Ò÷Qˆo9¼•”æX´» ]ùOÎõ´ÜˆáIúø¦Óş[Hdí‰–S#%HÙãØ…J0}®Õßã%GJ«é©àqg©:­ÔMÂ3.¨‹˜rùŞ†İË°‰«ü¿í@aåzàÔJïœS{ğ1gÈLĞ­™5jfHì¡G¼Ş&cmÏvùÖQ$ÏÖ|¹Ÿ¼ú“+üúW8“¦ÂrÌšJP@RômFßÔ—ÚÅ¶RÓ—@1o!%ÁÈ>!¾¬ûÜÕAŠÑğ
+§n>!-¥MÀDÍ[î¡|Jø"û¹”XœïûÑèU¡­Ïù%\ŒŒ»¤ÚÍ']ĞRĞC^tôxıd÷f©Ğ™¨¹L¥……›®"*÷cÓQ‰Ò¾c[É›W&VQŒş¢?dåÈÓƒæ’g"ğ$Ü-óe““_ôçXÄ}G`ú|Ô¬ä+eKEÙHƒ	ú«˜H,ƒ<Ùçdı0¿Œ|Ó×¨îüäyÿŸ‡ìW	ÓŸxÃdd“t ä«Å=Ò5`—fì±G~×{¸ß¯îÇI—ÅŞ'0gÁövWpJà{«-¿›ü]'1r²g4w
+¢1
+ißjë„zŒªr©]Ââ% ÿ—åI8¥[XÑ$}Êà>UMH#nÜt”¾¡N0++_15	Sœ¨h¼2‹˜ËŠ5L<£)+‘JVşë *+Ş¸–vt–n½‡ÎˆF~òµ Š {&S¸30AN #5^TÅ«i×íÂ—6)ê°™ñìç5F“•Î®¥l¾XEMÃøÄŞ¥c³±Æ1N!s>´_ë,ƒı_ßálÊCejš¶)¯
+á¯_§™ÇÀÚYİ‡¡0ŸÖIÀÂ‡&[NB	Ğ>{«@Ù…¸§gÌíƒ‹MJ¥äkŒ£c)ˆ‘M ëµ¹ÕsçN£(šµA‰ëğZäÈşJI–m‡„^÷^£2Qî>®dWy‡Nî E#$Ü¦•qYHÒÖ(ìXÂløû<Û¯1P›ò•ßÔ%ƒf7·gºªña}@J˜¸¦w × =ã Ef¤TÖÉËPS… Këh¤ÚF¯ß¬Yq"Ø.ÀD{,ÒÖµL,â@ÓjÏu†c„’!4†Ì‹º±Kªøõ¶g2+ÍöõÖOË×òº¬Âù´–7‘$E»rb'¥¨ïè	£.ÄÒƒ.•lÍO…Qı'lÛ‘guçòÜbI#-Úµb"dY‡îŠYµ2qä œ…[É#ğèKó©ŞÖQ˜®†±Jûs À	Ã$­¹0;Š$j³Gyt/ä=–xŒ*ğ·¡ì¬èjcëq°k]îiºçI ò6Ğl£‰§ú|ÄwêtI»|kşĞ`ÄP_ƒÛ¶(§KÀİÌÒ>}¤Çxñˆ—RñËâŞùç´øIE5â2# 5UÃF~{İ.Éß-ˆqSWàD	¢\t‡c)T
+<‰¡-Y±$ŒáßğVsÚÅÆ/ÂsÏ†f‡FX˜ÃÄ/mqM5	"ö›ómş}=g*nIş
+™`¨¥ÜWin3)vEKÃiVÉĞ7zı­<Ï¡d{¦‡¤.ñ_ÄÔYBe-Š0ÅWu	c)Şnê¶™F"@¼Ùğ6bm­Ã«Ş¼Æ5¡P`•âŒw°w¿·ìŠ–XZÂô»z¿4M†pí°˜ÄÏp*ºØ0WEoíèyÓ,ZŞ´òõ¬†3æC­>#t…ô.	®öN£T^mÂË•8_½}[˜ŒÕioşÍzã5LÚ²1N9šş—oo>ÌÙˆ 3&	ÊöŞ~µ7y‚Fò&;Ä:OÓ<Ú‘pC¯ˆñè„G!ã)«Î›G¾3Âo¥¢ö4û{¥\bt;á¡‘È†SªtOĞÈ)Ù”Wk¯ä§˜ZÉ¬ äp­áMBS€<ØÊ_¡ş©^m[õ8K•EÎcB^ÌTÌìÃ67ô]ığ	-[D”Ş_çs-äKó~“.v0"bøØ|‚IùÜòQ¥™ˆ”Z1X¿Æäd/)Ì’ä\
+ [¢Ä.{ú’¢$;³İŠ—Fs~Ö”şsšğàY/'…ĞØ®pì
+Œ—»óÛ‡‹pNÑ†w…ü&Hêr4õmSâ^iÑ–Êù•b:ººş“Û´Ã%•k¶z±ÿt|ª(©Ò£üÁqær?êÆmk3Âõè;¡«…XÅÕFğm#¾°úãZ=šš×ÄŠ¾ğÇ2·9¬ğ€"G¯­Ò8LÈİÃ×¼ú”Ã_õµöUEüˆŸ`¬”¦1©F–.´Æöºóıquº”½o,Ä¸V{³ŠƒÉÌ¶làyÆ|Ğİ­1
+¢hè«/²9€Ó´Ø	‚¿¸®4K¸Ğñ“,B'Ê$¸YĞlq Ñ)APtQŠÁëL§€O’¹×;­hB:ºf%Í•dtÊƒPÕIVríß§oœUíîoØ–T¢vZÁP1ëò3¨(Ş&Óê^ªş?ÑŒ!Ñ>¹\f\9;‹1û¿.ÿCYAB¶¾ãA¸ËŒª·gmŒ¶‡|‡V,â±d-Æq†şqf!u×áÅQL6vsõ^VãÆºëÛœË¯Ê«ö)è–ô"Ğ'5ƒ`ş¬©®§JÓ‹yÃúâ³v_Ã³—«âráqÙŒ$+,*Œã!lÈe¹¦v)­,ŒĞ“Ÿ§›á­	e‡£òÂê‰ÀÀ¡qõgBöS¨—€Ù‡Ê´ğ-ƒ‰k'vÎ¾ë ZúÔ¥W0rIÿ½Álƒ¤KágVr¦†«µV<1*ºµY&ä³àO›ìÌÚ¶.˜‘xtg2óg‹öN©×M¦ÑİÍÄŠåÆ,ûƒ´oŞ¸Ö¡¬Ö€k+ñ-åÖGak¸b}ã6.İ+ùŠ7ß ëæØSÁ]€Ó‡˜NÉÇ°¦¯ÃÎEgñğvÓSpó&s#g%LfÕÕôcF¦Ã-Rø¦’ÆÔÄÔzÎû¥¦[¯¡Er·åÄ¶²(‹Ga¦â‘’ÑÁU0´[º¸±•/çãYnÌ‰Dé×å`;ÄğÇf=“¤á(Øæ¼™Ì
+·¶iÎ÷šÀF[‡÷]ÊĞÂ•j]›«-t\ºrÛö;dgå¹Tb|ĞfÙeùÁÿĞĞR5€YÅÏ Ù„şÒªz¨µÍ<ëz?ó ”V3Aÿö;ó0,¦­Ê…aSH˜µÖ#1Zé¸Œ™S“×WÂ'hÓ³U~×7*îàZS*ºÜÏ@†šsyò™Š®ó9ß¸şó¨ëB¤•¢e;'?±/Bë¤Rì‡ï¿Íê"	ò÷+àÈšg}…E¶½—OÌEqıŞ Tp4_¸»IĞ¶6„ñÀ÷4µs®x QÖÄ-<õ§ÆÛİ(äèÒ¹à[Éfó92s?ÁÀq,åD#lçmÇdR4EÄÁa$S·Íßõ	nó,ÚÙš»Cæ)÷ÌÙ“*–iÚí­Îq~ñÆ8{ğk"jâV×»¡¿º6*ïwZÏ.¾°ÍÏ4@\ĞæèÄrĞ!¨=ådZíèt	ŒQ³cŞ¹(U§1CæNw(¥…ùô©¥¢˜TL‘«gdÿËÚıRÌÒ3'%+Q¥¨ù‡gnq Fü×ÇÃ1$¶vÑ>cÆ¶$/NôK¯Ædo€ô.Ósëàş fúèÏÊÓ‡¶y…’b³z7õw«î½M˜Ù€ëßjéª€,Õ* åµi‚oÅ¬ŒÜ\káóa­ªéÁË–òÎ%}†¨!qù¨zcvS¤XtŸïÊÈYÈåëœ”„àIË®û¨Ô7‘ÙÚÎÊ7/fy¿È–N]–$¤#·şöİ½ùz|têWj{ğ6zI£,× 9…Æ=Şãhs$P+ê¬r¦”™ÚÄú¸ıéšéÛÌÓ¦á8Ç§%¬˜\ƒ¨H’1Ş§áUnÜA;ÒùÁCşùU]‹¯4Ş¥oÂ¯Ò>ì Zš—iÛ‰iŞó¢€U¿¤ÿ*Tu‡S áÛ–2ää#ÖV‘·"Ë•ˆİÁÎºñŠXVp°19ìM•Ó€!)ğ[®şõ¸ÙÕÄşŠ£æ{ª±…"¤CFóŸUW|šR:¶EeS€‡Š²KJ¯ãòf$>ò¸ç‰·8U²iğ£q.ŸN Î,†ÿ³S¾Éóç'+q§|•I}»!WNÜIº±aD|ÿæ${HÀÊªM…áÌ<Šur¾³ÍÅ=0>Oİ’mÎÔQú†q”•Q#«iŸÕ•ş©•J»ª¹Ê×™œÏ™¬ÌºÀÇlìıÂ¨(_Š±’a­±EÊiàš¹ˆoÅäUHÖëÛœğE:‰TlÇ(s-Â Xˆ2¦ñvŞøô{±[ÿŒÓ¯“ÊŠãç%¥³£xÃˆ:c §èÇEne{ÒğShLİ]‚=>†úåoË=ùŒº¬ S¼ÛÿÉi×a‰2qÿ¤ö¸°QÇS©sğ$¤ä*D}#”o³-ãÛ‘uŒ‘uçYÏHk·ÏßÀ`Qšºùì(‡y¦ê7ÿ<İÉ‚x…Ît "½‡ôiƒ+‘K»¼3â`eíÉ”Z’ HÌ½Éz[™ĞÖ?ô"°Kò&Óò3&¯½F.Ô}VJÈ^ºù_î$G,Ô¯•ÉÔueÔhŸ‰:ıá-ÈÌøsyˆ!BÎ¾XQî£böIša7%•ş„­ì0§^©¦ğ><ÒÁ?œ˜,Q2´ó[tï¿ÈäR4XÛÂÃ2|K§°iÖ29‰Ñ¶qú…§Nâ"t³"7^Ğnf’ş©ş[¤NûéÓzĞ f’f»åªèë+ıŸÏ‡Ï;¨Âgç2æà'ÿ¦0ÄXIÈf¹¯ÄÈ¡?ğà\ıäSz•©Ø”Ñºô£dùM'8Ô›“¦†¨¬“ø$%±%«>“ï®ûo¦1Œ?%J-cN¿0ªæVÀ›]×-ìU;ÎEAÆpGë³ak–`sˆ…Zı,Ø›Ÿ°çùhRoS-Ñ"/³rYŒZÊTbn2zPD-KõP}cıÈ˜KøÛ†è®
+ö¤PÀwd nw00>dgd7y¦Q"3r6"8Úü*ûááXÜ\*nÌ›q»ßãËºìı@Å‚6„d,tù§ñÎ˜‘šY±½çc-Œ±õYÓ* ÖPOæuH’¸õ”7ô¤ê£htR2Şìr¡âûùğº¸‰‹‹¹İ›ÌÔĞcÂ‡§"Úí»%ƒ÷Êk¦qŞ —7Mè;Õ£`Ê¹UZıÍ6 ¥h´Íñ
+Şì',ø´]›‰n¨‘´¿£‰Hw65‡TÖƒø¢räãU´u¥ğ/´wé…«k£Üî…€2©D1›ÿsƒT-Ä^ö0xe[ónÄ%-}ÍÅOáY‹í Èæß:©’k™m½ÖÕÜ9MŸ“€ôP=ß¾¡k©Õ¤o½ _[İF&$u,|ÅKyİL+‹;œ¨T©ƒò'&{Pc¤o{—iäKZ÷NÒ>¡.s'ç×/ŞRşU )5ÁHCÉ‡lí“cÆVpíO¶	Àb}ğÀI²}@.Ğ°ÿÅMc²7öqIMùõ@ª®"ÇxÀ-ÌæZÅ¤£
+Ü7kµÑ@Š&mE.­äZ)ƒ0nàõvs¨éŸLBÖ±ZÇÉ†j¿Áêèò7ä)a;ô™Áî§o½ëÃ€È‘àC£}îßr6»éÃıÊk¹É‡•7í›‹€‡R=­ÒÄ²jè·œÛ"ƒf@½ÔF¹·âÉ[•Ú aşÖÎ÷q^„Ô&¬[ñ|˜ç)±SéÔ.ñ8´"º’.ÇC®˜ßí^^Á±ÿĞY
+!C;®óf{ô‚Ô£œÈ6X³­ihµrV³(XğoægkGtM! šÀ
+'Âhî]Àè²(Ã|´R³ZS`ß¤¹Ô*;ûû”óú¸–¦&ôÜöæCSìšñÔ^-Üô§yİî×ô`9”¡OÁ%C|ñèË¨ªòÇ%êqæ(ÒÿÒµºi¼•œe6ä´S©ØS=…áÇ`¿Ã.û©°?Y6éÄdˆ›>Ş×VA7k« °ò33}öo”LtÊV½º¾â?Íİ—;Ê¿d%¦F'¡In«ßo¼…cCŒìÑØË#q)¢¡=¾;å€S1I‹RJ>£ ‹•@~êL˜¾Ğ;×åşµ¹È=|•?bÅœèÒâˆáòà×5„Bpµ€RU
+íúXŞ/à(»ónÌLh° ãy?Ñ§G“A ’ÑêzµD]ÌõX—Óëº¬ƒı@lÅë4¾?²B“!×Oòo²UAŒ§‰¾®>·†)ğ—5« XG5ËóZ(¢@Óg+xÌÏ¡	}²·<ıè	º¸÷u²p<ÿï²ûôUÊ<&6ÕŒ<„ÁŠG³[}v	p>’G$s)qÅMi¦tR9²6èÁºW\§TÎ©[°®u—R_ìÕ[§r6êx‡yÑ4\Yÿø>f”«Ñ®ôNıîëü€¦-“ëå¬ˆéÏÏ¯9‡e’gáRÉwùÆ2ë­‹¨d!Šé¯Â¨£+Ê àZæ|Å©ŞôÓ•ódÿ-%!Ë“ æªƒf¨$#Ñ'‹©…U	²mâ³*T’>{ —P]#±$xƒz4E}Y¡<y¤roĞ^ĞWGa”éHñ
+(Â‘pR± ÓC¦ß®óÔGiÏÌÕVuç2.î£}µQ©°Ü›c<Ù¬Ï¶&a‚D´g:|—ˆÊÍN¡X½¥íÍÌÅ;ƒ¼à`İ„¡ï¯ê@k#~İæê‡ac7’~ßÂ6&RÛú¶÷ß¨dÛo]ˆ\á„¤ÉÏ?V“Á #mğI¨½"ö|!1v¸“â4R>ÏÌ¨ãLP•"¥K¯TÄO¦3ï¿œ&€pj®ıÆyÀIŒBXâbæûßñ¥Õ¯$	ñ§oıÆTIÜ† ¼2špV—2K$T|º›§l	ÔÚè½éì¡Â|Ë¤‚.°ÆƒrùÃ;Sa'D\†^åNqµh×Ä—‡7(P ›\£o3—k…« ï¢ÏÂº±î9„§[Ö¶NIT7Vñ "a3n%A02Fseöú°7
+İAW–îº"y¡¼SEq.¤ĞÎò{¿5D£3}ë[v­ıaÑA7a‚4H–ù¼Ê BıE;µçõ®?·ã-İÇO÷8ÂY€œ§ŒéŞ2v–)õÀE\»%C(KôÛóX®Ãg./àÀ±	xåÇ0<ø	¿ï‡ys`<ú¸Â:äUÏQL*÷ÅŒ9Ól šG¶G+q·p;OäYÃcq&şóÂøŸ¿’ò~Å¾Ï¬=õoè£‹ò`î„É ¹ù³İ™× ÜÛ¬â4Ê6k¸±'W®»V^èe‘Z«bÒB6ê›¡
+|Ú5>ê£q:±¹•äÆšs—Ã.îó?ºâZ³¨ëDkş1E¢e=BeoBíÁHÇï¿Ëx­²÷+æ­ÀÃ=…E°gç3ÌEwm§z@Tp2:â	ĞÓl)ÄñÀñQL3®~År„-<óÍÄVü—_¹¤ŞğıÓÑ=²ñ[A0•A74dC%q'jXÓj±4¸Í6íğ%üòØ“¬¥
+÷ÅÌ½ÕPƒ]¨Ú¬—]Å ˆgY“=Áj.—q·Q‡X ñÃu>X’(˜³5yæuÃ[NÂeƒÉÕ7ëş©©äòçh“ô„Á&ãtœ›ì[ûîõºÎ|É§õ}Ä<Æ†?À8“y£Ï»©z÷•špûø×­õÅ»tlÎBFŒùdZ÷!%Ş	åNÆ'\›tU~Ö"\)ŒO-şÜ,uÙÒŒş€€ZşßæF_€_¯òĞ¼ùìoW6ÿ2±ŠÀ·9$Oî‚9—`²èŠ OÑ oõçøqÉÒA£-Ğ¹’l‚YCQé½2{Iß”Qdø@hKùfY®Œ‘K{ Ànÿ±‡01'ÿÚ»Çy~¿ÊŸì‚7;£ª*úz\‡,E±ÓkqºÆ†^­D¥Ô®å‰a,ÜÛ­şÒ3[‹ğÔ*œ “"¾nÖ“œÕËçÉY‰Ë‡c6{2*¥pµUâ¢ĞÓ›(Š¹£?¶"\×âKDg>7!èÅ=N¥ÅâíÍÈN£¥Ëƒ¸«Ö½‹æ¡ ÅYÏå°k'5k†åwag|$Ğ26"mš¹ß¬/ »`ñ]ŒWä«~ÉËtàgœóÁ]•
+òÁ<Êsjû#Í{îôY…q$È—A™ãfiÚæLÃúÜ d˜iš§b:±6{¹…Ãº¡ÿïe=ŞSº_-—ˆ™’6]×>©íÏmµ¬ïµ†9g;ÕÆ.¢JECÿ»*á#3Î2u)‹tA@Xã¬„s	ŸéìÍ<‘.Ú¾©¨uGïW'¸4Õ¦OkU–A@ÅøèbIì…)´–<Òü”«F·c‚ÕÍ%+­÷HåGB¤9#DLZ·Ë@²ó™|Wv•^ñ3+¶|Á+†á(›:ôv/‡Ä'>ú£¤ûû^ŞùŒÛª¶íÛªêŞõMÉşşÄÜ[ù»ÙŸşÔ~øÙş×Õ6á(­Û9$ ‡äçÜÿdÊEë©‚:¦u]È‹¦ôWoë¨‡1›æ­¬Å?ıÒ‹¯ã?ïÒ–í/õ³<`9¶`ÒeNİie’øªQ:¾Şôq üÕC" »ãºâ]B¥8ˆäuIƒ8šçqÎÂÛKh‘–aÀƒ”EYÒhÎßòq¥JºŠ·Q‡nŠŞ÷c+­E,…YæNë²ã$Nù²Áñ»PDD_îÅ¥µÌIe	’mH¦}Ê±OãlÕ_ê†_ä^ğr 2C¶ôQ_×(Œôt^ñ:Œ÷nŞŸíÅc2Gò÷LM_ÆÃ±ägaî«¨ÁC)Úßîó%b,îßîÁ5u>‹½ßÂp‹¯ßÁWt>ìªÕıÄORÜ%)ÜU‘Òr!îÿë¢2WkË¬É†.ùŒàœ¥HXšÈÈâ#6X½Ïîâ16[ÏÍË‚d(ar³‚à»¡2Ãá<«ÄçÕK¤Nÿš¹ñ	†xÉîıÃ+¥Xò·^À>£(íÖoÂ¡íÄoÁoúEK‚Vğ¥<Kºßm7”:Nù$‡|ÔFpœÓ­ÎövIšüßíÍFå(«Ï¸²N„IŸÊš·h„[ŸÉ‚üÌ¶í6t–‚òQL2ÀA¬·Æoáû2>åJÕÕA ÄKé£BTWéâ‘vTíÉ‘vW:ÛÍîiÊÌD]êv	zB«ÁĞ‚™¹:¸îşó Š½ÌÙÕS;¨ÿî÷x8¿ïŞZ£0:ŸîõZ±09÷Ğkm255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/modelsim_beh
+T_opt
+!s110 1521803307
+V`9F:DCbL9[IdnDaH][8Ib3
+04 16 3 work seven_segment_tb beh 1
+=7-a0369fa18d93-5ab4e02b-f9a8-7806
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.5c;63
+R0
+T_opt1
+Z4 !s110 1522002918
+V1=Va59Z0Chb>1G5OgOhL03
+04 14 3 work serial_port_tb beh 1
+=1-a0369fa19321-5ab7ebe6-8a0b5-8f3
+R1
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1521990373
+VFFlODUVfmABb>4iS6`<:91
+04 21 3 work serial_port_rx_fsm_tb beh 1
+=1-a0369fa19321-5ab7bae5-9a23c-158
+R1
+R2
+n@_opt2
+R3
+R0
+Ealt_fwft_fifo
+Z5 w1520610042
+Z6 DPx4 work 8 math_pkg 0 22 Q?kA_SW34=_kSWC^ccaR^2
+Z7 DPx9 altera_mf 20 altera_mf_components 0 22 T4<z`h6BL:_nTXI;4TFDa0
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z10 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd
+Z11 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd
+l0
+L13
+VjZ@b<iB5nfU2U559PGA]W0
+!s100 GXI51o@_zY:JL?kM>HkQY3
+Z12 OL;C;10.5c;63
+33
+Z13 !s110 1522002897
+!i10b 1
+Z14 !s108 1522002897.000000
+Z15 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd|
+Z16 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/alt_fwft_fifo.vhd|
+!i113 0
+Z17 o-work work -2008 -explicit
+Z18 tExplicit 1 CvgOpt 0
+Asyn
+R6
+R7
+R8
+R9
+DEx4 work 13 alt_fwft_fifo 0 22 jZ@b<iB5nfU2U559PGA]W0
+l63
+L33
+VBT=gTJ7IYHGi6Z4eP^D;91
+!s100 Bcd8M3oVKz]nI[`QC8A]53
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Eascii_gcinstr
+R5
+Z19 DPx4 work 23 graphics_controller_pkg 0 22 XbBh8_599c@jJXBXMMaN?3
+Z20 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R8
+R9
+R0
+Z21 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd
+Z22 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd
+l0
+L8
+VU>C:Ge:0S`ig8?Q^;Bd=62
+!s100 daF;CD4;nnOih;gi644bh2
+R12
+33
+Z23 !s110 1522002896
+!i10b 1
+Z24 !s108 1522002896.000000
+Z25 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd|
+Z26 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr.vhd|
+!i113 0
+R17
+R18
+Aarch
+R19
+R20
+R8
+R9
+DEx4 work 13 ascii_gcinstr 0 22 U>C:Ge:0S`ig8?Q^;Bd=62
+l51
+L24
+V?@GFljGP`m^nHQICLQoJP1
+!s100 QiV<3HfH4^<5=zQ89<mkF1
+R12
+33
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R17
+R18
+Pascii_gcinstr_pkg
+R19
+R20
+R8
+R9
+R5
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd
+l0
+L7
+V><26HZz<Lm;e]i]5V6b9g1
+!s100 H`SVI13boi`lN20lCZ6Dm1
+R12
+33
+R23
+!i10b 1
+R24
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ascii_gcinstr/src/ascii_gcinstr_pkg.vhd|
+!i113 0
+R17
+R18
+Edp_ram_1c1r1w
+R5
+R20
+R8
+R9
+R0
+Z27 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd
+Z28 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd
+l0
+L15
+VDI]R`4F_W02V3[`?AXC442
+!s100 S4Q3f?AZg6MV]`;jWB7JR1
+R12
+33
+Z29 !s110 1522002888
+!i10b 1
+Z30 !s108 1522002888.000000
+Z31 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd|
+Z32 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/dp_ram_1c1r1w.vhd|
+!i113 0
+R17
+R18
+Abeh
+R20
+R8
+R9
+DEx4 work 13 dp_ram_1c1r1w 0 22 DI]R`4F_W02V3[`?AXC442
+l44
+L40
+V8Y5WkIhd?@VoBFCh@LNBa3
+!s100 <2A6X2]e=N`DkgBXAlnL@1
+R12
+33
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R17
+R18
+Efb_writer
+R5
+Z33 DPx4 work 7 ram_pkg 0 22 >R4c=4YE67a>mW8zkHl<22
+R6
+R20
+R8
+R9
+R0
+Z34 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd
+Z35 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd
+l0
+L16
+V8AdM=aBYIKU^[8_2;M<fR3
+!s100 `N;k7_DG2WeWI=5X8P`Sb2
+R12
+33
+R13
+!i10b 1
+R14
+Z36 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd|
+Z37 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/fb_writer.vhd|
+!i113 0
+R17
+R18
+Aarch
+R33
+R6
+R20
+R8
+R9
+DEx4 work 9 fb_writer 0 22 8AdM=aBYIKU^[8_2;M<fR3
+l71
+L46
+V35N_NH4__X`EC[TN3MXgR2
+!s100 QV>Lj<O5JJ<nI3JLBO4eP0
+R12
+33
+R13
+!i10b 1
+R14
+R36
+R37
+!i113 0
+R17
+R18
+Efifo_1c1r1w
+R5
+R33
+R6
+R20
+R8
+R9
+R0
+Z38 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd
+Z39 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd
+l0
+L16
+VWEFnN^Y`kISS_=^C@b:@[1
+!s100 CzGoilGSHY=A?Z@9I@O1S3
+R12
+33
+Z40 !s110 1522002889
+!i10b 1
+Z41 !s108 1522002889.000000
+Z42 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd|
+Z43 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/fifo_1c1r1w.vhd|
+!i113 0
+R17
+R18
+Amixed
+R33
+R6
+R20
+R8
+R9
+DEx4 work 11 fifo_1c1r1w 0 22 WEFnN^Y`kISS_=^C@b:@[1
+l48
+L42
+VID6T391VcIXaYd722H[gG0
+!s100 XQj>X?33D6B`S8`8cRo@Q1
+R12
+33
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 0
+R17
+R18
+Eframereader
+R5
+Z44 DPx4 work 15 framereader_pkg 0 22 L;;RWXE_2M[FJUCHJO2Ff1
+R33
+R6
+R20
+Z45 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z46 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R8
+R9
+R0
+Z47 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd
+Z48 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd
+l0
+L26
+V>dSbJ6khMi0<O<WaE[Y8X0
+!s100 Qzc9AzlgoQYUi;<W]Kk_?1
+R12
+33
+R40
+!i10b 1
+R41
+Z49 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd|
+Z50 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader.vhd|
+!i113 0
+R17
+R18
+Abeh
+R44
+R33
+R6
+R20
+R45
+R46
+R8
+R9
+DEx4 work 11 framereader 0 22 >dSbJ6khMi0<O<WaE[Y8X0
+l142
+L65
+V7?Sc:E[gShmZi3G2fTIUE0
+!s100 ZiXRK1a>>?_?:hQ0lD37S3
+R12
+33
+R40
+!i10b 1
+R41
+R49
+R50
+!i113 0
+R17
+R18
+Pframereader_pkg
+R8
+R9
+R5
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd
+l0
+L10
+VL;;RWXE_2M[FJUCHJO2Ff1
+!s100 YVoiML@^:D1:63f6Rf;>F2
+R12
+33
+R13
+!i10b 1
+R14
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/framereader_pkg.vhd|
+!i113 0
+R17
+R18
+Egraphics_controller
+R5
+Z51 DPx4 work 8 sram_pkg 0 22 =6QATBRmAKY>8[PeLWTL[1
+R6
+Z52 DPx4 work 14 wb_arbiter_pkg 0 22 ldliEAJ[kElS05cRV3e?f2
+Z53 DPx4 work 14 rasterizer_pkg 0 22 alz3AU0eiFOGVR_4G9l7`3
+R44
+R20
+R19
+R8
+R9
+R0
+Z54 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd
+Z55 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd
+l0
+L16
+V3Pi=J^gQS;ODn4_cHQgKO1
+!s100 Kbf_ke8laF:=7h6VG:F[H1
+R12
+32
+Z56 !s110 1522002890
+!i10b 1
+Z57 !s108 1522002890.000000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd|
+Z59 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller.vhd|
+!i113 0
+Z60 o-work work -2002 -explicit
+R18
+Aarch
+R51
+R6
+R52
+R53
+R44
+R20
+R19
+R8
+R9
+DEx4 work 19 graphics_controller 0 22 3Pi=J^gQS;ODn4_cHQgKO1
+l128
+L55
+VlIJQZT1FHCh86J6LEoohz1
+!s100 O`I`6Z0QMDiXCUoJ4d;A31
+R12
+32
+R56
+!i10b 1
+R57
+R58
+R59
+!i113 0
+R60
+R18
+Pgraphics_controller_pkg
+R20
+R8
+R9
+Z61 w1521545667
+R0
+Z62 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd
+Z63 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd
+l0
+L5
+VXbBh8_599c@jJXBXMMaN?3
+!s100 oQK;4P4zDdEF;o`Zf3bE;1
+R12
+33
+b1
+R23
+!i10b 1
+R24
+Z64 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd|
+Z65 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd|
+!i113 0
+R17
+R18
+Bbody
+R19
+R20
+R8
+R9
+l0
+L60
+V_jVL07U5jGnia6Bl?bRPY3
+!s100 Fb`NQBkC`^=2kA]4hGH_N1
+R12
+33
+R23
+!i10b 1
+R24
+R64
+R65
+!i113 0
+R17
+R18
+Eltm_cntrl
+R5
+R20
+R45
+R46
+R8
+R9
+R0
+Z66 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd
+Z67 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd
+l0
+L17
+VC<S8ZX`gLXTZV4VmK8_g30
+!s100 0MIn95V0iaVFj5[Z>UfS?0
+R12
+33
+R13
+!i10b 1
+R14
+Z68 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd|
+Z69 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/framereader/ltm_cntrl.vhd|
+!i113 0
+R17
+R18
+Abeh
+R20
+R45
+R46
+R8
+R9
+DEx4 work 9 ltm_cntrl 0 22 C<S8ZX`gLXTZV4VmK8_g30
+l58
+L41
+Vgl;A?Nd;gHXgY8de7L4[n2
+!s100 13m;l=nL9_;eL@U[Dk`]f2
+R12
+33
+R13
+!i10b 1
+R14
+R68
+R69
+!i113 0
+R17
+R18
+Pmath_pkg
+R5
+R0
+Z70 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd
+Z71 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd
+l0
+L10
+VQ?kA_SW34=_kSWC^ccaR^2
+!s100 ZPLAXnb7I^3_iOS=YjzMY1
+R12
+33
+b1
+R13
+!i10b 1
+R14
+Z72 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd|
+Z73 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/math/src/math_pkg.vhd|
+!i113 0
+R17
+R18
+Bbody
+R6
+l0
+L28
+V`4XY`dM8R:5JRLdQQRON[0
+!s100 Eb05Y[ED:gJ`1g1Q<NGIk0
+R12
+33
+R13
+!i10b 1
+R14
+R72
+R73
+!i113 0
+R17
+R18
+Emerge_fifo
+R5
+R20
+R8
+R9
+R0
+Z74 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd
+Z75 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd
+l0
+L6
+V<RhJbXfe9eMhhKJY]j72>2
+!s100 GU[NNKadozQ0YB_XGBbbP3
+R12
+33
+Z76 !s110 1522002898
+!i10b 1
+R14
+Z77 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd|
+Z78 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo.vhd|
+!i113 0
+R17
+R18
+Aarch
+R20
+R8
+R9
+DEx4 work 10 merge_fifo 0 22 <RhJbXfe9eMhhKJY]j72>2
+l56
+L31
+V2e^fnlK<<LT13?IFS6;X<1
+!s100 cJm5bW3jQ?zz?c=YYB_aR2
+R12
+33
+R76
+!i10b 1
+R14
+R77
+R78
+!i113 0
+R17
+R18
+Pmerge_fifo_pkg
+R20
+R8
+R9
+w1521914404
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd
+l0
+L5
+VbYT5FaV`c0<o5FbH48XPe0
+!s100 _<C?N2LbH:O=GXP_:3=SN3
+R12
+33
+R76
+!i10b 1
+Z79 !s108 1522002898.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/merge_fifo/merge_fifo_pkg.vhd|
+!i113 0
+R17
+R18
+Epll
+Z80 w1521192668
+R8
+R9
+R0
+Z81 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd
+Z82 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd
+l0
+L43
+V@YUMEk5RmZjhmAN:Zl@KY2
+!s100 e?kf4:oe7zIZ`V51<NAVK0
+R12
+32
+R56
+!i10b 1
+R57
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd|
+Z84 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/pll.vhd|
+!i113 0
+R60
+R18
+Asyn
+R8
+R9
+DEx4 work 3 pll 0 22 @YUMEk5RmZjhmAN:Zl@KY2
+l126
+L52
+V6P7HeHVagDj2F67Zk>T6R1
+!s100 Dm2W]hVifn5nbA;];B`Tn2
+R12
+32
+R56
+!i10b 1
+R57
+R83
+R84
+!i113 0
+R60
+R18
+Eps2_ascii
+R5
+Z85 DPx4 work 7 rom_pkg 0 22 OM?n^Y8D7VE2XYXPf4R:[0
+R8
+R9
+R0
+Z86 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd
+Z87 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd
+l0
+L6
+VBPidD;mkhWhR@EU9lSD8k2
+!s100 1aJ]?dk;2WTc:mY`5d>dz1
+R12
+33
+R76
+!i10b 1
+R79
+Z88 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd|
+Z89 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii.vhd|
+!i113 0
+R17
+R18
+Astruct
+R85
+R8
+R9
+DEx4 work 9 ps2_ascii 0 22 BPidD;mkhWhR@EU9lSD8k2
+l31
+L18
+V>A415?dhVSfm?DL3P5aXC0
+!s100 gdoomRf1Y_F^SY64GVH611
+R12
+33
+R76
+!i10b 1
+R79
+R88
+R89
+!i113 0
+R17
+R18
+Pps2_ascii_pkg
+R8
+R9
+R5
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd
+l0
+L4
+V_3Kbi^PZ7I7UM=>KilXGB0
+!s100 lGf[H4?WWhihF:l4:H3=j0
+R12
+33
+R4
+!i10b 1
+!s108 1522002918.000000
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2_ascii/src/ps2_ascii_pkg.vhd|
+!i113 0
+R17
+R18
+Eps2_keyboard_controller
+R5
+Z90 DPx4 work 19 ps2_transceiver_pkg 0 22 86ajlbkOIgV>OUSWb`L8=1
+R8
+R9
+R0
+Z91 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd
+Z92 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd
+l0
+L6
+VZMH3lEooWLFIfmIP:IYfQ2
+!s100 J93ach9OzKDf40XQB>`O50
+R12
+33
+R76
+!i10b 1
+R79
+Z93 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd|
+Z94 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller.vhd|
+!i113 0
+R17
+R18
+Abeh
+R90
+R8
+R9
+DEx4 work 23 ps2_keyboard_controller 0 22 ZMH3lEooWLFIfmIP:IYfQ2
+l42
+L22
+VLkC@HK?09gh[5<eFkj3:32
+!s100 zlZ^1D^L]0VdRcaEOBA`a1
+R12
+33
+R76
+!i10b 1
+R79
+R93
+R94
+!i113 0
+R17
+R18
+Pps2_pkg
+R8
+R9
+R5
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd
+l0
+L5
+V9@^AoJ;gagBN57c=cTFZJ1
+!s100 0MPcgKedeHj`CR_V8EjiZ2
+R12
+33
+R76
+!i10b 1
+R79
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_keyboard_controller_pkg.vhd|
+!i113 0
+R17
+R18
+Eps2_transceiver
+R5
+R8
+R9
+R0
+Z95 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd
+Z96 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd
+l0
+L5
+V]==_QFR4jJ<[obO3lIdhP2
+!s100 Ec_Nn6T5e5_OEX085<5nQ2
+R12
+33
+R76
+!i10b 1
+R79
+Z97 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd|
+Z98 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver.vhd|
+!i113 0
+R17
+R18
+Abeh
+R8
+R9
+DEx4 work 15 ps2_transceiver 0 22 ]==_QFR4jJ<[obO3lIdhP2
+l53
+L25
+VJBiIU;=QjDG<5PYN`DR3M3
+!s100 UY=GKKBdH0T=EjUgYM?d20
+R12
+33
+R76
+!i10b 1
+R79
+R97
+R98
+!i113 0
+R17
+R18
+Pps2_transceiver_pkg
+R8
+R9
+R5
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd
+l0
+L15
+V86ajlbkOIgV>OUSWb`L8=1
+!s100 MOz]F@YbF^Dn>[GKh<[1[0
+R12
+33
+R76
+!i10b 1
+R79
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ps2/src/ps2_transceiver_pkg.vhd|
+!i113 0
+R17
+R18
+Pram_pkg
+R6
+R8
+R9
+R5
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd
+l0
+L13
+V>R4c=4YE67a>mW8zkHl<22
+!s100 <eWAA0fLCY?>cO<cGWl?I3
+R12
+33
+R29
+!i10b 1
+R30
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/ram/src/ram_pkg.vhd|
+!i113 0
+R17
+R18
+Erasterizer
+R5
+R53
+R20
+R19
+R6
+R33
+R8
+R9
+R0
+Z99 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd
+Z100 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd
+l0
+L16
+VRk?5H5M9_Ph7m:bVjN^jL2
+!s100 Cc;nn;l2jUSWeh7GDHTe=0
+R12
+33
+R40
+!i10b 1
+R41
+Z101 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd|
+Z102 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer.vhd|
+!i113 0
+R17
+R18
+Astruct
+R53
+R20
+R19
+R6
+R33
+R8
+R9
+DEx4 work 10 rasterizer 0 22 Rk?5H5M9_Ph7m:bVjN^jL2
+l57
+L48
+V3JHI[klKNzj?e<L:_34?;1
+!s100 ^dmXEe5zPeefLd@YD2^7?0
+R12
+33
+R40
+!i10b 1
+R41
+R101
+R102
+!i113 0
+R17
+R18
+Erasterizer_fsm
+R5
+R53
+R19
+R20
+R45
+R46
+R8
+R9
+R0
+Z103 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd
+Z104 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd
+l0
+L16
+VRoD>of[WGVmz]kEF:g]BZ0
+!s100 54Xd]9HeD8jT7lCR@2DfZ2
+R12
+33
+R40
+!i10b 1
+R41
+Z105 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd|
+Z106 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_fsm.vhd|
+!i113 0
+R17
+R18
+Abeh
+R53
+R19
+R20
+R45
+R46
+R8
+R9
+DEx4 work 14 rasterizer_fsm 0 22 RoD>of[WGVmz]kEF:g]BZ0
+l134
+L42
+V4V>FbPJ1QW?[jz0FKVmzK2
+!s100 d1^I]?mneI6mY?WI4FJAZ1
+R12
+33
+R40
+!i10b 1
+R41
+R105
+R106
+!i113 0
+R17
+R18
+Prasterizer_pkg
+R8
+R9
+R5
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd
+l0
+L14
+Valz3AU0eiFOGVR_4G9l7`3
+!s100 PZM?2b]MC_Mf;?obZ8Vd]3
+R12
+33
+R13
+!i10b 1
+R14
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/rasterizer/rasterizer_pkg.vhd|
+!i113 0
+R17
+R18
+Prom_pkg
+R8
+R9
+R5
+R0
+Z107 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd
+Z108 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd
+l0
+L23
+VOM?n^Y8D7VE2XYXPf4R:[0
+!s100 8Z__e4B6K`GXkeFJiAZPZ1
+R12
+33
+b1
+R40
+!i10b 1
+R41
+Z109 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd|
+Z110 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_pkg.vhd|
+!i113 0
+R17
+R18
+Bbody
+R85
+R8
+R9
+l0
+L64
+VjG3Jg;dFl`oT]0@_gA0@93
+!s100 1WjQ=lH;=A6I<I71QjRMC1
+R12
+33
+R40
+!i10b 1
+R41
+R109
+R110
+!i113 0
+R17
+R18
+Erom_sync_1r
+R5
+R85
+R20
+R8
+R9
+R0
+Z111 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd
+Z112 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd
+l0
+L15
+VWmG<XR@RMZ[0Vd:SKB^T50
+!s100 g9W@j?HYNHQ4MmZj[KMA00
+R12
+33
+R40
+!i10b 1
+R41
+Z113 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd|
+Z114 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/rom/src/rom_sync_1r.vhd|
+!i113 0
+R17
+R18
+Abeh
+R85
+R20
+R8
+R9
+DEx4 work 11 rom_sync_1r 0 22 WmG<XR@RMZ[0Vd:SKB^T50
+l35
+L33
+VWhhQGjOfH8@_kkF4^kRo]3
+!s100 =6o]mEJ^]l;dA0iQ4g4>C1
+R12
+33
+R40
+!i10b 1
+R41
+R113
+R114
+!i113 0
+R17
+R18
+Eserial_port
+Z115 w1521997440
+R6
+R33
+Z116 DPx4 work 8 sync_pkg 0 22 3f2[3f:YQYYCOUjajS=YK2
+R8
+R9
+R0
+Z117 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port.vhd
+Z118 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port.vhd
+l0
+L9
+V?M;Q6JgXdEKn:@<iGd>3;0
+!s100 UUY8Y]``OQ3>^Y`60_UBV3
+R12
+32
+R56
+!i10b 1
+R57
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port.vhd|
+Z120 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port.vhd|
+!i113 0
+R60
+R18
+Abeh
+R6
+R33
+R116
+R8
+R9
+DEx4 work 11 serial_port 0 22 ?M;Q6JgXdEKn:@<iGd>3;0
+l89
+L41
+VBUISa92CR]^32;35R;zA52
+!s100 aZC2D7IV]<:RoSMY8<CCG1
+R12
+32
+R56
+!i10b 1
+R57
+R119
+R120
+!i113 0
+R60
+R18
+Pserial_port_pkg
+R8
+R9
+w1521832455
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd
+l0
+L4
+VDgl<fzQRo=fB2EJ3FNOQ61
+!s100 QX5=bM8jeA2BcCkSU<j8_1
+R12
+32
+R56
+!i10b 1
+R57
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_pkg.vhd|
+!i113 0
+R60
+R18
+Eserial_port_rx_fsm
+Z121 w1522002810
+R20
+R8
+R9
+R0
+Z122 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_rx_fsm.vhd
+Z123 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_rx_fsm.vhd
+l0
+L7
+VkMQTK^]ALe5Z9fmZ<4];B3
+!s100 Xda`z2WHQjUJbj]kcN3zM2
+R12
+32
+R56
+!i10b 1
+R57
+Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_rx_fsm.vhd|
+Z125 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_rx_fsm.vhd|
+!i113 0
+R60
+R18
+Abeh
+R20
+R8
+R9
+DEx4 work 18 serial_port_rx_fsm 0 22 kMQTK^]ALe5Z9fmZ<4];B3
+l53
+L27
+VC`^<ZaaGHkl4>?EIPlchN2
+!s100 OCXT>k<N_TLnBnOJk2nIi0
+R12
+32
+R56
+!i10b 1
+R57
+R124
+R125
+!i113 0
+R60
+R18
+Eserial_port_rx_fsm_tb
+Z126 w1521991434
+Z127 DPx4 work 15 top_tb_util_pkg 0 22 gcCITgG43E5nF_jcdJ9HL1
+Z128 DPx4 work 15 serial_port_pkg 0 22 Dgl<fzQRo=fB2EJ3FNOQ61
+R8
+R9
+R0
+Z129 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_rx_fsm_tb.vhd
+Z130 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_rx_fsm_tb.vhd
+l0
+L6
+VjfBIH70`IJo3@eN4ScRK_2
+!s100 eXQ^7L^]keI65ZM1YjjJ92
+R12
+32
+R56
+!i10b 1
+R57
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_rx_fsm_tb.vhd|
+Z132 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_rx_fsm_tb.vhd|
+!i113 0
+R60
+R18
+Abeh
+R127
+R128
+R8
+R9
+DEx4 work 21 serial_port_rx_fsm_tb 0 22 jfBIH70`IJo3@eN4ScRK_2
+l43
+L9
+VNgASn;@RDeVP38O4_DEFj0
+!s100 VAhC6]P94YaC:a8<`Tcbz0
+R12
+32
+R56
+!i10b 1
+R57
+R131
+R132
+!i113 0
+R60
+R18
+Eserial_port_tb
+Z133 w1521993614
+R127
+R128
+R8
+R9
+R0
+Z134 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd
+Z135 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd
+l0
+L6
+VO>G5`RBJ3]f6X<408lUb^2
+!s100 Mh32zoUUlL;J^BYgH2KW@2
+R12
+32
+R56
+!i10b 1
+R57
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd|
+Z137 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/tb/serial_port_tb.vhd|
+!i113 0
+R60
+R18
+Abeh
+R127
+R128
+R8
+R9
+DEx4 work 14 serial_port_tb 0 22 O>G5`RBJ3]f6X<408lUb^2
+l59
+L9
+V2=TVz0YIW=Ua_J<DMj7^a2
+!s100 zfOFM1DJmfU=XfAXdBMB_2
+R12
+32
+R56
+!i10b 1
+R57
+R136
+R137
+!i113 0
+R60
+R18
+Eserial_port_tx_fsm
+Z138 w1521800384
+R20
+R8
+R9
+R0
+Z139 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd
+Z140 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd
+l0
+L6
+V60eh_0d@CzP2e`e`@S?Lg1
+!s100 0l_FOW9VE`6O^jL[l02370
+R12
+33
+R40
+!i10b 1
+R41
+Z141 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd|
+Z142 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/serial_port/src/serial_port_tx_fsm.vhd|
+!i113 0
+R17
+R18
+Abeh
+R20
+R8
+R9
+DEx4 work 18 serial_port_tx_fsm 0 22 60eh_0d@CzP2e`e`@S?Lg1
+l41
+L24
+V:e`UN4`iTENWR8[aT43`T2
+!s100 iZ=[>1F6F@nL<_Y:jB2W92
+R12
+33
+R40
+!i10b 1
+R41
+R141
+R142
+!i113 0
+R17
+R18
+Eseven_segment_display
+Z143 w1521802134
+R20
+R19
+R8
+R9
+R0
+Z144 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd
+Z145 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd
+l0
+L6
+VNmTQ49`CnlUNlaSh=]Djd1
+!s100 <Nn;:oe[S8lgOf:Po=Wz]1
+R12
+33
+R56
+!i10b 1
+R57
+Z146 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd|
+Z147 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display.vhd|
+!i113 0
+R17
+R18
+Abeh
+R20
+R19
+R8
+R9
+DEx4 work 21 seven_segment_display 0 22 NmTQ49`CnlUNlaSh=]Djd1
+l39
+L26
+VhN8:;n[DX4HSOch_?nUlY0
+!s100 _1Sd>iX83AWAimC7f3dI31
+R12
+33
+R56
+!i10b 1
+R57
+R146
+R147
+!i113 0
+R17
+R18
+Pseven_segment_display_pkg
+R8
+R9
+w1521481765
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd
+l0
+L5
+V>Webbz`VYcO<SR5JV;V2L3
+!s100 zM4APgk97i8cc@]m]aPJY1
+R12
+33
+R40
+!i10b 1
+R41
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd|
+!s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/src/seven_segment_display_pkg.vhd|
+!i113 0
+R17
+R18
+Eseven_segment_tb
+Z148 w1521916710
+Z149 DPx4 work 25 seven_segment_display_pkg 0 22 >Webbz`VYcO<SR5JV;V2L3
+R8
+R9
+R0
+Z150 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd
+Z151 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd
+l0
+L7
+Vb4ZS8K0CcKd;EOB36ASlB3
+!s100 WdYa9di4SabEC2F<<T8Ye2
+R12
+32
+R56
+!i10b 1
+R57
+Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd|
+Z153 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/seven_segment_display/tb/seven_segment_tb.vhd|
+!i113 0
+R60
+R18
+Abeh
+R149
+R8
+R9
+DEx4 work 16 seven_segment_tb 0 22 b4ZS8K0CcKd;EOB36ASlB3
+l47
+L10
+VZN;H;QzX`E<LeLZ?6?]hh0
+!s100 :EkT;_^LD4EGe3m>1zEh00
+R12
+32
+R56
+!i10b 1
+R57
+R152
+R153
+!i113 0
+R60
+R18
+Esram_controller_wb
+R5
+R6
+R20
+R8
+R9
+R0
+Z154 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd
+Z155 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd
+l0
+L22
+Vm^bBKT3;[:F<jRcbf2mZm3
+!s100 QEFIITlQK[oJS?@HML>Uz1
+R12
+33
+R13
+!i10b 1
+R14
+Z156 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd|
+Z157 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_controller_wb.vhd|
+!i113 0
+R17
+R18
+Abeh
+R6
+R20
+R8
+R9
+DEx4 work 18 sram_controller_wb 0 22 m^bBKT3;[:F<jRcbf2mZm3
+l92
+L59
+V>A:ACT5<h=5RGIPN_2A7?0
+!s100 A4MU=GBA<g61kk?U0FIkh2
+R12
+33
+R13
+!i10b 1
+R14
+R156
+R157
+!i113 0
+R17
+R18
+Psram_pkg
+R6
+R8
+R9
+R5
+R0
+8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_pkg.vhd
+F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/sram/sram_pkg.vhd
+l0
+L11
+V=6QATBRmAKY>8[PeLWTL[1
+!s100 >em:ll_mj@oY2C@70X3QT0
+R12
+33
+R13
+!i10b 1
+R14
+!s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphic

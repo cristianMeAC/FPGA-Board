@@ -1,0 +1,843 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Intel and sold by Intel or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+# Date created = 14:29:35  March 12, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		StructuralModeling_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:29:35  MARCH 12, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION "17.0.0 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim (VHDL)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_V24 -to b[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to b[7]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to b[7]
+set_location_assignment PIN_P25 -to b[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to b[6]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to b[6]
+set_location_assignment PIN_U27 -to b[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to b[5]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to b[5]
+set_location_assignment PIN_P26 -to b[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to b[4]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to b[4]
+set_location_assignment PIN_R23 -to b[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to b[3]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to b[3]
+set_location_assignment PIN_U22 -to b[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to b[2]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to b[2]
+set_location_assignment PIN_R22 -to b[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to b[1]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to b[1]
+set_location_assignment PIN_V28 -to b[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to b[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to b[0]
+set_location_assignment PIN_Y2 -to clk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clk
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to clk
+set_location_assignment PIN_V27 -to den
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to den
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to den
+set_location_assignment PIN_V26 -to g[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to g[7]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to g[7]
+set_location_assignment PIN_L21 -to g[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to g[6]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to g[6]
+set_location_assignment PIN_R27 -to g[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to g[5]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to g[5]
+set_location_assignment PIN_L22 -to g[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to g[4]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to g[4]
+set_location_assignment PIN_R28 -to g[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to g[3]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to g[3]
+set_location_assignment PIN_N25 -to g[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to g[2]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to g[2]
+set_location_assignment PIN_V23 -to g[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to g[1]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to g[1]
+set_location_assignment PIN_N26 -to g[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to g[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to g[0]
+set_location_assignment PIN_P28 -to grest
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to grest
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to grest
+set_location_assignment PIN_P21 -to hd
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hd
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to hd
+set_location_assignment PIN_H22 -to hex0[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex0[6]
+set_location_assignment PIN_J22 -to hex0[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex0[5]
+set_location_assignment PIN_L25 -to hex0[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex0[4]
+set_location_assignment PIN_L26 -to hex0[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex0[3]
+set_location_assignment PIN_E17 -to hex0[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hex0[2]
+set_location_assignment PIN_F22 -to hex0[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hex0[1]
+set_location_assignment PIN_G18 -to hex0[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to hex0[0]
+set_location_assignment PIN_U24 -to hex1[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex1[6]
+set_location_assignment PIN_U23 -to hex1[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex1[5]
+set_location_assignment PIN_W25 -to hex1[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex1[4]
+set_location_assignment PIN_W22 -to hex1[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex1[3]
+set_location_assignment PIN_W21 -to hex1[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex1[2]
+set_location_assignment PIN_Y22 -to hex1[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex1[1]
+set_location_assignment PIN_M24 -to hex1[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex1[0]
+set_location_assignment PIN_W28 -to hex2[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex2[6]
+set_location_assignment PIN_W27 -to hex2[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex2[5]
+set_location_assignment PIN_Y26 -to hex2[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex2[4]
+set_location_assignment PIN_W26 -to hex2[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex2[3]
+set_location_assignment PIN_Y25 -to hex2[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex2[2]
+set_location_assignment PIN_AA26 -to hex2[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex2[1]
+set_location_assignment PIN_AA25 -to hex2[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex2[0]
+set_location_assignment PIN_Y19 -to hex3[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex3[6]
+set_location_assignment PIN_AF23 -to hex3[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex3[5]
+set_location_assignment PIN_AD24 -to hex3[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex3[4]
+set_location_assignment PIN_AA21 -to hex3[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex3[3]
+set_location_assignment PIN_AB20 -to hex3[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex3[2]
+set_location_assignment PIN_U21 -to hex3[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex3[1]
+set_location_assignment PIN_V21 -to hex3[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex3[0]
+set_location_assignment PIN_AE18 -to hex4[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex4[6]
+set_location_assignment PIN_AF19 -to hex4[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex4[5]
+set_location_assignment PIN_AE19 -to hex4[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex4[4]
+set_location_assignment PIN_AH21 -to hex4[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex4[3]
+set_location_assignment PIN_AG21 -to hex4[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex4[2]
+set_location_assignment PIN_AA19 -to hex4[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex4[1]
+set_location_assignment PIN_AB19 -to hex4[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex4[0]
+set_location_assignment PIN_AH18 -to hex5[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex5[6]
+set_location_assignment PIN_AF18 -to hex5[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex5[5]
+set_location_assignment PIN_AG19 -to hex5[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex5[4]
+set_location_assignment PIN_AH19 -to hex5[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex5[3]
+set_location_assignment PIN_AB18 -to hex5[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex5[2]
+set_location_assignment PIN_AC18 -to hex5[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex5[1]
+set_location_assignment PIN_AD18 -to hex5[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex5[0]
+set_location_assignment PIN_AC17 -to hex6[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex6[6]
+set_location_assignment PIN_AA15 -to hex6[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex6[5]
+set_location_assignment PIN_AB15 -to hex6[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex6[4]
+set_location_assignment PIN_AB17 -to hex6[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex6[3]
+set_location_assignment PIN_AA16 -to hex6[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex6[2]
+set_location_assignment PIN_AB16 -to hex6[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex6[1]
+set_location_assignment PIN_AA17 -to hex6[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex6[0]
+set_location_assignment PIN_AA14 -to hex7[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex7[6]
+set_location_assignment PIN_AG18 -to hex7[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex7[5]
+set_location_assignment PIN_AF17 -to hex7[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex7[4]
+set_location_assignment PIN_AH17 -to hex7[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex7[3]
+set_location_assignment PIN_AG17 -to hex7[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex7[2]
+set_location_assignment PIN_AE17 -to hex7[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex7[1]
+set_location_assignment PIN_AD17 -to hex7[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex7[0]
+set_location_assignment PIN_R24 -to keys[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to keys[3]
+set_location_assignment PIN_N21 -to keys[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to keys[2]
+set_location_assignment PIN_M21 -to keys[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to keys[1]
+set_location_assignment PIN_M23 -to keys[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to keys[0]
+set_location_assignment PIN_R21 -to nclk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to nclk
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to nclk
+set_location_assignment PIN_G6 -to ps2_clk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ps2_clk
+set_location_assignment PIN_H5 -to ps2_data
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ps2_data
+set_location_assignment PIN_J26 -to r[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to r[7]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to r[7]
+set_location_assignment PIN_T25 -to r[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to r[6]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to r[6]
+set_location_assignment PIN_L27 -to r[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to r[5]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to r[5]
+set_location_assignment PIN_T26 -to r[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to r[4]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to r[4]
+set_location_assignment PIN_L28 -to r[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to r[3]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to r[3]
+set_location_assignment PIN_U25 -to r[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to r[2]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to r[2]
+set_location_assignment PIN_V25 -to r[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to r[1]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to r[1]
+set_location_assignment PIN_U26 -to r[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to r[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to r[0]
+set_location_assignment PIN_G12 -to rx
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to rx
+set_location_assignment PIN_P27 -to sda
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sda
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to sda
+set_location_assignment PIN_T8 -to sram_addr[19]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[19]
+set_location_assignment PIN_AB8 -to sram_addr[18]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[18]
+set_location_assignment PIN_AB9 -to sram_addr[17]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[17]
+set_location_assignment PIN_AC11 -to sram_addr[16]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[16]
+set_location_assignment PIN_AB11 -to sram_addr[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[15]
+set_location_assignment PIN_AA4 -to sram_addr[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[14]
+set_location_assignment PIN_AC3 -to sram_addr[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[13]
+set_location_assignment PIN_AB4 -to sram_addr[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[12]
+set_location_assignment PIN_AD3 -to sram_addr[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[11]
+set_location_assignment PIN_AF2 -to sram_addr[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[10]
+set_location_assignment PIN_T7 -to sram_addr[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[9]
+set_location_assignment PIN_AF5 -to sram_addr[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[8]
+set_location_assignment PIN_AC5 -to sram_addr[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[7]
+set_location_assignment PIN_AB5 -to sram_addr[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[6]
+set_location_assignment PIN_AE6 -to sram_addr[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[5]
+set_location_assignment PIN_AB6 -to sram_addr[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[4]
+set_location_assignment PIN_AC7 -to sram_addr[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[3]
+set_location_assignment PIN_AE7 -to sram_addr[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[2]
+set_location_assignment PIN_AD7 -to sram_addr[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[1]
+set_location_assignment PIN_AB7 -to sram_addr[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_addr[0]
+set_location_assignment PIN_AF8 -to sram_ce_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_ce_n
+set_location_assignment PIN_AG3 -to sram_dq[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[15]
+set_location_assignment PIN_AF3 -to sram_dq[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[14]
+set_location_assignment PIN_AE4 -to sram_dq[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[13]
+set_location_assignment PIN_AE3 -to sram_dq[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[12]
+set_location_assignment PIN_AE1 -to sram_dq[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[11]
+set_location_assignment PIN_AE2 -to sram_dq[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[10]
+set_location_assignment PIN_AD2 -to sram_dq[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[9]
+set_location_assignment PIN_AD1 -to sram_dq[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[8]
+set_location_assignment PIN_AF7 -to sram_dq[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[7]
+set_location_assignment PIN_AH6 -to sram_dq[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[6]
+set_location_assignment PIN_AG6 -to sram_dq[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[5]
+set_location_assignment PIN_AF6 -to sram_dq[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[4]
+set_location_assignment PIN_AH4 -to sram_dq[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[3]
+set_location_assignment PIN_AG4 -to sram_dq[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[2]
+set_location_assignment PIN_AF4 -to sram_dq[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[1]
+set_location_assignment PIN_AH3 -to sram_dq[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_dq[0]
+set_location_assignment PIN_AD4 -to sram_lb_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_lb_n
+set_location_assignment PIN_AD5 -to sram_oe_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_oe_n
+set_location_assignment PIN_AC4 -to sram_ub_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_ub_n
+set_location_assignment PIN_AE8 -to sram_we_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sram_we_n
+set_location_assignment PIN_Y23 -to switches[17]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[17]
+set_location_assignment PIN_Y24 -to switches[16]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[16]
+set_location_assignment PIN_AA22 -to switches[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[15]
+set_location_assignment PIN_AA23 -to switches[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[14]
+set_location_assignment PIN_AA24 -to switches[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[13]
+set_location_assignment PIN_AB23 -to switches[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[12]
+set_location_assignment PIN_AB24 -to switches[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[11]
+set_location_assignment PIN_AC24 -to switches[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[10]
+set_location_assignment PIN_AB25 -to switches[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[9]
+set_location_assignment PIN_AC25 -to switches[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[8]
+set_location_assignment PIN_AB26 -to switches[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[7]
+set_location_assignment PIN_AD26 -to switches[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[6]
+set_location_assignment PIN_AC26 -to switches[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[5]
+set_location_assignment PIN_AB27 -to switches[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[4]
+set_location_assignment PIN_AD27 -to switches[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[3]
+set_location_assignment PIN_AC27 -to switches[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[2]
+set_location_assignment PIN_AC28 -to switches[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[1]
+set_location_assignment PIN_AB28 -to switches[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to switches[0]
+set_location_assignment PIN_U28 -to vd
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to vd
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to vd
+set_location_assignment PIN_E21 -to ledg[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ledg[0]
+set_location_assignment PIN_E22 -to ledg[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ledg[1]
+set_location_assignment PIN_E25 -to ledg[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ledg[2]
+set_location_assignment PIN_E24 -to ledg[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ledg[3]
+set_location_assignment PIN_H21 -to ledg[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ledg[4]
+set_location_assignment PIN_G20 -to ledg[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ledg[5]
+set_location_assignment PIN_G22 -to ledg[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ledg[6]
+set_location_assignment PIN_G21 -to ledg[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ledg[7]
+set_location_assignment PIN_F17 -to ledg[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ledg[8]
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name ENABLE_CONFIGURATION_PINS OFF
+set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF
+set_global_assignment -name STRATIXV_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
+set_global_assignment -name VHDL_SHOW_LMF_MAPPING_MESSAGES OFF
+set_location_assignment PIN_G9 -to tx
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to tx
+set_location_assignment PIN_AB22 -to GPIO[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO[0]
+set_location_assignment PIN_AC15 -to GPIO[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO[1]
+set_location_assignment PIN_AB21 -to GPIO[2]
+set_location_assignment PIN_Y17 -to GPIO[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO[3]
+set_location_assignment PIN_AC21 -to GPIO[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO[4]
+set_location_assignment PIN_Y16 -to GPIO[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO[5]
+set_location_assignment PIN_Y28 -to ADC_PENIRQ_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_PENIRQ_n
+set_location_assignment PIN_T22 -to ADC_DOUT
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_DOUT
+set_location_assignment PIN_Y27 -to ADC_BUSY
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_BUSY
+set_location_assignment PIN_T21 -to ADC_DIN
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_DIN
+set_location_assignment PIN_V22 -to ADC_DCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_DCLK
+set_location_assignment PIN_J25 -to ADC_SCEN
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_SCEN
+set_global_assignment -name ENABLE_SIGNALTAP ON
+set_global_assignment -name USE_SIGNALTAP_FILE output_files/SignalTap.stp
+set_global_assignment -name SLD_NODE_CREATOR_ID 110 -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_ENTITY_NAME sld_signaltap -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_RAM_BLOCK_TYPE=AUTO" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_INFO=805334528" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_POWER_UP_TRIGGER=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ATTRIBUTE_MEM_MODE=OFF" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STATE_FLOW_USE_GENERATED=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STATE_BITS=11" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_BUFFER_FULL_STOP=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_CURRENT_RESOURCE_WIDTH=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_INCREMENTAL_ROUTING=1" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[6] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[21] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[25] -to auto_signaltap_0|gnd -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[27] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_LEVEL=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_IN_ENABLED=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_PIPELINE=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_RAM_PIPELINE=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_COUNTER_PIPELINE=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ADVANCED_TRIGGER_ENTITY=basic,1," -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_LEVEL_PIPELINE=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ENABLE_ADVANCED_TRIGGER=0" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[4] -to auto_signaltap_0|gnd -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[11] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[13] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[19] -to auto_signaltap_0|gnd -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[16] -to auto_signaltap_0|gnd -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[26] -to auto_signaltap_0|gnd -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[2] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[15] -to auto_signaltap_0|gnd -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[17] -to auto_signaltap_0|gnd -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[23] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[0] -to ADC_BUSY -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[0] -to ADC_BUSY -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[1] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[9] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[10] -to auto_signaltap_0|gnd -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[14] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[20] -to auto_signaltap_0|gnd -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[28] -to auto_signaltap_0|gnd -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[30] -to auto_signaltap_0|gnd -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[31] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_SEGMENT_SIZE=128" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[3] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[5] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[12] -to auto_signaltap_0|gnd -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_SAMPLE_DEPTH=128" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[7] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[8] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_clk -to ADC_DCLK -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[1] -to ADC_DIN -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[2] -to ADC_DOUT -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[3] -to ADC_PENIRQ_n -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[4] -to ADC_SCEN -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[5] -to "touch_controller:touch_controller_instance|busy" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[6] -to "touch_controller:touch_controller_instance|clk" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[7] -to "touch_controller:touch_controller_instance|clk_cnt[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[8] -to "touch_controller:touch_controller_instance|clk_cnt[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[9] -to "touch_controller:touch_controller_instance|clk_cnt[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[10] -to "touch_controller:touch_controller_instance|clk_cnt[12]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[11] -to "touch_controller:touch_controller_instance|clk_cnt[13]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[12] -to "touch_controller:touch_controller_instance|clk_cnt[14]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[13] -to "touch_controller:touch_controller_instance|clk_cnt[15]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[14] -to "touch_controller:touch_controller_instance|clk_cnt[16]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[15] -to "touch_controller:touch_controller_instance|clk_cnt[17]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[16] -to "touch_controller:touch_controller_instance|clk_cnt[18]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[17] -to "touch_controller:touch_controller_instance|clk_cnt[19]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[18] -to "touch_controller:touch_controller_instance|clk_cnt[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[19] -to "touch_controller:touch_controller_instance|clk_cnt[20]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[20] -to "touch_controller:touch_controller_instance|clk_cnt[21]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[21] -to "touch_controller:touch_controller_instance|clk_cnt[22]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[22] -to "touch_controller:touch_controller_instance|clk_cnt[23]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[23] -to "touch_controller:touch_controller_instance|clk_cnt[24]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[24] -to "touch_controller:touch_controller_instance|clk_cnt[25]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[25] -to "touch_controller:touch_controller_instance|clk_cnt[26]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[26] -to "touch_controller:touch_controller_instance|clk_cnt[27]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[27] -to "touch_controller:touch_controller_instance|clk_cnt[28]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[28] -to "touch_controller:touch_controller_instance|clk_cnt[29]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[29] -to "touch_controller:touch_controller_instance|clk_cnt[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[30] -to "touch_controller:touch_controller_instance|clk_cnt[30]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[31] -to "touch_controller:touch_controller_instance|clk_cnt[31]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[32] -to "touch_controller:touch_controller_instance|clk_cnt[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[33] -to "touch_controller:touch_controller_instance|clk_cnt[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[34] -to "touch_controller:touch_controller_instance|clk_cnt[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[35] -to "touch_controller:touch_controller_instance|clk_cnt[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[36] -to "touch_controller:touch_controller_instance|clk_cnt[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[37] -to "touch_controller:touch_controller_instance|clk_cnt[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[38] -to "touch_controller:touch_controller_instance|clk_cnt[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[39] -to "touch_controller:touch_controller_instance|dclk" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[40] -to "touch_controller:touch_controller_instance|dclk_cnt[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[41] -to "touch_controller:touch_controller_instance|dclk_cnt[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[42] -to "touch_controller:touch_controller_instance|dclk_cnt[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[43] -to "touch_controller:touch_controller_instance|dclk_cnt[12]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[44] -to "touch_controller:touch_controller_instance|dclk_cnt[13]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[45] -to "touch_controller:touch_controller_instance|dclk_cnt[14]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[46] -to "touch_controller:touch_controller_instance|dclk_cnt[15]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[47] -to "touch_controller:touch_controller_instance|dclk_cnt[16]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[48] -to "touch_controller:touch_controller_instance|dclk_cnt[17]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[49] -to "touch_controller:touch_controller_instance|dclk_cnt[18]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[50] -to "touch_controller:touch_controller_instance|dclk_cnt[19]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[51] -to "touch_controller:touch_controller_instance|dclk_cnt[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[52] -to "touch_controller:touch_controller_instance|dclk_cnt[20]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[53] -to "touch_controller:touch_controller_instance|dclk_cnt[21]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[54] -to "touch_controller:touch_controller_instance|dclk_cnt[22]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[55] -to "touch_controller:touch_controller_instance|dclk_cnt[23]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[56] -to "touch_controller:touch_controller_instance|dclk_cnt[24]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[57] -to "touch_controller:touch_controller_instance|dclk_cnt[25]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[58] -to "touch_controller:touch_controller_instance|dclk_cnt[26]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[59] -to "touch_controller:touch_controller_instance|dclk_cnt[27]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[60] -to "touch_controller:touch_controller_instance|dclk_cnt[28]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[61] -to "touch_controller:touch_controller_instance|dclk_cnt[29]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[62] -to "touch_controller:touch_controller_instance|dclk_cnt[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[63] -to "touch_controller:touch_controller_instance|dclk_cnt[30]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[64] -to "touch_controller:touch_controller_instance|dclk_cnt[31]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[65] -to "touch_controller:touch_controller_instance|dclk_cnt[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[66] -to "touch_controller:touch_controller_instance|dclk_cnt[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[67] -to "touch_controller:touch_controller_instance|dclk_cnt[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[68] -to "touch_controller:touch_controller_instance|dclk_cnt[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[69] -to "touch_controller:touch_controller_instance|dclk_cnt[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[70] -to "touch_controller:touch_controller_instance|dclk_cnt[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[71] -to "touch_controller:touch_controller_instance|dclk_cnt[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[72] -to "touch_controller:touch_controller_instance|dclk_en" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[73] -to "touch_controller:touch_controller_instance|din" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[74] -to "touch_controller:touch_controller_instance|dout" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[75] -to "touch_controller:touch_controller_instance|id[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[76] -to "touch_controller:touch_controller_instance|id[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[77] -to "touch_controller:touch_controller_instance|id[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[78] -to "touch_controller:touch_controller_instance|id[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[79] -to "touch_controller:touch_controller_instance|id_next[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[80] -to "touch_controller:touch_controller_instance|id_next[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[81] -to "touch_controller:touch_controller_instance|id_next[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[82] -to "touch_controller:touch_controller_instance|id_next[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[83] -to "touch_controller:touch_controller_instance|penirq_n" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[84] -to "touch_controller:touch_controller_instance|round" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[85] -to "touch_controller:touch_controller_instance|round_next" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[86] -to "touch_controller:touch_controller_instance|scen" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[87] -to "touch_controller:touch_controller_instance|x[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[88] -to "touch_controller:touch_controller_instance|x[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[89] -to "touch_controller:touch_controller_instance|x[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[90] -to "touch_controller:touch_controller_instance|x[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[91] -to "touch_controller:touch_controller_instance|x[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[92] -to "touch_controller:touch_controller_instance|x[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[93] -to "touch_controller:touch_controller_instance|x[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[94] -to "touch_controller:touch_controller_instance|x[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[95] -to "touch_controller:touch_controller_instance|x[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[96] -to "touch_controller:touch_controller_instance|x[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[97] -to "touch_controller:touch_controller_instance|x[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[98] -to "touch_controller:touch_controller_instance|x[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[99] -to "touch_controller:touch_controller_instance|x_next[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[100] -to "touch_controller:touch_controller_instance|x_next[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[101] -to "touch_controller:touch_controller_instance|x_next[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[102] -to "touch_controller:touch_controller_instance|x_next[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[103] -to "touch_controller:touch_controller_instance|x_next[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[104] -to "touch_controller:touch_controller_instance|x_next[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[105] -to "touch_controller:touch_controller_instance|x_next[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[106] -to "touch_controller:touch_controller_instance|x_next[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[107] -to "touch_controller:touch_controller_instance|x_next[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[108] -to "touch_controller:touch_controller_instance|x_next[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[109] -to "touch_controller:touch_controller_instance|x_next[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[110] -to "touch_controller:touch_controller_instance|x_next[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[111] -to "touch_controller:touch_controller_instance|y[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[112] -to "touch_controller:touch_controller_instance|y[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[113] -to "touch_controller:touch_controller_instance|y[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[114] -to "touch_controller:touch_controller_instance|y[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[115] -to "touch_controller:touch_controller_instance|y[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[116] -to "touch_controller:touch_controller_instance|y[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[117] -to "touch_controller:touch_controller_instance|y[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[118] -to "touch_controller:touch_controller_instance|y[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[119] -to "touch_controller:touch_controller_instance|y[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[120] -to "touch_controller:touch_controller_instance|y[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[121] -to "touch_controller:touch_controller_instance|y[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[122] -to "touch_controller:touch_controller_instance|y[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[123] -to "touch_controller:touch_controller_instance|y_next[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[124] -to "touch_controller:touch_controller_instance|y_next[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[125] -to "touch_controller:touch_controller_instance|y_next[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[126] -to "touch_controller:touch_controller_instance|y_next[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[127] -to "touch_controller:touch_controller_instance|y_next[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[128] -to "touch_controller:touch_controller_instance|y_next[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[129] -to "touch_controller:touch_controller_instance|y_next[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[130] -to "touch_controller:touch_controller_instance|y_next[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[131] -to "touch_controller:touch_controller_instance|y_next[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[132] -to "touch_controller:touch_controller_instance|y_next[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[133] -to "touch_controller:touch_controller_instance|y_next[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[134] -to "touch_controller:touch_controller_instance|y_next[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[1] -to ADC_DIN -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[2] -to ADC_DOUT -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[3] -to ADC_PENIRQ_n -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[4] -to ADC_SCEN -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[5] -to "touch_controller:touch_controller_instance|busy" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[6] -to "touch_controller:touch_controller_instance|clk" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[7] -to "touch_controller:touch_controller_instance|clk_cnt[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[8] -to "touch_controller:touch_controller_instance|clk_cnt[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[9] -to "touch_controller:touch_controller_instance|clk_cnt[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[10] -to "touch_controller:touch_controller_instance|clk_cnt[12]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[11] -to "touch_controller:touch_controller_instance|clk_cnt[13]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[12] -to "touch_controller:touch_controller_instance|clk_cnt[14]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[13] -to "touch_controller:touch_controller_instance|clk_cnt[15]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[14] -to "touch_controller:touch_controller_instance|clk_cnt[16]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[15] -to "touch_controller:touch_controller_instance|clk_cnt[17]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[16] -to "touch_controller:touch_controller_instance|clk_cnt[18]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[17] -to "touch_controller:touch_controller_instance|clk_cnt[19]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[18] -to "touch_controller:touch_controller_instance|clk_cnt[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[19] -to "touch_controller:touch_controller_instance|clk_cnt[20]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[20] -to "touch_controller:touch_controller_instance|clk_cnt[21]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[21] -to "touch_controller:touch_controller_instance|clk_cnt[22]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[22] -to "touch_controller:touch_controller_instance|clk_cnt[23]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[23] -to "touch_controller:touch_controller_instance|clk_cnt[24]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[24] -to "touch_controller:touch_controller_instance|clk_cnt[25]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[25] -to "touch_controller:touch_controller_instance|clk_cnt[26]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[26] -to "touch_controller:touch_controller_instance|clk_cnt[27]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[27] -to "touch_controller:touch_controller_instance|clk_cnt[28]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[28] -to "touch_controller:touch_controller_instance|clk_cnt[29]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[29] -to "touch_controller:touch_controller_instance|clk_cnt[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[30] -to "touch_controller:touch_controller_instance|clk_cnt[30]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[31] -to "touch_controller:touch_controller_instance|clk_cnt[31]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[32] -to "touch_controller:touch_controller_instance|clk_cnt[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[33] -to "touch_controller:touch_controller_instance|clk_cnt[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[34] -to "touch_controller:touch_controller_instance|clk_cnt[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[35] -to "touch_controller:touch_controller_instance|clk_cnt[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[36] -to "touch_controller:touch_controller_instance|clk_cnt[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[37] -to "touch_controller:touch_controller_instance|clk_cnt[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[38] -to "touch_controller:touch_controller_instance|clk_cnt[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[39] -to "touch_controller:touch_controller_instance|dclk" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[40] -to "touch_controller:touch_controller_instance|dclk_cnt[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[41] -to "touch_controller:touch_controller_instance|dclk_cnt[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[42] -to "touch_controller:touch_controller_instance|dclk_cnt[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[43] -to "touch_controller:touch_controller_instance|dclk_cnt[12]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[44] -to "touch_controller:touch_controller_instance|dclk_cnt[13]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[45] -to "touch_controller:touch_controller_instance|dclk_cnt[14]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[46] -to "touch_controller:touch_controller_instance|dclk_cnt[15]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[47] -to "touch_controller:touch_controller_instance|dclk_cnt[16]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[48] -to "touch_controller:touch_controller_instance|dclk_cnt[17]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[49] -to "touch_controller:touch_controller_instance|dclk_cnt[18]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[50] -to "touch_controller:touch_controller_instance|dclk_cnt[19]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[51] -to "touch_controller:touch_controller_instance|dclk_cnt[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[52] -to "touch_controller:touch_controller_instance|dclk_cnt[20]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[53] -to "touch_controller:touch_controller_instance|dclk_cnt[21]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[54] -to "touch_controller:touch_controller_instance|dclk_cnt[22]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[55] -to "touch_controller:touch_controller_instance|dclk_cnt[23]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[56] -to "touch_controller:touch_controller_instance|dclk_cnt[24]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[57] -to "touch_controller:touch_controller_instance|dclk_cnt[25]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[58] -to "touch_controller:touch_controller_instance|dclk_cnt[26]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[59] -to "touch_controller:touch_controller_instance|dclk_cnt[27]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[60] -to "touch_controller:touch_controller_instance|dclk_cnt[28]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[61] -to "touch_controller:touch_controller_instance|dclk_cnt[29]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[62] -to "touch_controller:touch_controller_instance|dclk_cnt[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[63] -to "touch_controller:touch_controller_instance|dclk_cnt[30]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[64] -to "touch_controller:touch_controller_instance|dclk_cnt[31]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[65] -to "touch_controller:touch_controller_instance|dclk_cnt[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[66] -to "touch_controller:touch_controller_instance|dclk_cnt[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[67] -to "touch_controller:touch_controller_instance|dclk_cnt[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[68] -to "touch_controller:touch_controller_instance|dclk_cnt[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[69] -to "touch_controller:touch_controller_instance|dclk_cnt[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[70] -to "touch_controller:touch_controller_instance|dclk_cnt[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[71] -to "touch_controller:touch_controller_instance|dclk_cnt[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[72] -to "touch_controller:touch_controller_instance|dclk_en" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[73] -to "touch_controller:touch_controller_instance|din" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[74] -to "touch_controller:touch_controller_instance|dout" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[75] -to "touch_controller:touch_controller_instance|id[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[76] -to "touch_controller:touch_controller_instance|id[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[77] -to "touch_controller:touch_controller_instance|id[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[78] -to "touch_controller:touch_controller_instance|id[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[79] -to "touch_controller:touch_controller_instance|id_next[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[80] -to "touch_controller:touch_controller_instance|id_next[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[81] -to "touch_controller:touch_controller_instance|id_next[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[82] -to "touch_controller:touch_controller_instance|id_next[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[83] -to "touch_controller:touch_controller_instance|penirq_n" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[84] -to "touch_controller:touch_controller_instance|round" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[85] -to "touch_controller:touch_controller_instance|round_next" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[86] -to "touch_controller:touch_controller_instance|scen" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[87] -to "touch_controller:touch_controller_instance|x[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[88] -to "touch_controller:touch_controller_instance|x[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[89] -to "touch_controller:touch_controller_instance|x[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[90] -to "touch_controller:touch_controller_instance|x[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[91] -to "touch_controller:touch_controller_instance|x[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[92] -to "touch_controller:touch_controller_instance|x[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[93] -to "touch_controller:touch_controller_instance|x[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[94] -to "touch_controller:touch_controller_instance|x[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[95] -to "touch_controller:touch_controller_instance|x[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[96] -to "touch_controller:touch_controller_instance|x[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[97] -to "touch_controller:touch_controller_instance|x[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[98] -to "touch_controller:touch_controller_instance|x[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[99] -to "touch_controller:touch_controller_instance|x_next[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[100] -to "touch_controller:touch_controller_instance|x_next[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[101] -to "touch_controller:touch_controller_instance|x_next[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[102] -to "touch_controller:touch_controller_instance|x_next[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[103] -to "touch_controller:touch_controller_instance|x_next[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[104] -to "touch_controller:touch_controller_instance|x_next[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[105] -to "touch_controller:touch_controller_instance|x_next[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[106] -to "touch_controller:touch_controller_instance|x_next[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[107] -to "touch_controller:touch_controller_instance|x_next[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[108] -to "touch_controller:touch_controller_instance|x_next[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[109] -to "touch_controller:touch_controller_instance|x_next[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[110] -to "touch_controller:touch_controller_instance|x_next[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[111] -to "touch_controller:touch_controller_instance|y[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[112] -to "touch_controller:touch_controller_instance|y[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[113] -to "touch_controller:touch_controller_instance|y[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[114] -to "touch_controller:touch_controller_instance|y[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[115] -to "touch_controller:touch_controller_instance|y[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[116] -to "touch_controller:touch_controller_instance|y[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[117] -to "touch_controller:touch_controller_instance|y[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[118] -to "touch_controller:touch_controller_instance|y[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[119] -to "touch_controller:touch_controller_instance|y[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[120] -to "touch_controller:touch_controller_instance|y[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[121] -to "touch_controller:touch_controller_instance|y[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[122] -to "touch_controller:touch_controller_instance|y[9]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[123] -to "touch_controller:touch_controller_instance|y_next[0]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[124] -to "touch_controller:touch_controller_instance|y_next[10]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[125] -to "touch_controller:touch_controller_instance|y_next[11]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[126] -to "touch_controller:touch_controller_instance|y_next[1]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[127] -to "touch_controller:touch_controller_instance|y_next[2]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[128] -to "touch_controller:touch_controller_instance|y_next[3]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[129] -to "touch_controller:touch_controller_instance|y_next[4]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[130] -to "touch_controller:touch_controller_instance|y_next[5]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[131] -to "touch_controller:touch_controller_instance|y_next[6]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[132] -to "touch_controller:touch_controller_instance|y_next[7]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[133] -to "touch_controller:touch_controller_instance|y_next[8]" -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[134] -to "touch_controller:touch_controller_instance|y_next[9]" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_DATA_BITS=135" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_BITS=135" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STORAGE_QUALIFIER_BITS=135" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_INVERSION_MASK=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_INVERSION_MASK_LENGTH=426" -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[0] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[18] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[22] -to auto_signaltap_0|gnd -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[24] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT crc[29] -to auto_signaltap_0|vcc -section_id auto_signaltap_0
+set_location_assignment PIN_G19 -to ledr
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ledr
+set_global_assignment -name VHDL_FILE ../../input_manager/tb_combined/input_touch_tb.vhd
+set_global_assignment -name VHDL_FILE ../../input_manager/tb/input_manager_tb.vhd
+set_global_assignment -name VHDL_FILE ../../input_manager/src/input_manager_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../input_manager/src/input_manager.vhd -hdl_version VHDL_2008
+set_global_assignment -name VHDL_FILE ../../serial_port/src/serial_port.vhd
+set_global_assignment -name VHDL_FILE ../../serial_port/tb/serial_port_tb.vhd
+set_global_assignment -name VHDL_FILE ../../serial_port/src/serial_port_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../serial_port/src/serial_port_tx_fsm.vhd
+set_global_assignment -name VHDL_FILE ../../serial_port/tb/serial_port_rx_fsm_tb.vhd -hdl_version VHDL_2008
+set_global_assignment -name VHDL_FILE ../../serial_port/src/serial_port_rx_fsm.vhd
+set_global_assignment -name VHDL_FILE ../../touch_controller/src/touch_controller.vhd
+set_global_assignment -name VHDL_FILE ../../touch_controller/tb/touch_controller_tb.vhd
+set_global_assignment -name VHDL_FILE ../../touch_controller/src/touch_controller_pkg.vhd
+set_global_assignment -name VHDL_FILE ../tb/top_tb_util_pkg.vhd
+set_global_assignment -name VHDL_FILE ../tb/top_tb.vhd
+set_global_assignment -name VHDL_FILE ../src/top.vhd
+set_global_assignment -name VHDL_FILE ../../graphics_controller/src/framereader/ltm_cntrl.vhd
+set_global_assignment -name VHDL_FILE ../../graphics_controller/src/framereader/framereader.vhd
+set_global_assignment -name VHDL_FILE ../../graphics_controller/src/sram/sram_controller_wb.vhd
+set_global_assignment -name VHDL_FILE ../../graphics_controller/src/wb_arbiter/wb_arbiter.vhd
+set_global_assignment -name VHDL_FILE ../../graphics_controller/src/rasterizer/rasterizer_fsm.vhd
+set_global_assignment -name VHDL_FILE ../../graphics_controller/src/rasterizer/rasterizer.vhd
+set_global_assignment -name VHDL_FILE ../../graphics_controller/src/rasterizer/fb_writer.vhd
+set_global_assignment -name VHDL_FILE ../../seven_segment_display/src/seven_segment_display_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../seven_segment_display/tb/seven_segment_tb.vhd
+set_global_assignment -name VHDL_FILE ../../seven_segment_display/src/seven_segment_display.vhd
+set_global_assignment -name VHDL_FILE ../../graphics_controller/src/wb_arbiter/wb_arbiter_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../graphics_controller/src/sram/sram_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../graphics_controller/src/rasterizer/rasterizer_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../graphics_controller/src/framereader/framereader_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../rom/src/rom_sync_1r.vhd
+set_global_assignment -name VHDL_FILE ../../rom/src/rom_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../ram/src/wb_ram.vhd
+set_global_assignment -name VHDL_FILE ../../ram/src/ram_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../ram/src/fifo_1c1r1w.vhd
+set_global_assignment -name VHDL_FILE ../../ram/src/dp_ram_1c1r1w.vhd
+set_global_assignment -name VHDL_FILE ../../ps2_ascii/src/ps2_ascii_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../ps2_ascii/src/ps2_ascii.vhd
+set_global_assignment -name VHDL_FILE ../../ps2/src/ps2_transceiver_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../ps2/src/ps2_transceiver.vhd
+set_global_assignment -name VHDL_FILE ../../ps2/src/ps2_keyboard_controller_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../ps2/src/ps2_keyboard_controller.vhd
+set_global_assignment -name VHDL_FILE ../../merge_fifo/merge_fifo_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../merge_fifo/merge_fifo.vhd
+set_global_assignment -name VHDL_FILE ../../merge_fifo/alt_fwft_fifo.vhd
+set_global_assignment -name VHDL_FILE ../../math/src/math_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../graphics_controller/src/graphics_controller_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../graphics_controller/src/graphics_controller.vhd
+set_global_assignment -name VHDL_FILE ../../ascii_gcinstr/src/ascii_gcinstr_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../ascii_gcinstr/src/ascii_gcinstr.vhd
+set_global_assignment -name VHDL_FILE ../../synchronizer/src/sync_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../synchronizer/src/sync.vhd
+set_global_assignment -name SDC_FILE ../src/SDC1.sdc
+set_global_assignment -name VHDL_FILE pll.vhd
+set_global_assignment -name SOURCE_FILE db/StructuralModeling.cmp.rdb
+set_global_assignment -name SIGNALTAP_FILE output_files/SignalTap.stp
+set_global_assignment -name SLD_FILE db/SignalTap_auto_stripped.stp
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

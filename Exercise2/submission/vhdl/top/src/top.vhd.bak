@@ -1,0 +1,288 @@
+
+--------------------------------------------------------------------------------
+--                                LIBRARIES                                   --
+--------------------------------------------------------------------------------
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+-- import all required packages
+use work.sync_pkg.all;
+use work.ascii_gcinstr_pkg.all;
+use work.graphics_controller_pkg.all;
+use work.math_pkg.all;
+use work.merge_fifo_pkg.all;
+use work.ps2_transceiver_pkg.all;
+use work.ps2_pkg.all;
+use work.ps2_ascii_pkg.all;
+use work.ram_pkg.all;
+use work.rom_pkg.all;
+use work.seven_segment_display_pkg.all;
+
+-- They are in graphics_controller
+use work.framereader_pkg.all;
+use work.rasterizer_pkg.all;
+use work.sram_pkg.all;
+use work.wb_arbiter_pkg.all;
+use work.pll_pkg.all;
+
+
+--------------------------------------------------------------------------------
+--                                 ENTITY                                     --
+--------------------------------------------------------------------------------
+
+entity top is
+	port (
+		--50 MHz clock input
+		clk      : in  std_logic;
+
+		-- push buttons and switches
+		keys     : in std_logic_vector(3 downto 0);
+		switches : in std_logic_vector(17 downto 0);
+	
+		--Seven segment digit
+		hex0 : out std_logic_vector(6 downto 0);
+		hex1 : out std_logic_vector(6 downto 0);
+		hex2 : out std_logic_vector(6 downto 0);
+		hex3 : out std_logic_vector(6 downto 0);
+		hex4 : out std_logic_vector(6 downto 0);
+		hex5 : out std_logic_vector(6 downto 0);
+		hex6 : out std_logic_vector(6 downto 0);
+		hex7 : out std_logic_vector(6 downto 0);
+
+		-- the grren LEDs
+		ledg : out std_logic_vector(8 downto 0);
+
+		-- external interface to SRAM
+		sram_dq : inout std_logic_vector(15 downto 0);
+		sram_addr : out std_logic_vector(19 downto 0);
+		sram_ub_n : out std_logic;
+		sram_lb_n : out std_logic;
+		sram_we_n : out std_logic;
+		sram_ce_n : out std_logic;
+		sram_oe_n : out std_logic;
+		
+		-- LCD interface
+		nclk    : out std_logic;
+		hd      : out std_logic;
+		vd      : out std_logic;
+		den     : out std_logic;
+		r       : out std_logic_vector(7 downto 0);
+		g       : out std_logic_vector(7 downto 0);
+		b       : out std_logic_vector(7 downto 0);
+		grest   : out std_logic;
+		sda     : out std_logic;
+		
+		-- PS/2
+		ps2_clk   :inout std_logic;
+		ps2_data  :inout std_logic
+	);
+end entity;
+
+--------------------------------------------------------------------------------
+--                             ARCHITECTURE                                   --
+--------------------------------------------------------------------------------
+
+-- add your architecture here!
+
+architecture top_arch of top is
+	
+	constant SYNC_STAGES : integer := 2;
+	constant SYS_CLK_FREQ : integer := 50000000;
+	constant PS2_BUFFER_DEPTH : integer := 8;
+	constant DATA_WIDTH : integer := 8;
+	
+	signal sys_clk   		: std_logic;
+	signal sys_res_n 		: std_logic;
+	signal display_clk   : std_logic;
+	
+	signal data_out      : std_logic;
+	signal instr_wr		: std_logic;
+	signal instr			: std_logic_vector(GCNTL_INSTR_WIDTH-1 downto 0);
+	signal new_ascii     : std_logic;
+	signal ascii     		: std_logic_vector(7 downto 0);
+	signal temp_rd			: std_logic;
+	signal temp_empty		: std_logic;
+	signal temp_rd_data  : std_logic_vector(DATA_WIDTH - 1 downto 0);
+	
+	
+	signal temp_scancode 	 : std_logic_vector (7 downto 0);  -- IP Cores(PS/2 Keyboard)
+	signal temp_new_scancode : std_logic;
+	signal instr_full 		 : std_logic; -- internal Wire
+	
+	--task2 color Signal
+	signal temp_color   :  std_logic_vector ( 15 downto 0);
+	
+	-- damit ich ein Instanz von PLL benutzen kann
+	component pll IS
+	PORT
+	(
+		inclk0		: IN STD_LOGIC  := '0';
+		c0				: OUT STD_LOGIC 
+	);
+	END component;
+	
+begin
+	
+	sys_clk <= clk;  -- nicht ein Teil von Component, deshalb ist es draussen
+	ledg(7 downto 0) <= temp_scancode;  -- ledg <= ('Z' & temp_scancode)
+	
+	-- an Instance of pll
+	pll_inst : pll
+	port map (
+		inclk0 => clk,      --instead of clk_in => clk
+		c0 => display_clk   --instead of clk_out => display_clk
+	);
+
+	-- an Instance of syncLcurrenteft
+	sys_reset_sync : sync 
+	generic map (
+			SYNC_STAGES => SYNC_STAGES,
+			RESET_VALUE => '1'
+	)
+	port map (
+		clk => sys_clk,
+		res_n => '1',
+		data_in => keys(0),
+		data_out => sys_res_n 
+	);
+	
+	-- an Instance of syncRightascii_gcinstr_pkg
+	display_reset_sync : sync 
+	generic map (
+			SYNC_STAGES => SYNC_STAGES,
+			RESET_VALUE => '1'
+	)
+	port map (
+		clk => display_clk,
+		res_n => '1',
+		data_in => keys(0),
+		data_out => data_out 
+	);
+	
+	-- an Instance of graphics_controller
+	gcntrl_inst : graphics_controller
+	port map(
+		clk => sys_clk,
+		res_n => sys_res_n,
+		
+		instr_wr => instr_wr,
+		instr => instr,
+		
+		display_clk => display_clk,
+		display_res_n => data_out,
+		sram_dq => sram_dq,
+		
+		-- we change it because of task2. Instead of open, we put temp_color 
+		current_color => temp_color,
+		instr_full => instr_full,
+		
+		nclk => nclk,
+		grest => grest,
+		vd => vd,
+		hd => hd,
+		den => den,
+		r => r,
+		g => g,
+		b => b,
+		sda => sda,
+		sram_addr => sram_addr,
+		sram_ub_n => sram_ub_n,
+		sram_lb_n => sram_lb_n,
+		sram_we_n => sram_we_n,
+		sram_ce_n => sram_ce_n,
+		sram_oe_n => sram_oe_n	
+	);
+	
+--------------------------------------------------------------------------------
+--                             Figure 1 Ends here                             --
+--------------------------------------------------------------------------------
+	
+	
+	-- an Instant of ps2_keyboard_controller
+	ps2_kbd_cntrl_inst : ps2_keyboard_controller
+	generic map(
+		 CLK_FREQ => SYS_CLK_FREQ,
+		 SYNC_STAGES => SYNC_STAGES
+	)
+	port map(
+			clk => sys_clk,
+			res_n => sys_res_n,
+			ps2_clk => ps2_clk,
+			ps2_data => ps2_data,
+			
+			new_scancode => temp_new_scancode,
+			scancode => temp_scancode
+			
+	);
+	
+	
+	-- an Instant of ps2_ascii
+	ps2_ascii_inst : ps2_ascii
+	port map(
+			clk => sys_clk,
+			res_n => sys_res_n,
+			new_scancode => temp_new_scancode,
+		   scancode => temp_scancode,
+			
+			new_ascii => new_ascii,
+			ascii => ascii
+	);
+	
+	-- an Instant of fifo_lclrlw
+	ascii_buffer : fifo_1c1r1w
+	generic map(
+			MIN_DEPTH => PS2_BUFFER_DEPTH,			-- MIN_DEPTH defined in IP Cores
+			DATA_WIDTH => 8
+	)
+	port map(
+			clk => sys_clk,
+			res_n => sys_res_n,
+			rd => temp_rd,   
+			
+			wr => new_ascii,
+			wr_data => ascii,  
+		
+			empty => temp_empty,
+			rd_data => temp_rd_data,   
+			
+			full => open,
+			fill_level => open
+				
+	);
+	
+	-- an Instant of ascii_gcinstr
+	ascii_gcinstr_instr : ascii_gcinstr
+	port map(
+			clk => sys_clk,
+			res_n => sys_res_n,
+			
+			ascii_empty => temp_empty,
+			ascii_data => temp_rd_data ,
+			
+			instr_full => instr_full,
+			instr_wr => instr_wr,
+			instr => instr,
+			ascii_rd =>  temp_rd
+	);
+	
+--------------------------------------------------------------------------------
+--                             Figure 2 Ends here                             --
+--------------------------------------------------------------------------------
+
+	-- an Instant of seven_segment_display
+	seven_segment_display_instance : seven_segment_display
+	port map(
+	
+		color => temp_color,
+		
+		--2nd hex0 is the one from top.vhdl, 1st one is the one from seven_segment_display
+		--we need to connect it to the Top Layer Entity, so it needs to be defined here as well
+		hex0(6 downto 0) => hex0(6 downto 0),
+		hex1(6 downto 0) => hex1(6 downto 0), 
+		hex2(6 downto 0) => hex2(6 downto 0),
+		hex3(6 downto 0) => hex3(6 downto 0)
+		
+	);
+	
+end architecture;

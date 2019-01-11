@@ -1,0 +1,168 @@
+
+State Machine - |top|ascii_gcinstr:ascii_gcinstr_instrKeyb|state
+Name state.SEND_INSTRUCTION state.READ_HEX_STRING state.READ_COMMAND state.IDLE 
+state.IDLE 0 0 0 0 
+state.READ_COMMAND 0 0 1 1 
+state.READ_HEX_STRING 0 1 0 1 
+state.SEND_INSTRUCTION 1 0 0 1 
+
+State Machine - |top|serial_port:serial_port_intz|serial_port_tx_fsm:tx_fsm_inst|transmitter_state
+Name transmitter_state.TRANSMIT_STOP transmitter_state.TRANSMIT_STOP_NEXT transmitter_state.TRANSMIT_NEXT transmitter_state.TRANSMIT transmitter_state.TRANSMIT_FIRST transmitter_state.SEND_START_BIT transmitter_state.NEW_DATA transmitter_state.IDLE 
+transmitter_state.IDLE 0 0 0 0 0 0 0 0 
+transmitter_state.NEW_DATA 0 0 0 0 0 0 1 1 
+transmitter_state.SEND_START_BIT 0 0 0 0 0 1 0 1 
+transmitter_state.TRANSMIT_FIRST 0 0 0 0 1 0 0 1 
+transmitter_state.TRANSMIT 0 0 0 1 0 0 0 1 
+transmitter_state.TRANSMIT_NEXT 0 0 1 0 0 0 0 1 
+transmitter_state.TRANSMIT_STOP_NEXT 0 1 0 0 0 0 0 1 
+transmitter_state.TRANSMIT_STOP 1 0 0 0 0 0 0 1 
+
+State Machine - |top|serial_port:serial_port_intz|serial_port_rx_fsm:rx_fsm_inst|receiver_state
+Name receiver_state.MIDDLE_OF_STOP_BIT receiver_state.WAIT_STOP_BIT receiver_state.MIDDLE_OF_DATA_BIT receiver_state.WAIT_DATA_BIT receiver_state.MIDDLE_OF_START_BIT receiver_state.GOTO_MIDDLE_OF_START_BIT receiver_state.WAIT_START_BIT receiver_state.IDLE 
+receiver_state.IDLE 0 0 0 0 0 0 0 0 
+receiver_state.WAIT_START_BIT 0 0 0 0 0 0 1 1 
+receiver_state.GOTO_MIDDLE_OF_START_BIT 0 0 0 0 0 1 0 1 
+receiver_state.MIDDLE_OF_START_BIT 0 0 0 0 1 0 0 1 
+receiver_state.WAIT_DATA_BIT 0 0 0 1 0 0 0 1 
+receiver_state.MIDDLE_OF_DATA_BIT 0 0 1 0 0 0 0 1 
+receiver_state.WAIT_STOP_BIT 0 1 0 0 0 0 0 1 
+receiver_state.MIDDLE_OF_STOP_BIT 1 0 0 0 0 0 0 1 
+
+State Machine - |top|seven_segment_display:seven_segment_display_instance|current_state
+Name current_state.STATE_BLUE current_state.STATE_GREEN current_state.STATE_RED 
+current_state.STATE_RED 0 0 0 
+current_state.STATE_GREEN 0 1 1 
+current_state.STATE_BLUE 1 0 1 
+
+State Machine - |top|ascii_gcinstr:ascii_gcinstr_instr|state
+Name state.SEND_INSTRUCTION state.READ_HEX_STRING state.READ_COMMAND state.IDLE 
+state.IDLE 0 0 0 0 
+state.READ_COMMAND 0 0 1 1 
+state.READ_HEX_STRING 0 1 0 1 
+state.SEND_INSTRUCTION 1 0 0 1 
+
+State Machine - |top|ps2_ascii:ps2_ascii_inst|keyboard_state
+Name keyboard_state.STATE_READ keyboard_state.STATE_DECODE_EXTENDED keyboard_state.STATE_DECODE keyboard_state.STATE_SHIFT_END2 keyboard_state.STATE_SHIFT_END1 keyboard_state.STATE_SHIFT_START2 keyboard_state.STATE_SHIFT_START1 keyboard_state.STATE_EXTENDED_RELEASE keyboard_state.STATE_EXTENDED keyboard_state.STATE_RELEASE keyboard_state.STATE_IDLE 
+keyboard_state.STATE_IDLE 0 0 0 0 0 0 0 0 0 0 0 
+keyboard_state.STATE_RELEASE 0 0 0 0 0 0 0 0 0 1 1 
+keyboard_state.STATE_EXTENDED 0 0 0 0 0 0 0 0 1 0 1 
+keyboard_state.STATE_EXTENDED_RELEASE 0 0 0 0 0 0 0 1 0 0 1 
+keyboard_state.STATE_SHIFT_START1 0 0 0 0 0 0 1 0 0 0 1 
+keyboard_state.STATE_SHIFT_START2 0 0 0 0 0 1 0 0 0 0 1 
+keyboard_state.STATE_SHIFT_END1 0 0 0 0 1 0 0 0 0 0 1 
+keyboard_state.STATE_SHIFT_END2 0 0 0 1 0 0 0 0 0 0 1 
+keyboard_state.STATE_DECODE 0 0 1 0 0 0 0 0 0 0 1 
+keyboard_state.STATE_DECODE_EXTENDED 0 1 0 0 0 0 0 0 0 0 1 
+keyboard_state.STATE_READ 1 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |top|ps2_keyboard_controller:ps2_kbd_cntrl_inst|keyboard_state
+Name keyboard_state.ERROR keyboard_state.NEW_DATA_AVAILABLE keyboard_state.OPERATIONAL keyboard_state.ENABLE_WAIT_ACK keyboard_state.ENABLE keyboard_state.SET_INDICATORS_VALUE_WAIT_ACK keyboard_state.SET_INDICATORS_VALUE keyboard_state.SET_INDICATORS_CMD_WAIT_ACK keyboard_state.SET_INDICATORS_CMD keyboard_state.INIT_WAIT_BAT keyboard_state.INIT_WAIT_ACK keyboard_state.INIT 
+keyboard_state.INIT 0 0 0 0 0 0 0 0 0 0 0 0 
+keyboard_state.INIT_WAIT_ACK 0 0 0 0 0 0 0 0 0 0 1 1 
+keyboard_state.INIT_WAIT_BAT 0 0 0 0 0 0 0 0 0 1 0 1 
+keyboard_state.SET_INDICATORS_CMD 0 0 0 0 0 0 0 0 1 0 0 1 
+keyboard_state.SET_INDICATORS_CMD_WAIT_ACK 0 0 0 0 0 0 0 1 0 0 0 1 
+keyboard_state.SET_INDICATORS_VALUE 0 0 0 0 0 0 1 0 0 0 0 1 
+keyboard_state.SET_INDICATORS_VALUE_WAIT_ACK 0 0 0 0 0 1 0 0 0 0 0 1 
+keyboard_state.ENABLE 0 0 0 0 1 0 0 0 0 0 0 1 
+keyboard_state.ENABLE_WAIT_ACK 0 0 0 1 0 0 0 0 0 0 0 1 
+keyboard_state.OPERATIONAL 0 0 1 0 0 0 0 0 0 0 0 1 
+keyboard_state.NEW_DATA_AVAILABLE 0 1 0 0 0 0 0 0 0 0 0 1 
+keyboard_state.ERROR 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |top|ps2_keyboard_controller:ps2_kbd_cntrl_inst|ps2_transceiver:ps2_transceiver_inst|ps2_transceiver_state
+Name ps2_transceiver_state.RECEIVE_STOP ps2_transceiver_state.RECEIVE_WAIT_STOP ps2_transceiver_state.RECEIVE_PARITY ps2_transceiver_state.RECEIVE_WAIT_PARITY ps2_transceiver_state.RECEIVE_DATA7 ps2_transceiver_state.RECEIVE_WAIT_DATA7 ps2_transceiver_state.RECEIVE_DATA6 ps2_transceiver_state.RECEIVE_WAIT_DATA6 ps2_transceiver_state.RECEIVE_DATA5 ps2_transceiver_state.RECEIVE_WAIT_DATA5 ps2_transceiver_state.RECEIVE_DATA4 ps2_transceiver_state.RECEIVE_WAIT_DATA4 ps2_transceiver_state.RECEIVE_DATA3 ps2_transceiver_state.RECEIVE_WAIT_DATA3 ps2_transceiver_state.RECEIVE_DATA2 ps2_transceiver_state.RECEIVE_WAIT_DATA2 ps2_transceiver_state.RECEIVE_DATA1 ps2_transceiver_state.RECEIVE_WAIT_DATA1 ps2_transceiver_state.RECEIVE_DATA0 ps2_transceiver_state.RECEIVE_WAIT_DATA0 ps2_transceiver_state.RECEIVE_START ps2_transceiver_state.SEND_FINISH ps2_transceiver_state.SEND_READ_ACK ps2_transceiver_state.SEND_WAIT_ACK2 ps2_transceiver_state.SEND_WAIT_ACK1 ps2_transceiver_state.SEND_STOP ps2_transceiver_state.SEND_WAIT_STOP ps2_transceiver_state.SEND_PARITY ps2_transceiver_state.SEND_WAIT_PARITY ps2_transceiver_state.SEND_DATA7 ps2_transceiver_state.SEND_WAIT_DATA7 ps2_transceiver_state.SEND_DATA6 ps2_transceiver_state.SEND_WAIT_DATA6 ps2_transceiver_state.SEND_DATA5 ps2_transceiver_state.SEND_WAIT_DATA5 ps2_transceiver_state.SEND_DATA4 ps2_transceiver_state.SEND_WAIT_DATA4 ps2_transceiver_state.SEND_DATA3 ps2_transceiver_state.SEND_WAIT_DATA3 ps2_transceiver_state.SEND_DATA2 ps2_transceiver_state.SEND_WAIT_DATA2 ps2_transceiver_state.SEND_DATA1 ps2_transceiver_state.SEND_WAIT_DATA1 ps2_transceiver_state.SEND_DATA0 ps2_transceiver_state.SEND_WAIT_DATA0 ps2_transceiver_state.PREPARE_SEND_RELEASE_CLK ps2_transceiver_state.PREPARE_SEND_WAIT2 ps2_transceiver_state.PREPARE_SEND_DATA ps2_transceiver_state.PREPARE_SEND_WAIT1 ps2_transceiver_state.PREPARE_SEND_ASSIGN_CLK ps2_transceiver_state.IDLE 
+ps2_transceiver_state.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ps2_transceiver_state.PREPARE_SEND_ASSIGN_CLK 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+ps2_transceiver_state.PREPARE_SEND_WAIT1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+ps2_transceiver_state.PREPARE_SEND_DATA 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+ps2_transceiver_state.PREPARE_SEND_WAIT2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+ps2_transceiver_state.PREPARE_SEND_RELEASE_CLK 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+ps2_transceiver_state.SEND_WAIT_DATA0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_DATA0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_WAIT_DATA1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_DATA1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_WAIT_DATA2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_DATA2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_WAIT_DATA3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_DATA3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_WAIT_DATA4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_DATA4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_WAIT_DATA5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_DATA5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_WAIT_DATA6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_DATA6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_WAIT_DATA7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_DATA7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_WAIT_PARITY 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_PARITY 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_WAIT_STOP 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_STOP 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_WAIT_ACK1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_WAIT_ACK2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_READ_ACK 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.SEND_FINISH 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_START 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_WAIT_DATA0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_DATA0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_WAIT_DATA1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_DATA1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_WAIT_DATA2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_DATA2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_WAIT_DATA3 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_DATA3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_WAIT_DATA4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_DATA4 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_WAIT_DATA5 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_DATA5 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_WAIT_DATA6 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_DATA6 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_WAIT_DATA7 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_DATA7 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_WAIT_PARITY 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_PARITY 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_WAIT_STOP 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+ps2_transceiver_state.RECEIVE_STOP 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |top|graphics_controller:gcntrl_inst|framereader:framereader_inst|fc_fsm_state
+Name fc_fsm_state.READ_16BIT_DEPTH fc_fsm_state.READ_8BIT_DEPTH_1 fc_fsm_state.READ_8BIT_DEPTH_0 fc_fsm_state.IDLE1 
+fc_fsm_state.IDLE1 0 0 0 0 
+fc_fsm_state.READ_8BIT_DEPTH_0 0 0 1 1 
+fc_fsm_state.READ_8BIT_DEPTH_1 0 1 0 1 
+fc_fsm_state.READ_16BIT_DEPTH 1 0 0 1 
+
+State Machine - |top|graphics_controller:gcntrl_inst|framereader:framereader_inst|dfu_state
+Name dfu_state.BUS_CYCLE_COMPLETE dfu_state.WAIT_FOR_ACK dfu_state.READ dfu_state.STATE_FRAME_BEGIN dfu_state.IDLE 
+dfu_state.IDLE 0 0 0 0 0 
+dfu_state.STATE_FRAME_BEGIN 0 0 0 1 1 
+dfu_state.READ 0 0 1 0 1 
+dfu_state.WAIT_FOR_ACK 0 1 0 0 1 
+dfu_state.BUS_CYCLE_COMPLETE 1 0 0 0 1 
+
+State Machine - |top|graphics_controller:gcntrl_inst|sram_controller_wb:sram_cntrl|sram_cntrl_state
+Name sram_cntrl_state.READ sram_cntrl_state.WRITE1 sram_cntrl_state.WRITE0 sram_cntrl_state.IDLE 
+sram_cntrl_state.IDLE 0 0 0 0 
+sram_cntrl_state.WRITE0 0 0 1 1 
+sram_cntrl_state.WRITE1 0 1 0 1 
+sram_cntrl_state.READ 1 0 0 1 
+
+State Machine - |top|graphics_controller:gcntrl_inst|rasterizer:rasterizer_inst|fb_writer:wb_mem_cntrl_inst|state
+Name state.TIMEOUT state.WAIT_ACK state.WRITE state.IDLE 
+state.IDLE 0 0 0 0 
+state.WRITE 0 0 1 1 
+state.WAIT_ACK 0 1 0 1 
+state.TIMEOUT 1 0 0 1 
+
+State Machine - |top|graphics_controller:gcntrl_inst|rasterizer:rasterizer_inst|rasterizer_fsm:rasterizer_unit|rasterizer_state
+Name rasterizer_state.DRAW_CIRCLE_SET_PIXEL rasterizer_state.DRAW_CIRCLE_INIT rasterizer_state.DRAW_RECT_SET_PIXEL rasterizer_state.DRAW_RECT_INIT rasterizer_state.DRAW_LINE_SET_PIXEL rasterizer_state.DRAW_LINE_INIT rasterizer_state.CLEAR_SCREEN rasterizer_state.SET_COLOR rasterizer_state.SET_PIXEL rasterizer_state.DECODE_INSTRUCTION rasterizer_state.IDLE 
+rasterizer_state.IDLE 0 0 0 0 0 0 0 0 0 0 0 
+rasterizer_state.DECODE_INSTRUCTION 0 0 0 0 0 0 0 0 0 1 1 
+rasterizer_state.SET_PIXEL 0 0 0 0 0 0 0 0 1 0 1 
+rasterizer_state.SET_COLOR 0 0 0 0 0 0 0 1 0 0 1 
+rasterizer_state.CLEAR_SCREEN 0 0 0 0 0 0 1 0 0 0 1 
+rasterizer_state.DRAW_LINE_INIT 0 0 0 0 0 1 0 0 0 0 1 
+rasterizer_state.DRAW_LINE_SET_PIXEL 0 0 0 0 1 0 0 0 0 0 1 
+rasterizer_state.DRAW_RECT_INIT 0 0 0 1 0 0 0 0 0 0 1 
+rasterizer_state.DRAW_RECT_SET_PIXEL 0 0 1 0 0 0 0 0 0 0 1 
+rasterizer_state.DRAW_CIRCLE_INIT 0 1 0 0 0 0 0 0 0 0 1 
+rasterizer_state.DRAW_CIRCLE_SET_PIXEL 1 0 0 0 0 0 0 0 0 0 1 

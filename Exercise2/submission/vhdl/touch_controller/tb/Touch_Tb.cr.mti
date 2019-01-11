@@ -1,0 +1,51 @@
+{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/tb/touch_controller_tb.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/tb/touch_controller_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity touch_controller_tb
+-- Compiling architecture beh of touch_controller_tb
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/tb/touch_controller_tb.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/tb/touch_controller_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 13:18:51 on Apr 16,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/tb/touch_controller_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity touch_controller_tb
+-- Compiling architecture beh of touch_controller_tb
+** Warning: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/tb/touch_controller_tb.vhd(111): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+End time: 13:18:51 on Apr 16,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd}} {1 {vcom -work work -2008 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 13:18:51 on Apr 16,2018
+vcom -reportprogress 300 -work work -2008 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity touch_controller
+-- Compiling architecture beh of touch_controller
+** Warning: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(222): (vcom-1192) Array length is 8; aggregate length is 1.
+** Warning: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(230): (vcom-1192) Array length is 8; aggregate length is 1.
+** Warning: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(236): (vcom-1192) Array length is 8; aggregate length is 1.
+** Warning: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(243): (vcom-1192) Array length is 8; aggregate length is 1.
+** Warning: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(250): (vcom-1192) Array length is 8; aggregate length is 1.
+** Warning: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(257): (vcom-1192) Array length is 8; aggregate length is 1.
+** Warning: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(264): (vcom-1192) Array length is 8; aggregate length is 1.
+** Warning: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(271): (vcom-1192) Array length is 8; aggregate length is 1.
+** Warning: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd(278): (vcom-1192) Array length is 8; aggregate length is 1.
+End time: 13:18:51 on Apr 16,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 9
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity touch_controller
+-- Compiling architecture beh of touch_controller
+
+} {} {}}

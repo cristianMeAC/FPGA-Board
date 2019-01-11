@@ -1,0 +1,196 @@
+-- ADD YOUR CODE HERE
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity seven_segment_display is
+	port(
+		
+		color : in  std_logic_vector ( 15 downto 0);
+		
+		hex0	: out std_logic_vector ( 6 downto 0);
+		hex1	: out std_logic_vector ( 6 downto 0);
+		hex2	: out	std_logic_vector ( 6 downto 0);
+		hex3	: out	std_logic_vector ( 6 downto 0)
+				
+	);
+end entity;
+
+architecture beh of seven_segment_display is
+
+begin
+	
+	/*
+	hex0 <= "1111111";   null
+	hex1 <= "1000000";	0
+	hex2 <= "0000000";	8
+	hex3 <= "1111000";	7
+	*/
+	
+--in Sensitivity List there is only color because only the inputs can change	
+input_number : process(all)
+begin
+	
+	--HEX0
+	case color( 3 downto 0 ) is
+	
+		when "0000" => 
+			hex0 <= "1000000";   --0
+		when "0001" =>
+			hex0 <= "1111001";   --1
+		when "0010" =>
+			hex0 <= "0100100";	--2
+		when "0011" =>
+			hex0 <= "0110000";	--3
+		when "0100" =>
+			hex0 <= "0011001";	--4
+		when "0101" =>
+			hex0 <= "0010010";	--5
+		when "0110" =>
+			hex0 <= "0000010";	--6
+		when "0111" =>
+			hex0 <= "1111000";	--7
+		when "1000" =>
+			hex0 <= "0000000";	--8
+		when "1001" =>
+			hex0 <= "0010000";	--9
+		when "1010" =>
+			hex0 <= "0001000";	--A
+		when "1011" =>
+			hex0 <= "0000011";	--B
+		when "1100" =>
+			hex0 <= "0100111";	--C
+		when "1101" =>
+			hex0 <= "0100001";	--D
+		when "1110" =>
+			hex0 <= "0000110";	--E
+		when "1111" =>
+			hex0 <= "0001110";	--F
+		when others => 
+			hex0 <= "1000000";	-- default case
+		
+	end case;	
+			
+	--HEX1			
+	case color( 7 downto 4 ) is
+	
+		when "0000" => 
+			hex1 <= "1000000";   --0
+		when "0001" =>
+			hex1 <= "1111001";   --1
+		when "0010" =>
+			hex1 <= "0100100";	--2
+		when "0011" =>
+			hex1 <= "0110000";	--3
+		when "0100" =>
+			hex1 <= "0011001";	--4
+		when "0101" =>
+			hex1 <= "0010010";	--5
+		when "0110" =>
+			hex1 <= "0000010";	--6
+		when "0111" =>
+			hex1 <= "1111000";	--7
+		when "1000" =>
+			hex1 <= "0000000";	--8
+		when "1001" =>
+			hex1 <= "0010000";	--9
+		when "1010" =>
+			hex1 <= "0001000";	--A
+		when "1011" =>
+			hex1 <= "0000011";	--B
+		when "1100" =>
+			hex1 <= "0100111";	--C
+		when "1101" =>
+			hex1 <= "0100001";	--D
+		when "1110" =>
+			hex1 <= "0000110";	--E
+		when "1111" =>
+			hex1 <= "0001110";	--F
+		when others => 
+			hex0 <= "1000000";	-- default case
+			
+	end case;	
+			
+	--HEX2
+	case color( 11 downto 8 ) is
+	
+		when "0000" => 
+			hex2 <= "1000000";   --0
+		when "0001" =>
+			hex2 <= "1111001";   --1
+		when "0010" =>
+			hex2 <= "0100100";	--2
+		when "0011" =>
+			hex2 <= "0110000";	--3
+		when "0100" =>
+			hex2 <= "0011001";	--4
+		when "0101" =>
+			hex2 <= "0010010";	--5
+		when "0110" =>
+			hex2 <= "0000010";	--6
+		when "0111" =>
+			hex2 <= "1111000";	--7
+		when "1000" =>
+			hex2 <= "0000000";	--8
+		when "1001" =>
+			hex2 <= "0010000";	--9
+		when "1010" =>
+			hex2 <= "0001000";	--A
+		when "1011" =>
+			hex2 <= "0000011";	--B
+		when "1100" =>
+			hex2 <= "0100111";	--C
+		when "1101" =>
+			hex2 <= "0100001";	--D
+		when "1110" =>
+			hex2 <= "0000110";	--E
+		when "1111" =>
+			hex2 <= "0001110";	--F
+		when others => 
+			hex0 <= "1000000";	-- default case
+			
+	end case;	
+			
+	--HEX3
+	case color( 15 downto 12 ) is
+	
+		when "0000" => 
+			hex3 <= "1000000";   --0
+		when "0001" =>
+			hex3 <= "1111001";   --1
+		when "0010" =>
+			hex3 <= "0100100";	--2
+		when "0011" =>
+			hex3 <= "0110000";	--3
+		when "0100" =>
+			hex3 <= "0011001";	--4
+		when "0101" =>
+			hex3 <= "0010010";	--5
+		when "0110" =>
+			hex3 <= "0000010";	--6
+		when "0111" =>
+			hex3 <= "1111000";	--7
+		when "1000" =>
+			hex3 <= "0000000";	--8
+		when "1001" =>
+			hex3 <= "0010000";	--9
+		when "1010" =>
+			hex3 <= "0001000";	--A
+		when "1011" =>
+			hex3 <= "0000011";	--B
+		when "1100" =>
+			hex3 <= "0100111";	--C
+		when "1101" =>
+			hex3 <= "0100001";	--D
+		when "1110" =>
+			hex3 <= "0000110";	--E
+		when "1111" =>
+			hex3 <= "0001110";	--F
+		when others => 
+			hex0 <= "1000000";	-- default case
+			
+	end case;	
+end process;
+											
+	
+end architecture;
+	

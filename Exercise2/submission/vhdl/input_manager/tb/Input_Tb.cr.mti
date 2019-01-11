@@ -1,0 +1,45 @@
+{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package graphics_controller_pkg
+-- Compiling package body graphics_controller_pkg
+-- Loading package graphics_controller_pkg
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb_combined/input_touch_tb.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb_combined/input_touch_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity input_touch_tb
+-- Compiling architecture beh of input_touch_tb
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb/input_manager_tb.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb/input_manager_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity input_manager_tb
+-- Compiling architecture beh of input_manager_tb
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/src/input_manager.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/src/input_manager.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package graphics_controller_pkg
+-- Compiling entity input_manager
+-- Compiling architecture beh of input_manager
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd} {1 {vcom -work work -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity touch_controller
+-- Compiling architecture beh of touch_controller
+
+} {} {}}

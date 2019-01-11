@@ -1,0 +1,172 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/modelsim_beh
+T_opt
+!s110 1521806896
+VOdY9DBkm0h8JJRKmci6_:1
+Z1 04 6 3 work top_tb beh 1
+=1-a0369fa18d93-5ab4ee30-37e3d-3265
+Z2 o-quiet -auto_acc_if_foreign -work work -sdftyp {/top_instance=/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/simulation/modelsim/StructuralModeling_7_1200mv_0c_vhd_slow.sdo} -suppress 1948
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.5c;63
+R0
+T_opt1
+!s110 1521813204
+VIQeRz87MEd>QfZL]B=U`23
+R1
+=1-a0369fa18d93-5ab506d3-9de61-52c8
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1521823917
+V<L;Q6]HZ_MPU9klB2UQN=1
+R1
+=1-a0369fa18d93-5ab530ac-b63d7-a1b
+R2
+R3
+n@_opt2
+R4
+R0
+Etop
+Z5 w1521822141
+Z6 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 K_hAL8I@O[1;2Fz<H82Em3
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 ?k26U1_<984PWXlBDdnad3
+Z8 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z9 DPx6 altera 11 dffeas_pack 0 22 eL`7z3o7O]=UlN6zf^V1I3
+Z10 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z11 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z12 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z13 DPx6 altera 28 altera_primitives_components 0 22 @Mz;O<W55W@R>J0Ag1U3D2
+R0
+Z14 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/simulation/modelsim/StructuralModeling_7_1200mv_0c_slow.vho
+Z15 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/simulation/modelsim/StructuralModeling_7_1200mv_0c_slow.vho
+l0
+L37
+VOnZCI348GJLBQ2]`2W=PI1
+!s100 0V[Xdh1RSUm3:D=kQ8@_@3
+Z16 OL;C;10.5c;63
+32
+Z17 !s110 1521826748
+!i10b 1
+Z18 !s108 1521826748.000000
+Z19 !s90 -reportprogress|300|-work|work_postlay|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/simulation/modelsim/StructuralModeling_7_1200mv_0c_slow.vho|
+Z20 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/simulation/modelsim/StructuralModeling_7_1200mv_0c_slow.vho|
+!i113 0
+Z21 o-work work_postlay -2002 -explicit
+Z22 tExplicit 1 CvgOpt 0
+Astructure
+R6
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+DEx4 work 3 top 0 22 OnZCI348GJLBQ2]`2W=PI1
+l3580
+L236
+V9hk=G88hh3zG9COfcnPea0
+!s100 jaTjNEJ4[baWH4e2AoU[e3
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Etop_tb
+Z23 w1521823904
+Z24 DPx4 work 15 top_tb_util_pkg 0 22 3R4d0<;LGAOISBeV:l[9]1
+R11
+R12
+R0
+Z25 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd
+Z26 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd
+l0
+L5
+VhDNHb4QDVHE8c]76OgQ;g1
+!s100 b`Z83j<@ZcSm0^2ii:[MY3
+R16
+33
+R17
+!i10b 1
+R18
+Z27 !s90 -reportprogress|300|-work|work_postlay|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd|
+Z28 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd|
+!i113 0
+Z29 o-work work_postlay -2008 -explicit
+R22
+Abeh
+R24
+R11
+R12
+Z30 DEx4 work 6 top_tb 0 22 hDNHb4QDVHE8c]76OgQ;g1
+l114
+L8
+Z31 Ve2PmoD=kz=O9mQe8AXaF^3
+Z32 !s100 >K[>>@@K@PZN76m5On_hP3
+R16
+33
+R17
+!i10b 1
+R18
+R27
+R28
+!i113 0
+R29
+R22
+Ptop_tb_util_pkg
+R11
+R12
+Z33 w1520610042
+R0
+Z34 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb_util_pkg.vhd
+Z35 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb_util_pkg.vhd
+l0
+L4
+V3R4d0<;LGAOISBeV:l[9]1
+!s100 S@j6018LlzJf1i_zW]TYH1
+R16
+32
+b1
+R17
+!i10b 1
+R18
+Z36 !s90 -reportprogress|300|-work|work_postlay|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb_util_pkg.vhd|
+Z37 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb_util_pkg.vhd|
+!i113 0
+R21
+R22
+Bbody
+R24
+R11
+R12
+l0
+L14
+VdIj3HOHF:NR0LCTf]ThOB2
+!s100 N6=gGUaQ1f[M:GPPX0GPn1
+R16
+32
+R17
+!i10b 1
+R18
+R36
+R37
+!i113 0
+R21
+R22

@@ -1,0 +1,122 @@
+{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd} {1 {vcom -work work_postlay -2008 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package top_tb_util_pkg
+-- Compiling entity top_tb
+-- Compiling architecture beh of top_tb
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/simulation/modelsim/StructuralModeling_7_1200mv_0c_slow.vho}} {1 {vcom -work work_postlay -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/simulation/modelsim/StructuralModeling_7_1200mv_0c_slow.vho}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:52:32 on Mar 23,2018
+vcom -reportprogress 300 -work work_postlay -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/quartus/simulation/modelsim/StructuralModeling_7_1200mv_0c_slow.vho 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package VITAL_Timing
+-- Loading package VITAL_Primitives
+-- Loading package dffeas_pack
+-- Loading package altera_primitives_components
+-- Loading package cycloneive_atom_pack
+-- Loading package cycloneive_components
+-- Compiling entity top
+-- Compiling architecture structure of top
+End time: 12:52:32 on Mar 23,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd}} {0 {vcom -work work_postlay -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:52:33 on Mar 23,2018
+vcom -reportprogress 300 -work work_postlay -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package top_tb_util_pkg
+-- Compiling entity top_tb
+-- Compiling architecture beh of top_tb
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd(128): near "*": syntax error
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd(169): Statement cannot be labeled.
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb.vhd(259): VHDL Compiler exiting
+End time: 12:52:33 on Mar 23,2018, Elapsed time: 0:00:00
+Errors: 3, Warnings: 0
+
+} {11.0 14.0} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd}} {0 {vcom -work work_postlay -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:52:33 on Mar 23,2018
+vcom -reportprogress 300 -work work_postlay -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find work.sync_pkg.
+** Error (suppressible): /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(10): (vcom-1195) Cannot find expanded name "work.sync_pkg".
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(10): Unknown expanded name.
+** Error: (vcom-11) Could not find work.ascii_gcinstr_pkg.
+** Error (suppressible): /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(11): (vcom-1195) Cannot find expanded name "work.ascii_gcinstr_pkg".
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(11): Unknown expanded name.
+** Error: (vcom-11) Could not find work.graphics_controller_pkg.
+** Error (suppressible): /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(12): (vcom-1195) Cannot find expanded name "work.graphics_controller_pkg".
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(12): Unknown expanded name.
+** Error: (vcom-11) Could not find work.math_pkg.
+** Error (suppressible): /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(13): (vcom-1195) Cannot find expanded name "work.math_pkg".
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(13): Unknown expanded name.
+** Error: (vcom-11) Could not find work.merge_fifo_pkg.
+** Error (suppressible): /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(14): (vcom-1195) Cannot find expanded name "work.merge_fifo_pkg".
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(14): Unknown expanded name.
+** Error: (vcom-11) Could not find work.ps2_transceiver_pkg.
+** Error (suppressible): /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(15): (vcom-1195) Cannot find expanded name "work.ps2_transceiver_pkg".
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(15): Unknown expanded name.
+** Error: (vcom-11) Could not find work.ps2_pkg.
+** Error (suppressible): /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(16): (vcom-1195) Cannot find expanded name "work.ps2_pkg".
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(16): Unknown expanded name.
+** Error: (vcom-11) Could not find work.ps2_ascii_pkg.
+** Error (suppressible): /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(17): (vcom-1195) Cannot find expanded name "work.ps2_ascii_pkg".
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(17): Unknown expanded name.
+** Error: (vcom-11) Could not find work.ram_pkg.
+** Error (suppressible): /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(18): (vcom-1195) Cannot find expanded name "work.ram_pkg".
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(18): Unknown expanded name.
+** Error: (vcom-11) Could not find work.rom_pkg.
+** Error (suppressible): /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(19): (vcom-1195) Cannot find expanded name "work.rom_pkg".
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(19): Unknown expanded name.
+** Error: (vcom-11) Could not find work.seven_segment_display_pkg.
+** Error (suppressible): /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(20): (vcom-1195) Cannot find expanded name "work.seven_segment_display_pkg".
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(20): Unknown expanded name.
+** Error: (vcom-11) Could not find work.framereader_pkg.
+** Error (suppressible): /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(23): (vcom-1195) Cannot find expanded name "work.framereader_pkg".
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(23): Unknown expanded name.
+** Error: (vcom-11) Could not find work.rasterizer_pkg.
+** Error (suppressible): /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(24): (vcom-1195) Cannot find expanded name "work.rasterizer_pkg".
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(24): Unknown expanded name.
+** Error: (vcom-11) Could not find work.sram_pkg.
+** Error (suppressible): /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(25): (vcom-1195) Cannot find expanded name "work.sram_pkg".
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(25): Unknown expanded name.
+** Error: (vcom-11) Could not find work.wb_arbiter_pkg.
+** Error (suppressible): /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(26): (vcom-1195) Cannot find expanded name "work.wb_arbiter_pkg".
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(26): Unknown expanded name.
+** Error: /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/src/top.vhd(34): VHDL Compiler exiting
+End time: 12:52:33 on Mar 23,2018, Elapsed time: 0:00:00
+Errors: 46, Warnings: 0
+
+} {8.0 9.0 10.0 12.0 13.0 15.0 16.0 18.0 19.0 21.0 22.0 24.0 25.0 27.0 28.0 30.0 31.0 33.0 34.0 36.0 37.0 39.0 40.0 42.0 43.0 45.0 46.0 48.0 49.0 51.0 52.0 54.0} {}} {{/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb_util_pkg.vhd}} {1 {vcom -work work_postlay -2002 -explicit -vopt {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb_util_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+Start time: 12:52:33 on Mar 23,2018
+vcom -reportprogress 300 -work work_postlay -2002 -explicit -vopt /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb_util_pkg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package top_tb_util_pkg
+-- Compiling package body top_tb_util_pkg
+-- Loading package top_tb_util_pkg
+End time: 12:52:33 on Mar 23,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb_util_pkg.vhd} {1 {vcom -work work_postlay -2002 -explicit -vopt -stats=none {/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/tb/top_tb_util_pkg.vhd}
+Model Technology ModelSim SE-64 vcom 10.5c Compiler 2016.07 Jul 20 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package top_tb_util_pkg
+-- Compiling package body top_tb_util_pkg
+-- Loading package top_tb_util_pkg
+
+} {} {}}

@@ -1,0 +1,282 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/tb
+T_opt
+!s110 1524241904
+VlHH[CL;19C<d]:W1XY5ef2
+04 16 3 work input_manager_tb beh 1
+=3-a0369fa18d93-5ada15ef-dbc55-29b7
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.5c;63
+Pgraphics_controller_pkg
+Z0 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 w1521545667
+Z4 d/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb
+Z5 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd
+Z6 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd
+l0
+L5
+V>YCYWK2K30g^]817O4<K32
+!s100 oQK;4P4zDdEF;o`Zf3bE;1
+Z7 OL;C;10.5c;63
+32
+b1
+Z8 !s110 1524241900
+!i10b 1
+Z9 !s108 1524241900.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd|
+Z11 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/graphics_controller/src/graphics_controller_pkg.vhd|
+!i113 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Bbody
+Z14 DPx4 work 23 graphics_controller_pkg 0 22 >YCYWK2K30g^]817O4<K32
+R0
+R1
+R2
+l0
+L60
+V2oE<=LFF1n@=nAC5bCWH20
+!s100 Fb`NQBkC`^=2kA]4hGH_N1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Einput_manager
+Z15 w1524241156
+R0
+R14
+R1
+R2
+R4
+Z16 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/src/input_manager.vhd
+Z17 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/src/input_manager.vhd
+l0
+L7
+V>Vj`feJMAS4TU1Pcjd`fo0
+!s100 9MzBafL`^V_bJzzbmB4lM2
+R7
+33
+R8
+!i10b 1
+Z18 !s108 1524241899.000000
+Z19 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/src/input_manager.vhd|
+Z20 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/src/input_manager.vhd|
+!i113 0
+Z21 o-work work -2008 -explicit
+R13
+Abeh
+R0
+R14
+R1
+R2
+DEx4 work 13 input_manager 0 22 >Vj`feJMAS4TU1Pcjd`fo0
+l54
+L32
+VHBJ`[zQXg4Y_zFPc4nQ2P0
+!s100 8[cU@`ZF7R>Rl61EnQnPc3
+R7
+33
+R8
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R13
+Einput_manager_tb
+Z22 w1524241894
+R1
+R2
+R4
+Z23 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb/input_manager_tb.vhd
+Z24 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb/input_manager_tb.vhd
+l0
+L6
+V1H1XOVM5Q7=<A:7LWPfH=3
+!s100 K^OFmBOz2oTl>bX@d^]6c0
+R7
+33
+R8
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb/input_manager_tb.vhd|
+Z26 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/input_manager/tb/input_manager_tb.vhd|
+!i113 0
+R21
+R13
+Abeh
+R1
+R2
+DEx4 work 16 input_manager_tb 0 22 1H1XOVM5Q7=<A:7LWPfH=3
+l57
+L9
+VMjaz7>gJZOm^gnX:M^3f03
+!s100 5?UPjU98[LjMF>@=QgS?:2
+R7
+33
+R8
+!i10b 1
+R9
+R25
+R26
+!i113 0
+R21
+R13
+7 vhdl_src/vital2000/timing_p_2000.vhd|
+!i113 1
+R104
+R15
+Bbody
+DPx4 work 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+R22
+R21
+31
+R78
+!i10b 1
+R4
+R5
+8vhdl_src/vital2000/timing_b_2000.vhd
+Fvhdl_src/vital2000/timing_b_2000.vhd
+l0
+L49
+VKEim8d[eJ5dE^:mEG0P3S0
+!s100 KEim8d[eJ5dE^:mEG0P3S0
+R10
+R86
+!s90 -debug|-93|-work|ieee|-novital|-dirpath|$MODEL_TECH/..|vhdl_src/vital2000/timing_b_2000.vhd|
+!s107 vhdl_src/vital2000/timing_b_2000.vhd|
+!i113 1
+R104
+R15
+m255
+K4
+z2
+!s8c locked
+!s95 MTI
+cModel Technology Builtin Library
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+d/u/qa/buildsites/10.5p/builds/linux/modeltech
+Penv
+32
+b1
+Z0 !s110 1469074673
+!i10b 1
+Z1 OL;C;10.5c;63
+Z2 OP;C;10.5c;63
+Z3 w1469072347
+Z4 d$MODEL_TECH/..
+Z5 8vhdl_src/std/env.vhd
+Z6 Fvhdl_src/std/env.vhd
+l0
+L1
+Vd?`1ck@NdeD@H3RZG7FgZ2
+!s100 d?`1ck@NdeD@H3RZG7FgZ2
+Z7 OE;C;10.5c;63
+Z8 !s108 1469074673.000000
+Z9 !s90 -debug|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/env.vhd|
+Z10 !s107 vhdl_src/std/env.vhd|
+!i113 1
+Z11 o-debug -work std -dirpath {$MODEL_TECH/..}
+Z12 tExplicit 1 CvgOpt 0
+Bbody
+DPx4 work 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+32
+R0
+!i10b 1
+R1
+R2
+l0
+L15
+VGO=IeNa]6JLe2BRN4G<kA2
+!s100 GO=IeNa]6JLe2BRN4G<kA2
+R7
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Pstandard
+33
+R0
+!i10b 1
+R1
+R2
+R3
+R4
+8vhdl_src/std/standard.vhd
+Fvhdl_src/std/standard.vhd
+l0
+L8
+VofRa6alAEoSE^5WcJ^O]C2
+!s100 ofRa6alAEoSE^5WcJ^O]C2
+R7
+!s108 1469074672.000000
+!s90 -debug|-s|-2008|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/standard.vhd|
+!s107 vhdl_src/std/standard.vhd|
+!i113 1
+o-debug -s -2008 -work std -dirpath {$MODEL_TECH/..}
+R12
+Ptextio
+33
+b1
+R0
+!i10b 1
+R1
+R2
+Z13 w1454098643
+R4
+Z14 8vhdl_src/std/textio.vhd
+Z15 Fvhdl_src/std/textio.vhd
+l0
+L1
+VzE1`LPoLg^DX3Oz^4Fj1K3
+!s100 zE1`LPoLg^DX3Oz^4Fj1K3
+R7
+R8
+Z16 !s90 -debug|-2008|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/textio.vhd|
+Z17 !s107 vhdl_src/std/textio.vhd|
+!i113 1
+Z18 o-debug -2008 -work std -dirpath {$MODEL_TECH/..}
+R12
+Bbody
+DPx4 work 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+33
+R0
+!i10b 1
+R1
+R2
+l0
+L186
+VOBFf4Pj<FG4ZXfzD:k]VN1
+!s100 OBFf4Pj<FG4ZXfzD:k]VN1
+R7
+R8
+R16
+R17
+!i113 1
+R18
+R12

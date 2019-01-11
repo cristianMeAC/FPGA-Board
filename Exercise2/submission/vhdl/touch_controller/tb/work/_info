@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/top/modelsim_beh
+T_opt
+!s110 1524242396
+VzEMIcc01?VD7FaUL]ZZNR3
+04 19 3 work touch_controller_tb beh 1
+=1-a0369fa18d93-5ada17dc-6efa1-32cf
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.5c;63
+R0
+Etouch_controller
+Z1 w1524155768
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 d/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/tb
+Z5 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd
+Z6 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd
+l0
+L6
+VLP`dMKFZ@g9T>0HD9mH3C3
+!s100 6Blf:9Rg<Oa_EAJ2InTdW3
+Z7 OL;C;10.5c;63
+33
+Z8 !s110 1524242614
+!i10b 1
+Z9 !s108 1524242614.000000
+Z10 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd|
+Z11 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/src/touch_controller.vhd|
+!i113 0
+Z12 o-work work -2008 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abeh
+R2
+R3
+DEx4 work 16 touch_controller 0 22 LP`dMKFZ@g9T>0HD9mH3C3
+33
+R8
+l84
+L38
+VFn7a?>BN:G;2?<XbmSKoB1
+!s100 `4m9`b3EzFJCSBd9bMWIF1
+R7
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Etouch_controller_tb
+Z14 w1524162427
+R2
+R3
+R4
+Z15 8/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/tb/touch_controller_tb.vhd
+Z16 F/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/tb/touch_controller_tb.vhd
+l0
+L4
+VDPGNefb`@]IDTb7_Hfoil3
+!s100 ?X`o[5llA^n^Wm9KBLkFR2
+R7
+33
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|/homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/tb/touch_controller_tb.vhd|
+Z18 !s107 /homes/d01304470/Documents/DDCA/lab_exercise_template(Exercise Source code)/touch_controller/tb/touch_controller_tb.vhd|
+!i113 0
+R12
+R13
+Abeh
+R2
+R3
+DEx4 work 19 touch_controller_tb 0 22 DPGNefb`@]IDTb7_Hfoil3
+33
+R8
+l47
+L8
+V27NkO2JPU^fdS2AaZ9FSG3
+!s100 eAefzo=NH6l@VBZCCM]a]2
+R7
+!i10b 1
+R9
+R17
+R18
+!i113 0
+R12
+R13
